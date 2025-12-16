@@ -1,0 +1,31 @@
+title: Applied Artificial Intelligence
+description: Course materials for PSIS 4700 Applied AI program
+theme: jekyll-theme-cayman
+
+# GitHub Pages settings
+baseurl: ""
+url: ""
+
+# Enable kramdown for better markdown support
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections (optional, for better organization)
+collections:
+  lesson_plans_intro:
+    output: true
+    permalink: /lesson_plans_intro/:name
+  slides:
+    output: true
+    permalink: /slides/:name
+  slides_intro:
+    output: true
+    permalink: /slides_intro/:name
+
+# Exclude admin folder from the site
+exclude:
+  - admin/
+  - .gitignore
+

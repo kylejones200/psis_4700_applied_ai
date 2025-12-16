@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSIS 4700: Applied AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+        #sidebar {
+            width: 300px;
+            background: #2a2a2a;
+            overflow-y: auto;
+            border-right: 2px solid #444;
+            padding: 20px;
+        }
+
+        #sidebar h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #66bb6a;
+        }
+
+        .file-group {
+            margin-bottom: 20px;
+        }
+
+        .file-group h3 {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .file-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 5px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 13px;
+            transition: background 0.2s;
+        }
+
+        .file-link:hover {
+            background: #444;
+        }
+
+        .file-link.active {
+            background: #66bb6a;
+        }
+
+        #main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #controls {
+            background: #2a2a2a;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #444;
+        }
+
+        #slide-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        #slide-counter {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            background: #66bb6a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #81c784;
+        }
+
+        button:disabled {
+            background: #555;
+            cursor: not-allowed;
+        }
+
+        #slide-container {
+            flex: 1;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 60px 40px;
+            overflow: auto;
+        }
+
+        #slide-content {
+            max-width: 1200px;
+            width: 100%;
+            min-height: 500px;
+            background: #2a2a2a;
+            padding: 60px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        #slide-content.has-image {
+            justify-content: space-between;
+        }
+
+        .slide-text {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .slide-image {
+            flex: 0 0 400px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        #slide-content h1 {
+            font-size: 42px;
+            line-height: 1.2;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #66bb6a;
+        }
+
+        #slide-content h2 {
+            font-size: 32px;
+            line-height: 1.3;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #66bb6a;
+        }
+
+        #slide-content h3 {
+            font-size: 24px;
+            line-height: 1.3;
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: #81c784;
+        }
+
+        #slide-content p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        #slide-content ul, #slide-content ol {
+            font-size: 20px;
+            line-height: 1.7;
+            margin-top: 0;
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        #slide-content li {
+            margin-bottom: 8px;
+        }
+
+        #slide-content code {
+            background: #1a1a1a;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Courier New', monospace;
+        }
+
+        #slide-content pre {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 4px;
+            overflow-x: auto;
+            margin-bottom: 15px;
+        }
+
+        #slide-content pre code {
+            background: none;
+            padding: 0;
+        }
+
+        #slide-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        /* Speaker notes - hidden on screen, visible in print */
+        #slide-content blockquote {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 100px;
+            font-size: 24px;
+            color: #888;
+        }
+
+        .error {
+            text-align: center;
+            padding: 100px;
+            color: #ff6b6b;
+        }
+
+        /* Keyboard shortcuts info */
+        #shortcuts {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #2a2a2a;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #888;
+            border: 1px solid #444;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+
+            #sidebar, #controls, #shortcuts {
+                display: none !important;
+            }
+
+            #container {
+                display: block;
+            }
+
+            #main {
+                width: 100%;
+            }
+
+            #slide-container {
+                padding: 0;
+                overflow: visible;
+            }
+
+            #slide-content {
+                background: white;
+                color: black;
+                box-shadow: none;
+                border: 1px solid #ccc;
+                page-break-after: always;
+                min-height: 0;
+                max-width: 100%;
+            }
+
+            #slide-content h1,
+            #slide-content h2,
+            #slide-content h3 {
+                color: #000;
+            }
+
+            #slide-content p,
+            #slide-content li {
+                color: #000;
+            }
+
+            .slide-image img {
+                max-width: 100%;
+            }
+
+            /* Show speaker notes in print */
+            #slide-content blockquote,
+            .print-slide blockquote {
+                display: block !important;
+                background: #f9f9f9;
+                border-left: 4px solid #66bb6a;
+                padding: 15px 20px;
+                margin: 20px 0;
+                font-size: 14px;
+                color: #333;
+                font-style: italic;
+            }
+
+            .print-slide blockquote::before {
+                content: "📝 Speaker Notes: ";
+                font-weight: bold;
+                font-style: normal;
+                display: block;
+                margin-bottom: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h2>📚 PSIS 4700: Applied AI</h2>
+            
+            <div class="file-group">
+                <h3>Intro Course</h3>
+                <a href="#" class="file-link" data-file="intro_week_01_what-is-ai.md">Week 1: What is AI?</a>
+                <a href="#" class="file-link" data-file="intro_week_02_data-and-learning.md">Week 2: Data & Learning</a>
+                <a href="#" class="file-link" data-file="intro_week_03_applications.md">Week 3: Applications</a>
+                <a href="#" class="file-link" data-file="intro_week_04_ethics-policy.md">Week 4: Ethics & Policy</a>
+                <a href="#" class="file-link" data-file="intro_week_05_gen-convo-models.md">Week 5: Gen & Convo Models</a>
+                <a href="#" class="file-link" data-file="intro_week_06_deployment-integration.md">Week 6: Deployment</a>
+                <a href="#" class="file-link" data-file="intro_week_07_project-workshop.md">Week 7: Workshop</a>
+                <a href="#" class="file-link" data-file="intro_week_08_capstone.md">Week 8: Capstone</a>
+            </div>
+
+            <div class="file-group">
+                <h3>Advanced Course</h3>
+                <a href="#" class="file-link" data-file="advanced_week_01_ml-foundations.md">Week 1: ML Foundations</a>
+                <a href="#" class="file-link" data-file="advanced_week_02_nlp.md">Week 2: NLP</a>
+                <a href="#" class="file-link" data-file="advanced_week_03_vision.md">Week 3: Vision</a>
+                <a href="#" class="file-link" data-file="advanced_week_04_chatbots.md">Week 4: Chatbots</a>
+                <a href="#" class="file-link" data-file="advanced_week_05_generative-ai.md">Week 5: Generative AI</a>
+                <a href="#" class="file-link" data-file="advanced_week_06_time-series.md">Week 6: Time Series</a>
+                <a href="#" class="file-link" data-file="advanced_week_07_responsible-ai.md">Week 7: Responsible AI</a>
+                <a href="#" class="file-link" data-file="advanced_week_08_integration.md">Week 8: Integration</a>
+            </div>
+
+            <div class="file-group">
+                <h3>Lectures</h3>
+                <a href="#" class="file-link" data-file="lecture1_What-Is-Applied-AI.md">Lecture 1: What is Applied AI</a>
+                <a href="#" class="file-link" data-file="lecture2_Data-and-Models.md">Lecture 2: Data & Models</a>
+                <a href="#" class="file-link" data-file="lecture3_Working-with-Text.md">Lecture 3: Working with Text</a>
+                <a href="#" class="file-link" data-file="lecture4_Vision-and-Images.md">Lecture 4: Vision & Images</a>
+                <a href="#" class="file-link" data-file="lecture5_AI-in-Business.md">Lecture 5: AI in Business</a>
+            </div>
+
+            <div class="file-group">
+                <h3>Reference</h3>
+                <a href="#" class="file-link" data-file="reference_key-terms.md">Key Terms</a>
+            </div>
+        </div>
+
+        <div id="main">
+            <div id="controls">
+                <div id="slide-title">Select a slide deck</div>
+                <div id="slide-counter"></div>
+                <div class="nav-buttons">
+                    <button id="prev-btn" onclick="previousSlide()" disabled>← Previous</button>
+                    <button id="next-btn" onclick="nextSlide()" disabled>Next →</button>
+                    <button id="print-btn" onclick="printSlides()" style="margin-left: 10px;">🖨️ Print/PDF</button>
+                </div>
+            </div>
+
+            <div id="slide-container">
+                <div id="slide-content" class="loading">
+                    <h1>Welcome to PSIS4700: Applied AI Webslides</h1>
+                    <p>Select a slide deck from the sidebar to begin.</p>
+                    <p style="margin-top: 30px; font-size: 18px; color: #888;">
+                        Use arrow keys (← →) or the buttons above to navigate slides.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="shortcuts">
+        ← → : Navigate | ESC: Sidebar
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        let currentSlides = [];
+        let currentSlideIndex = 0;
+        let currentFile = '';
+
+        // Load a markdown file and split into slides
+        async function loadSlides(filename) {
+            try {
+                const response = await fetch(filename);
+                if (!response.ok) throw new Error('File not found');
+                
+                const markdown = await response.text();
+                currentSlides = markdown.split(/\n---\n/).filter(s => s.trim());
+                currentSlideIndex = 0;
+                currentFile = filename;
+                
+                updateActiveLink(filename);
+                showSlide(0);
+                
+                document.getElementById('prev-btn').disabled = false;
+                document.getElementById('next-btn').disabled = false;
+            } catch (error) {
+                document.getElementById('slide-content').innerHTML = `
+                    <div class="error">
+                        <h2>Error Loading Slides</h2>
+                        <p>Could not load ${filename}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function showSlide(index) {
+            if (index < 0 || index >= currentSlides.length) return;
+            
+            currentSlideIndex = index;
+            const slideMarkdown = currentSlides[index];
+            const slideHTML = marked.parse(slideMarkdown);
+            
+            // Check if slide has an image
+            const hasImage = slideHTML.includes('<img');
+            const slideContainer = document.getElementById('slide-content');
+            
+            if (hasImage) {
+                // Split content at image tag
+                const imgMatch = slideHTML.match(/(<img[^>]+>)/);
+                if (imgMatch) {
+                    const parts = slideHTML.split(imgMatch[0]);
+                    const textContent = parts[0];
+                    const imageContent = imgMatch[0];
+                    const afterImage = parts[1] || '';
+                    
+                    slideContainer.innerHTML = `
+                        <div class="slide-text">${textContent}${afterImage}</div>
+                        <div class="slide-image">${imageContent}</div>
+                    `;
+                    slideContainer.classList.add('has-image');
+                } else {
+                    slideContainer.innerHTML = slideHTML;
+                    slideContainer.classList.remove('has-image');
+                }
+            } else {
+                slideContainer.innerHTML = slideHTML;
+                slideContainer.classList.remove('has-image');
+            }
+            
+            // Update slide counter
+            document.getElementById('slide-counter').textContent = 
+                `Slide ${index + 1} of ${currentSlides.length}`;
+            
+            // Update title (get first heading from first slide if on first slide)
+            if (index === 0) {
+                const firstHeading = slideMarkdown.match(/^#\s+(.+)$/m);
+                if (firstHeading) {
+                    document.getElementById('slide-title').textContent = firstHeading[1];
+                }
+            }
+            
+            // Update button states
+            document.getElementById('prev-btn').disabled = index === 0;
+            document.getElementById('next-btn').disabled = index === currentSlides.length - 1;
+        }
+
+        function nextSlide() {
+            if (currentSlideIndex < currentSlides.length - 1) {
+                showSlide(currentSlideIndex + 1);
+            }
+        }
+
+        function previousSlide() {
+            if (currentSlideIndex > 0) {
+                showSlide(currentSlideIndex - 1);
+            }
+        }
+
+        function updateActiveLink(filename) {
+            document.querySelectorAll('.file-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.dataset.file === filename) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                previousSlide();
+            }
+        });
+
+        // File link clicks
+        document.querySelectorAll('.file-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                loadSlides(link.dataset.file);
+            });
+        });
+
+        // Print functionality
+        function printSlides() {
+            if (currentSlides.length === 0) {
+                alert('Please load a slide deck first!');
+                return;
+            }
+
+            // Create a print-friendly version with all slides
+            const printWindow = window.open('', '_blank');
+            const allSlidesHTML = currentSlides.map((slide, index) => {
+                const slideHTML = marked.parse(slide);
+                return `
+                    <div class="print-slide" style="page-break-after: always; padding: 40px; min-height: 90vh;">
+                        ${slideHTML}
+                        <div style="position: absolute; bottom: 20px; right: 40px; font-size: 12px; color: #888;">
+                            Slide ${index + 1} of ${currentSlides.length}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            printWindow.document.write(`
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>${currentFile} - Print</title>
+                    <style>
+                        body {
+                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                            background: white;
+                            color: black;
+                        }
+                        h1 { font-size: 36px; margin-bottom: 20px; color: #000; }
+                        h2 { font-size: 28px; margin-bottom: 15px; color: #000; }
+                        h3 { font-size: 22px; margin-bottom: 12px; color: #333; }
+                        p, li { font-size: 16px; line-height: 1.6; color: #000; }
+                        ul, ol { margin-left: 25px; }
+                        img { 
+                            max-width: 60%; 
+                            height: auto; 
+                            display: block; 
+                            margin: 20px auto;
+                            border: 1px solid #ddd;
+                        }
+                        code {
+                            background: #f5f5f5;
+                            padding: 2px 6px;
+                            border-radius: 3px;
+                            font-family: 'Monaco', 'Courier New', monospace;
+                        }
+                        pre {
+                            background: #f5f5f5;
+                            padding: 15px;
+                            border-radius: 4px;
+                            overflow-x: auto;
+                            border: 1px solid #ddd;
+                        }
+                        blockquote {
+                            background: #f9f9f9;
+                            border-left: 4px solid #66bb6a;
+                            padding: 15px 20px;
+                            margin: 20px 0;
+                            font-size: 14px;
+                            color: #333;
+                            font-style: italic;
+                        }
+                        blockquote::before {
+                            content: "📝 Notes: ";
+                            font-weight: bold;
+                            font-style: normal;
+                            display: block;
+                            margin-bottom: 8px;
+                        }
+                        .print-slide {
+                            position: relative;
+                        }
+                        @media print {
+                            .print-slide {
+                                page-break-after: always;
+                            }
+                        }
+                    </style>
+                </head>
+                <body>
+                    ${allSlidesHTML}
+                </body>
+                </html>
+            `);
+            
+            printWindow.document.close();
+            
+            // Wait for images to load before printing
+            setTimeout(() => {
+                printWindow.focus();
+                printWindow.print();
+            }, 500);
+        }
+
+        // Load first slide deck by default
+        // loadSlides('intro_week_01_what-is-ai.md');
+    </script>
+</body>
+</html>
+
