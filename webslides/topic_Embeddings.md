@@ -13,8 +13,8 @@
 
 ## The Idea
 
-Machines cannot read words.  
-They understand numbers.  
+Machines cannot read words  
+They understand numbers  
 Embeddings map words into numbers that preserve meaning
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -22,8 +22,8 @@ Embeddings map words into numbers that preserve meaning
 
 ## From Words to Numbers
 
-Each word becomes a vector.  
-A vector is a list of numbers that describe relationships.  
+Each word becomes a vector  
+A vector is a list of numbers that describe relationships  
 Distance in that space reflects meaning
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -31,9 +31,9 @@ Distance in that space reflects meaning
 
 ## From Tokens to Meaning
 
-Tokenization turns text into IDs.  
-Embeddings turn those IDs into coordinates in space.  
-Each point represents meaning.  
+Tokenization turns text into IDs  
+Embeddings turn those IDs into coordinates in space  
+Each point represents meaning  
 Words close together mean similar things
 
 ![](images/understanding-embeddings.png)
@@ -46,7 +46,7 @@ Words close together mean similar things
 "King" → [0.27, 0.81, 0.43, …]  
 "Queen" → [0.25, 0.79, 0.47, …]  
 Subtract and add vectors:  
-King – Man + Woman ≈ Queen.  
+King – Man + Woman ≈ Queen  
 Meaning is geometric
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -55,7 +55,7 @@ Meaning is geometric
 ## Example: Word Meaning Clusters
 
 "king," "queen," "man," "woman."  
-Their embeddings cluster by gender and royalty.  
+Their embeddings cluster by gender and royalty  
 The distance between them carries semantic relationships
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -63,10 +63,10 @@ The distance between them carries semantic relationships
 
 ## Visualizing Embedding Space
 
-Imagine a 3D map.  
-Each word is a dot.  
-Distance = difference in meaning.  
-Nearby dots = similar context.  
+Imagine a 3D map  
+Each word is a dot  
+Distance = difference in meaning  
+Nearby dots = similar context  
 Opposite sides = different topics
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -74,8 +74,8 @@ Opposite sides = different topics
 
 ## Why Embeddings Matter
 
-They allow models to measure similarity.  
-They power search, clustering, summarization, and generation.  
+They allow models to measure similarity  
+They power search, clustering, summarization, and generation  
 They turn text into data we can compute on
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -83,9 +83,9 @@ They turn text into data we can compute on
 
 ## The First Generation: Word2Vec
 
-Word2Vec learned by prediction.  
-Skip-gram: predict neighbors from a target word.  
-CBOW: predict target from neighbors.  
+Word2Vec learned by prediction  
+Skip-gram: predict neighbors from a target word  
+CBOW: predict target from neighbors  
 Vectors reflect co-occurrence statistics
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -93,8 +93,8 @@ Vectors reflect co-occurrence statistics
 
 ## GloVe
 
-GloVe used global counts, not local prediction.  
-It built a matrix of word co-occurrences and factored it.  
+GloVe used global counts, not local prediction  
+It built a matrix of word co-occurrences and factored it  
 It produced stable vectors that captured analogy and frequency
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -102,7 +102,7 @@ It produced stable vectors that captured analogy and frequency
 
 ## Context Independence Problem
 
-Both Word2Vec and GloVe gave one vector per word.  
+Both Word2Vec and GloVe gave one vector per word  
 "Bank" meant the same in "river bank" and "credit bank."  
 Context was lost
 
@@ -111,8 +111,8 @@ Context was lost
 
 ## The New Generation: Contextual Embeddings
 
-Transformers changed this.  
-Models like BERT create different vectors for the same word in different contexts.  
+Transformers changed this  
+Models like BERT create different vectors for the same word in different contexts  
 Meaning now depends on the sentence
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -122,7 +122,7 @@ Meaning now depends on the sentence
 
 Sentence A: "He sat by the bank of the river."  
 Sentence B: "She works at the bank downtown."  
-Old models: same vector.  
+Old models: same vector  
 BERT: two distinct vectors
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -130,8 +130,8 @@ BERT: two distinct vectors
 
 ## Why Context Matters
 
-The same word changes position with different meaning.  
-"Bank" (money) vs. "Bank" (river).  
+The same word changes position with different meaning  
+"Bank" (money) vs. "Bank" (river)  
 The model understands context by comparing surrounding embeddings
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -139,9 +139,9 @@ The model understands context by comparing surrounding embeddings
 
 ## Sentence and Document Embeddings
 
-We can extend embeddings beyond words.  
-Sentences are averaged from their word vectors.  
-Paragraphs and documents become larger embeddings.  
+We can extend embeddings beyond words  
+Sentences are averaged from their word vectors  
+Paragraphs and documents become larger embeddings  
 This supports search, clustering, and retrieval
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -149,8 +149,8 @@ This supports search, clustering, and retrieval
 
 ## OpenAI and Modern Embeddings
 
-OpenAI models like text-embedding-3-large produce 3000+ dimension vectors.  
-Trained on massive corpora across domains.  
+OpenAI models like text-embedding-3-large produce 3000+ dimension vectors  
+Trained on massive corpora across domains  
 They capture abstract relationships far beyond words
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -158,10 +158,10 @@ They capture abstract relationships far beyond words
 
 ## Dimensionality and Variation
 
-Each system uses different dimensions and training data.  
-Word2Vec: ~300.  
-BERT base: 768.  
-OpenAI: >3000.  
+Each system uses different dimensions and training data  
+Word2Vec: ~300  
+BERT base: 768  
+OpenAI: >3000  
 Higher dimensions capture nuance but increase compute cost
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -181,8 +181,8 @@ Higher dimensions capture nuance but increase compute cost
 
 ## Visualization Techniques
 
-Use PCA or t-SNE to reduce vectors to 2D.  
-Words with similar meaning cluster together.  
+Use PCA or t-SNE to reduce vectors to 2D  
+Words with similar meaning cluster together  
 Plot reveals language structure
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -190,8 +190,8 @@ Plot reveals language structure
 
 ## Embeddings in Action
 
-Embed a query and compare to embedded documents.  
-Use cosine similarity to find the closest meaning.  
+Embed a query and compare to embedded documents  
+Use cosine similarity to find the closest meaning  
 This is how semantic search works
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -208,8 +208,8 @@ This is how semantic search works
 
 ## Retrieval and RAG
 
-When you ask a question, your prompt is embedded.  
-The system searches a vector database for nearby matches.  
+When you ask a question, your prompt is embedded  
+The system searches a vector database for nearby matches  
 That's retrieval-augmented generation (RAG)
 
 > Retrieval-Augmented Generation grounds language models in real documents by retrieving relevant information before generating responses. This architecture has become standard for building reliable knowledge systems.
@@ -217,8 +217,8 @@ That's retrieval-augmented generation (RAG)
 
 ## Embeddings vs. Keywords
 
-Keyword search looks for exact words.  
-Embedding search looks for meaning.  
+Keyword search looks for exact words  
+Embedding search looks for meaning  
 That's why "AI regulation" also finds "machine learning law."
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -226,9 +226,9 @@ That's why "AI regulation" also finds "machine learning law."
 
 ## Why Embeddings Differ
 
-Each model learns from different text.  
-Legal text shapes vectors differently than social media.  
-Culture and time shift meaning.  
+Each model learns from different text  
+Legal text shapes vectors differently than social media  
+Culture and time shift meaning  
 Embeddings evolve as language evolves
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -236,8 +236,8 @@ Embeddings evolve as language evolves
 
 ## Beyond Text
 
-Embeddings now cover images, audio, and code.  
-A picture can embed into the same vector space as a caption.  
+Embeddings now cover images, audio, and code  
+A picture can embed into the same vector space as a caption  
 Multimodal embeddings unify all data types
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -245,8 +245,8 @@ Multimodal embeddings unify all data types
 
 ## The New Role for Analysts
 
-We no longer code meaning manually.  
-We extract it from embeddings.  
+We no longer code meaning manually  
+We extract it from embeddings  
 Our skill is in interpretation, filtering, and grounding
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -254,8 +254,8 @@ Our skill is in interpretation, filtering, and grounding
 
 ## Summary
 
-Embeddings turn language into geometry.  
-They let models understand relationships and recall relevant context.  
+Embeddings turn language into geometry  
+They let models understand relationships and recall relevant context  
 Meaning lives in distance
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -263,8 +263,8 @@ Meaning lives in distance
 
 ## Closing
 
-Embeddings are the language of AI.  
-They make meaning measurable.  
+Embeddings are the language of AI  
+They make meaning measurable  
 The future depends on how we use and interpret them
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.

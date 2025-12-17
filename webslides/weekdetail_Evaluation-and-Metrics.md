@@ -11,8 +11,8 @@
 
 ## The Core Idea
 
-AI doesn't "work" because it looks smart.  
-It works when its outputs match a clear standard.  
+AI doesn't "work" because it looks smart  
+It works when its outputs match a clear standard  
 Metrics make performance visible and comparable
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -20,8 +20,8 @@ Metrics make performance visible and comparable
 
 ## Accuracy
 
-The simplest metric: correct predictions ÷ total predictions.  
-Good for classification tasks like spam detection.  
+The simplest metric: correct predictions ÷ total predictions  
+Good for classification tasks like spam detection  
 Bad for uneven datasets (95% "not spam" looks accurate but isn't)
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -32,7 +32,7 @@ Bad for uneven datasets (95% "not spam" looks accurate but isn't)
 Two sides of correctness:  
 Precision: Of what the model said was true, how much was correct?  
 Recall: Of all the true items, how many did it find?  
-High precision = careful.  
+High precision = careful  
 High recall = thorough
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -40,8 +40,8 @@ High recall = thorough
 
 ## F1 Score
 
-A balance between precision and recall.  
-F1 = harmonic mean.  
+A balance between precision and recall  
+F1 = harmonic mean  
 Used when you need both quality and completeness
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -50,8 +50,8 @@ Used when you need both quality and completeness
 ## Regression Metrics
 
 For numeric predictions:  
-MAE (Mean Absolute Error): average absolute gap.  
-RMSE (Root Mean Square Error): penalizes big misses.  
+MAE (Mean Absolute Error): average absolute gap  
+RMSE (Root Mean Square Error): penalizes big misses  
 R²: how well predictions match observed data
 
 > Evaluation requires metrics aligned with actual goals beyond just technical accuracy. Consider business outcomes, user satisfaction, fairness across groups, and long-term impacts when assessing success.
@@ -59,8 +59,8 @@ R²: how well predictions match observed data
 
 ## Classification Metrics
 
-Confusion Matrix: shows true vs. predicted outcomes.  
-ROC Curve: visual tradeoff between sensitivity and specificity.  
+Confusion Matrix: shows true vs. predicted outcomes  
+ROC Curve: visual tradeoff between sensitivity and specificity  
 AUC (Area Under Curve): higher = better discrimination
 
 > Evaluation requires metrics aligned with actual goals beyond just technical accuracy. Consider business outcomes, user satisfaction, fairness across groups, and long-term impacts when assessing success.
@@ -68,10 +68,10 @@ AUC (Area Under Curve): higher = better discrimination
 
 ## Generative Models
 
-Traditional metrics struggle.  
+Traditional metrics struggle  
 New measures focus on quality and faithfulness:  
-BLEU: compares machine text to human text.  
-ROUGE: measures overlap.  
+BLEU: compares machine text to human text  
+ROUGE: measures overlap  
 BERTScore: compares meaning
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -79,8 +79,8 @@ BERTScore: compares meaning
 
 ## Human Evaluation
 
-Still essential.  
-Humans rate clarity, coherence, tone, and trustworthiness.  
+Still essential  
+Humans rate clarity, coherence, tone, and trustworthiness  
 For open-ended outputs, human judgment beats math
 
 > Evaluation requires metrics aligned with actual goals beyond just technical accuracy. Consider business outcomes, user satisfaction, fairness across groups, and long-term impacts when assessing success.
@@ -88,8 +88,8 @@ For open-ended outputs, human judgment beats math
 
 ## Safety and Bias Metrics
 
-Toxicity rate — proportion of unsafe content.  
-Fairness gaps — how often predictions differ by group.  
+Toxicity rate — proportion of unsafe content  
+Fairness gaps — how often predictions differ by group  
 Explainability — how clearly results can be traced
 
 > AI ethics addresses fairness, accountability, transparency, privacy, and societal impact. Bias can enter at every stage from data collection through deployment, requiring active mitigation throughout the lifecycle.
@@ -97,12 +97,12 @@ Explainability — how clearly results can be traced
 
 ## Business Metrics
 
-Models exist to deliver value.  
+Models exist to deliver value  
 Track:  
-Time saved.  
-Errors reduced.  
-Customer satisfaction.  
-ROI.  
+Time saved  
+Errors reduced  
+Customer satisfaction  
+ROI  
 If metrics don't tie to outcomes, they don't matter
 
 > Evaluation requires metrics aligned with actual goals beyond just technical accuracy. Consider business outcomes, user satisfaction, fairness across groups, and long-term impacts when assessing success.
@@ -110,10 +110,10 @@ If metrics don't tie to outcomes, they don't matter
 
 ## Summary
 
-Metrics make models accountable.  
-Accuracy measures correctness.  
-Precision and recall measure completeness.  
-Business metrics measure value.  
+Metrics make models accountable  
+Accuracy measures correctness  
+Precision and recall measure completeness  
+Business metrics measure value  
 Good AI is measurable AI
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.

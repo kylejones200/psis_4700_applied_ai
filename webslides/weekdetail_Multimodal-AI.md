@@ -13,8 +13,8 @@
 
 ## The Core Idea
 
-Traditional AI works on one data type: text, image, or sound.  
-Multimodal AI combines them.  
+Traditional AI works on one data type: text, image, or sound  
+Multimodal AI combines them  
 It forms a shared understanding across many formats
 
 ![](images/greek-kids.png)
@@ -24,8 +24,8 @@ It forms a shared understanding across many formats
 
 ## Why It Matters
 
-Humans interpret the world through many senses.  
-Multimodal AI mirrors that — understanding context, emotion, and intent.  
+Humans interpret the world through many senses  
+Multimodal AI mirrors that — understanding context, emotion, and intent  
 Example: reading text, seeing a picture, and linking both
 
 ![](images/sarah_as_greek_goddess.png)
@@ -35,8 +35,8 @@ Example: reading text, seeing a picture, and linking both
 
 ## Real Examples
 
-ChatGPT + Vision: describe a chart, read handwriting, summarize a slide.  
-Gemini & Claude: mix text and image for reasoning.  
+ChatGPT + Vision: describe a chart, read handwriting, summarize a slide  
+Gemini & Claude: mix text and image for reasoning  
 Tesla Autopilot: merges video, lidar, and telemetry for driving
 
 ![](images/mischevious-elves.png)
@@ -46,8 +46,8 @@ Tesla Autopilot: merges video, lidar, and telemetry for driving
 
 ## How It Works
 
-Each data type becomes an embedding in a shared vector space.  
-Text, sound, and image all map to the same numeric space.  
+Each data type becomes an embedding in a shared vector space  
+Text, sound, and image all map to the same numeric space  
 That's how AI "knows" a dog photo, sound, and word all connect
 
 ![](images/mischevious-elves-blue-ears.png)
@@ -57,8 +57,8 @@ That's how AI "knows" a dog photo, sound, and word all connect
 
 ## Core Models
 
-CLIP (OpenAI): links images and text.  
-Whisper: transcribes and aligns speech.  
+CLIP (OpenAI): links images and text  
+Whisper: transcribes and aligns speech  
 Flamingo / Gemini: generate responses across text and vision
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -66,8 +66,8 @@ Flamingo / Gemini: generate responses across text and vision
 
 ## Challenges
 
-Synchronizing timing between modes (audio vs video).  
-Scaling data volume.  
+Synchronizing timing between modes (audio vs video)  
+Scaling data volume  
 Avoiding bias from dominant modalities
 
 > Understanding challenges and limitations is as important as knowing capabilities. Realistic assessment helps you plan appropriately and avoid nasty surprises.
@@ -75,8 +75,8 @@ Avoiding bias from dominant modalities
 
 ## Business Value
 
-Quality control from image + text logs.  
-Call center analytics from audio + sentiment.  
+Quality control from image + text logs  
+Call center analytics from audio + sentiment  
 Media search by combining words and visuals
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -84,7 +84,7 @@ Media search by combining words and visuals
 
 ## The Future
 
-Next frontier: grounding — linking AI's perception to real-world context.  
+Next frontier: grounding — linking AI's perception to real-world context  
 Soon, one model will describe, act, and predict seamlessly across all inputs
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -92,7 +92,7 @@ Soon, one model will describe, act, and predict seamlessly across all inputs
 
 ## Summary
 
-Multimodal AI merges perception and language.  
+Multimodal AI merges perception and language  
 It sees, listens, and understands in one frame of thought
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.

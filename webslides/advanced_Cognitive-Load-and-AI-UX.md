@@ -11,7 +11,7 @@
 
 ## The Core Idea
 
-Good AI design reduces mental effort.  
+Good AI design reduces mental effort  
 The interface must explain, not overwhelm
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -19,7 +19,7 @@ The interface must explain, not overwhelm
 
 ## Why It Matters
 
-Users need confidence in AI outputs.  
+Users need confidence in AI outputs  
 Transparency creates adoption
 
 > Understanding motivation helps you apply concepts appropriately rather than blindly following patterns. Context for why things matter prevents cargo-cult adoption of practices that don't fit your needs.
@@ -27,9 +27,9 @@ Transparency creates adoption
 
 ## Good AI UX Principles
 
-Show reasoning or evidence.  
-Indicate uncertainty.  
-Allow corrections.  
+Show reasoning or evidence  
+Indicate uncertainty  
+Allow corrections  
 Keep context visible
 
 > AI UX design balances powerful capabilities against cognitive load - the mental effort users must expend. Good design makes AI features discoverable and useful without overwhelming users with complexity.
@@ -51,7 +51,7 @@ Black-box output with no explanation or control leads to rejection
 
 ## Summary
 
-AI UX bridges intelligence and comprehension.  
+AI UX bridges intelligence and comprehension  
 Design clarity is as important as accuracy
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.

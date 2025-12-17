@@ -21,8 +21,8 @@ Without it, AI becomes a black box no one can control or explain
 
 AI touches legal risk, brand trust, and safety  
 Governance creates clarity:  
-- Who approved it.  
-- What data it uses.  
+- Who approved it  
+- What data it uses  
 - How decisions are monitored
 
 ![](images/20251103_1303_AI Boardroom Surprise_simple_compose_01k95hgx7kex79m73x2kjyg754.png)

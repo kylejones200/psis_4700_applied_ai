@@ -6,8 +6,8 @@
 
 ## Why Text Matters
 
-Text dominates modern data.  
-Organizations record decisions in language.  
+Text dominates modern data  
+Organizations record decisions in language  
 Applied AI must handle text
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -15,9 +15,9 @@ Applied AI must handle text
 
 ## Where Text Appears
 
-Emails store communication.  
-Documents store policy.  
-Logs store events.  
+Emails store communication  
+Documents store policy  
+Logs store events  
 Reviews store opinion
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -25,9 +25,9 @@ Reviews store opinion
 
 ## Text Drives Decisions
 
-Managers read reports.  
-Customers write feedback.  
-Agents write notes.  
+Managers read reports  
+Customers write feedback  
+Agents write notes  
 Language guides action
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -35,8 +35,8 @@ Language guides action
 
 ## Why Text Feels Hard
 
-Language lacks fixed structure.  
-Meaning shifts by context.  
+Language lacks fixed structure  
+Meaning shifts by context  
 Ambiguity appears everywhere
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -44,8 +44,8 @@ Ambiguity appears everywhere
 
 ## Why Models Help With Text
 
-Scale overwhelms human reading.  
-Patterns repeat across documents.  
+Scale overwhelms human reading  
+Patterns repeat across documents  
 Models summarize and classify
 
 ![](images/john_adams_correspondence_animation.gif)
@@ -55,8 +55,8 @@ Models summarize and classify
 
 ## Text Versus Numbers
 
-Numbers arrive cleanly structured.  
-Text arrives raw and messy.  
+Numbers arrive cleanly structured  
+Text arrives raw and messy  
 Transformation enables learning
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -64,8 +64,8 @@ Transformation enables learning
 
 ## Human Language Is Noisy
 
-Spelling varies.  
-Grammar varies.  
+Spelling varies  
+Grammar varies  
 Tone varies
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -73,8 +73,8 @@ Tone varies
 
 ## Meaning Depends on Context
 
-Words change meaning by use.  
-Audience shapes intent.  
+Words change meaning by use  
+Audience shapes intent  
 Time shapes interpretation
 
 ![](images/french_revolution1.png)
@@ -84,8 +84,8 @@ Time shapes interpretation
 
 ## Example of Context Shift
 
-Cold describes temperature.  
-Cold describes illness.  
+Cold describes temperature  
+Cold describes illness  
 Models must infer use
 
 ![](images/french-revolution-docs.png)
@@ -95,8 +95,8 @@ Models must infer use
 
 ## AI Transforms Context
 
-Same source, different interpretations.  
-Models reshape meaning.  
+Same source, different interpretations  
+Models reshape meaning  
 Context defines output
 
 ![](images/french-revolution-fish.png)
@@ -106,8 +106,8 @@ Context defines output
 
 ## Why Rules Fail for Text
 
-Rules explode in number.  
-Edge cases dominate.  
+Rules explode in number  
+Edge cases dominate  
 Maintenance becomes impossible
 
 ![](images/Google Ngram trends from 1800 to 2019.gif)
@@ -117,8 +117,8 @@ Maintenance becomes impossible
 
 ## Learning From Examples
 
-Models infer patterns from usage.  
-Examples encode meaning.  
+Models infer patterns from usage  
+Examples encode meaning  
 Scale replaces hand written logic
 
 > Real-world examples help illustrate how these concepts apply in practice. Pay attention to both successes and failures - both teach valuable lessons about what works and what doesn't.
@@ -126,9 +126,9 @@ Scale replaces hand written logic
 
 ## Applied Text Tasks
 
-Classification assigns labels.  
-Sentiment estimates tone.  
-Extraction pulls entities.  
+Classification assigns labels  
+Sentiment estimates tone  
+Extraction pulls entities  
 Search ranks relevance
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -136,8 +136,8 @@ Search ranks relevance
 
 ## Text in Business
 
-Support tickets require routing.  
-Reviews require summarization.  
+Support tickets require routing  
+Reviews require summarization  
 Contracts require review
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -145,8 +145,8 @@ Contracts require review
 
 ## Text in Government
 
-Public comments require analysis.  
-Documents require classification.  
+Public comments require analysis  
+Documents require classification  
 Requests require triage
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -154,8 +154,8 @@ Requests require triage
 
 ## Text in Healthcare
 
-Clinical notes store context.  
-Summaries support care.  
+Clinical notes store context  
+Summaries support care  
 Errors carry risk
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -163,8 +163,8 @@ Errors carry risk
 
 ## Cost of Text Errors
 
-Misclassification misroutes work.  
-Misinterpretation misleads decisions.  
+Misclassification misroutes work  
+Misinterpretation misleads decisions  
 Bias harms groups
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -172,8 +172,8 @@ Bias harms groups
 
 ## Why Applied NLP Focuses on Simplicity
 
-Simple models explain behavior.  
-Simple pipelines scale well.  
+Simple models explain behavior  
+Simple pipelines scale well  
 Interpretability builds trust
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -181,8 +181,8 @@ Interpretability builds trust
 
 ## What We Will Do With Text
 
-Convert text to features.  
-Train simple models.  
+Convert text to features  
+Train simple models  
 Interpret outputs carefully
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -190,8 +190,8 @@ Interpret outputs carefully
 
 ## What We Will Not Do
 
-Train language models from scratch.  
-Optimize massive architectures.  
+Train language models from scratch  
+Optimize massive architectures  
 Treat text as magic
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -199,8 +199,8 @@ Treat text as magic
 
 ## Responsible Text Use
 
-Language encodes bias.  
-Models amplify patterns.  
+Language encodes bias  
+Models amplify patterns  
 Care remains essential
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -208,8 +208,8 @@ Care remains essential
 
 ## Applied Lesson
 
-Text carries meaning.  
-Meaning requires care.  
+Text carries meaning  
+Meaning requires care  
 Models support judgment
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -217,8 +217,8 @@ Models support judgment
 
 ## Transition to Text as Data
 
-Text must become numeric.  
-Transformation enables learning.  
+Text must become numeric  
+Transformation enables learning  
 Next we examine text preprocessing
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -226,8 +226,8 @@ Next we examine text preprocessing
 
 ## Text as Data
 
-Models require numbers.  
-Text arrives as symbols.  
+Models require numbers  
+Text arrives as symbols  
 Transformation bridges the gap
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -235,8 +235,8 @@ Transformation bridges the gap
 
 ## Raw Text Is Not Ready
 
-Text contains punctuation.  
-Capitalization varies.  
+Text contains punctuation  
+Capitalization varies  
 Spacing carries noise
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -244,8 +244,8 @@ Spacing carries noise
 
 ## The Goal of Preprocessing
 
-Reduce noise.  
-Preserve meaning.  
+Reduce noise  
+Preserve meaning  
 Enable learning
 
 > ROC curves and AUC summarize classifier performance across all possible thresholds. AUC represents the probability that your model ranks a random positive example higher than a random negative example.
@@ -253,8 +253,8 @@ Enable learning
 
 ## Tokenization
 
-Tokenization splits text into units.  
-Units may be words or symbols.  
+Tokenization splits text into units  
+Units may be words or symbols  
 Choice affects results
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -262,8 +262,8 @@ Choice affects results
 
 ## Word Tokenization
 
-Text splits on spaces.  
-Punctuation separates tokens.  
+Text splits on spaces  
+Punctuation separates tokens  
 Simple rules work surprisingly well
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -271,8 +271,8 @@ Simple rules work surprisingly well
 
 ## Character Tokenization
 
-Characters become units.  
-Vocabulary shrinks.  
+Characters become units  
+Vocabulary shrinks  
 Sequences grow longer
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -280,8 +280,8 @@ Sequences grow longer
 
 ## Tradeoffs in Token Choice
 
-Words capture meaning.  
-Characters capture structure.  
+Words capture meaning  
+Characters capture structure  
 Context determines choice
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -289,8 +289,8 @@ Context determines choice
 
 ## Normalization
 
-Normalization standardizes text.  
-Consistency improves learning.  
+Normalization standardizes text  
+Consistency improves learning  
 Variation hides signal
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -298,8 +298,8 @@ Variation hides signal
 
 ## Lowercasing
 
-Capitalization rarely changes meaning.  
-Lowercasing reduces vocabulary size.  
+Capitalization rarely changes meaning  
+Lowercasing reduces vocabulary size  
 Exceptions exist for acronyms
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -307,8 +307,8 @@ Exceptions exist for acronyms
 
 ## Removing Punctuation
 
-Punctuation adds noise.  
-Removal simplifies text.  
+Punctuation adds noise  
+Removal simplifies text  
 Some meaning may disappear
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -316,8 +316,8 @@ Some meaning may disappear
 
 ## Stop Words
 
-Stop words appear often.  
-They add little meaning.  
+Stop words appear often  
+They add little meaning  
 Removal reduces noise
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -325,8 +325,8 @@ Removal reduces noise
 
 ## When Stop Words Matter
 
-Negation changes meaning.  
-Function words shape tone.  
+Negation changes meaning  
+Function words shape tone  
 Blind removal causes error
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -334,8 +334,8 @@ Blind removal causes error
 
 ## Stemming
 
-Stemming trims word endings.  
-Words collapse to roots.  
+Stemming trims word endings  
+Words collapse to roots  
 Meaning approximates intent
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -343,8 +343,8 @@ Meaning approximates intent
 
 ## Lemmatization
 
-Lemmatization uses vocabulary rules.  
-Words map to base forms.  
+Lemmatization uses vocabulary rules  
+Words map to base forms  
 Results improve clarity
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -352,8 +352,8 @@ Results improve clarity
 
 ## Stemming Versus Lemmatization
 
-Stemming runs fast.  
-Lemmatization runs slower.  
+Stemming runs fast  
+Lemmatization runs slower  
 Accuracy trades with speed
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -361,8 +361,8 @@ Accuracy trades with speed
 
 ## Vocabulary Size
 
-Unique tokens form vocabulary.  
-Large vocabularies increase sparsity.  
+Unique tokens form vocabulary  
+Large vocabularies increase sparsity  
 Control improves stability
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -370,8 +370,8 @@ Control improves stability
 
 ## Rare Words
 
-Rare words add noise.  
-Removal simplifies models.  
+Rare words add noise  
+Removal simplifies models  
 Thresholds guide filtering
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -379,8 +379,8 @@ Thresholds guide filtering
 
 ## Frequency Thresholds
 
-Very common words add little signal.  
-Very rare words add noise.  
+Very common words add little signal  
+Very rare words add noise  
 Middle frequencies matter most
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -388,8 +388,8 @@ Middle frequencies matter most
 
 ## Text Length Variation
 
-Documents vary in length.  
-Length influences models.  
+Documents vary in length  
+Length influences models  
 Normalization addresses imbalance
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -397,8 +397,8 @@ Normalization addresses imbalance
 
 ## Representing Documents
 
-Documents become vectors.  
-Vectors enable math.  
+Documents become vectors  
+Vectors enable math  
 Structure drives learning
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -406,8 +406,8 @@ Structure drives learning
 
 ## Order and Meaning
 
-Some models ignore order.  
-Others preserve sequence.  
+Some models ignore order  
+Others preserve sequence  
 Tradeoffs appear
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -415,8 +415,8 @@ Tradeoffs appear
 
 ## Preprocessing and Bias
 
-Cleaning removes dialect signals.  
-Standardization erases identity.  
+Cleaning removes dialect signals  
+Standardization erases identity  
 Awareness matters
 
 > ROC curves and AUC summarize classifier performance across all possible thresholds. AUC represents the probability that your model ranks a random positive example higher than a random negative example.
@@ -424,8 +424,8 @@ Awareness matters
 
 ## Practical Considerations
 
-Preprocessing choices affect outcomes.  
-Defaults may mislead.  
+Preprocessing choices affect outcomes  
+Defaults may mislead  
 Inspection prevents mistakes
 
 > This hands-on exercise gives you practical experience with the concepts we've discussed. Working through examples yourself builds intuition that lectures alone can't provide.
@@ -433,8 +433,8 @@ Inspection prevents mistakes
 
 ## Applied Lesson
 
-Text becomes data through choice.  
-Choices encode assumptions.  
+Text becomes data through choice  
+Choices encode assumptions  
 Reflection improves results
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -442,8 +442,8 @@ Reflection improves results
 
 ## Transition to Vectorization
 
-Tokens alone do not suffice.  
-Models require numeric vectors.  
+Tokens alone do not suffice  
+Models require numeric vectors  
 Next we examine vectorization methods
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -451,8 +451,8 @@ Next we examine vectorization methods
 
 ## Vectorization Methods
 
-Models operate on numbers.  
-Vectorization converts text into numeric form.  
+Models operate on numbers  
+Vectorization converts text into numeric form  
 Representation shapes learning
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -460,8 +460,8 @@ Representation shapes learning
 
 ## From Tokens to Vectors
 
-Tokens identify units.  
-Vectors encode documents.  
+Tokens identify units  
+Vectors encode documents  
 Encoding enables computation
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -469,8 +469,8 @@ Encoding enables computation
 
 ## Bag of Words Intuition
 
-Documents become word counts.  
-Order disappears.  
+Documents become word counts  
+Order disappears  
 Presence and frequency remain
 
 > Bag-of-words represents text as word counts, ignoring grammar and word order. Despite its simplicity, BoW remains a strong baseline for many text classification tasks.
@@ -478,8 +478,8 @@ Presence and frequency remain
 
 ## How Bag of Words Works
 
-Each word becomes a column.  
-Each document becomes a row.  
+Each word becomes a column  
+Each document becomes a row  
 Counts fill the table
 
 > Bag-of-words represents text as word counts, ignoring grammar and word order. Despite its simplicity, BoW remains a strong baseline for many text classification tasks.
@@ -487,8 +487,8 @@ Counts fill the table
 
 ## Example Bag of Words
 
-Document one contains words.  
-Counts reflect frequency.  
+Document one contains words  
+Counts reflect frequency  
 Zeros dominate the matrix
 
 > Bag-of-words represents text as word counts, ignoring grammar and word order. Despite its simplicity, BoW remains a strong baseline for many text classification tasks.
@@ -496,8 +496,8 @@ Zeros dominate the matrix
 
 ## Sparsity Appears Quickly
 
-Most words appear rarely.  
-Most matrix entries equal zero.  
+Most words appear rarely  
+Most matrix entries equal zero  
 Sparsity affects performance
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -505,8 +505,8 @@ Sparsity affects performance
 
 ## Why Bag of Words Still Works
 
-Many tasks rely on frequency.  
-Order often adds little value.  
+Many tasks rely on frequency  
+Order often adds little value  
 Simplicity supports interpretation
 
 > Bag-of-words represents text as word counts, ignoring grammar and word order. Despite its simplicity, BoW remains a strong baseline for many text classification tasks.
@@ -514,8 +514,8 @@ Simplicity supports interpretation
 
 ## Limits of Bag of Words
 
-Word order disappears.  
-Synonyms remain separate.  
+Word order disappears  
+Synonyms remain separate  
 Context gets lost
 
 > Bag-of-words represents text as word counts, ignoring grammar and word order. Despite its simplicity, BoW remains a strong baseline for many text classification tasks.
@@ -523,8 +523,8 @@ Context gets lost
 
 ## Term Frequency
 
-Term frequency counts appearances.  
-Frequent words gain weight.  
+Term frequency counts appearances  
+Frequent words gain weight  
 Long documents dominate counts
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -532,8 +532,8 @@ Long documents dominate counts
 
 ## Normalizing Term Frequency
 
-Divide by document length.  
-Balance short and long texts.  
+Divide by document length  
+Balance short and long texts  
 Comparability improves
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -541,8 +541,8 @@ Comparability improves
 
 ## Inverse Document Frequency
 
-Common words add little information.  
-Rare words add more signal.  
+Common words add little information  
+Rare words add more signal  
 IDF downweights common terms
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -550,8 +550,8 @@ IDF downweights common terms
 
 ## TF IDF Intuition
 
-Important words appear often in a document.  
-They appear rarely across documents.  
+Important words appear often in a document  
+They appear rarely across documents  
 TF IDF captures both
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -559,8 +559,8 @@ TF IDF captures both
 
 ## TF IDF in Practice
 
-Counts scale by rarity.  
-Vectors remain sparse.  
+Counts scale by rarity  
+Vectors remain sparse  
 Interpretation remains possible
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -568,8 +568,8 @@ Interpretation remains possible
 
 ## Comparing TF IDF and Counts
 
-Counts favor repetition.  
-TF IDF favors specificity.  
+Counts favor repetition  
+TF IDF favors specificity  
 Task determines choice
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -577,8 +577,8 @@ Task determines choice
 
 ## N Grams
 
-Single words miss phrases.  
-N grams capture sequences.  
+Single words miss phrases  
+N grams capture sequences  
 Context increases
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -586,8 +586,8 @@ Context increases
 
 ## Bigrams and Trigrams
 
-Bigrams capture short phrases.  
-Trigrams capture longer patterns.  
+Bigrams capture short phrases  
+Trigrams capture longer patterns  
 Vocabulary grows rapidly
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -595,8 +595,8 @@ Vocabulary grows rapidly
 
 ## Tradeoffs With N Grams
 
-Signal increases.  
-Dimensionality explodes.  
+Signal increases  
+Dimensionality explodes  
 Overfitting risk rises
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -604,8 +604,8 @@ Overfitting risk rises
 
 ## Dimensionality Matters
 
-Large feature spaces slow learning.  
-Noise overwhelms signal.  
+Large feature spaces slow learning  
+Noise overwhelms signal  
 Regularization helps
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -613,8 +613,8 @@ Regularization helps
 
 ## Feature Selection for Text
 
-Remove rare terms.  
-Limit vocabulary size.  
+Remove rare terms  
+Limit vocabulary size  
 Improve stability
 
 > Feature engineering - creating informative input variables - often matters more than algorithm choice. Good features that capture relevant patterns can make even simple models perform well.
@@ -622,8 +622,8 @@ Improve stability
 
 ## Interpreting Text Features
 
-Weights reveal influence.  
-Positive and negative terms matter.  
+Weights reveal influence  
+Positive and negative terms matter  
 Inspection builds trust
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -631,8 +631,8 @@ Inspection builds trust
 
 ## Text Vectors and Linear Models
 
-Linear models handle sparsity well.  
-Training remains efficient.  
+Linear models handle sparsity well  
+Training remains efficient  
 Interpretability stays strong
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -640,8 +640,8 @@ Interpretability stays strong
 
 ## When Vectorization Fails
 
-Sarcasm fools frequency.  
-Context flips meaning.  
+Sarcasm fools frequency  
+Context flips meaning  
 Human review remains necessary
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -649,8 +649,8 @@ Human review remains necessary
 
 ## Vectorization and Bias
 
-Language encodes identity.  
-Vectors encode language.  
+Language encodes identity  
+Vectors encode language  
 Bias transfers quietly
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -658,8 +658,8 @@ Bias transfers quietly
 
 ## Applied Lesson
 
-Representation defines what models learn.  
-Simple methods remain powerful.  
+Representation defines what models learn  
+Simple methods remain powerful  
 Interpretation protects against misuse
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -667,8 +667,8 @@ Interpretation protects against misuse
 
 ## Transition to Sentiment
 
-Vectors enable learning.  
-Learning enables inference.  
+Vectors enable learning  
+Learning enables inference  
 Next we apply vectors to sentiment
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -676,8 +676,8 @@ Next we apply vectors to sentiment
 
 ## Sentiment Analysis
 
-Sentiment analysis estimates tone.  
-Tone reflects attitude or emotion.  
+Sentiment analysis estimates tone  
+Tone reflects attitude or emotion  
 Many decisions depend on it
 
 > Sentiment analysis classifies text by opinion or emotion. Applications range from analyzing customer reviews to monitoring social media sentiment about brands or public figures.
@@ -685,8 +685,8 @@ Many decisions depend on it
 
 ## What Sentiment Measures
 
-Positive language.  
-Negative language.  
+Positive language  
+Negative language  
 Neutral language
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -694,8 +694,8 @@ Neutral language
 
 ## Common Sentiment Questions
 
-Is feedback favorable.  
-Is a review critical.  
+Is feedback favorable  
+Is a review critical  
 Is communication escalating
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -703,8 +703,8 @@ Is communication escalating
 
 ## Why Sentiment Matters
 
-Organizations monitor reputation.  
-Teams track customer experience.  
+Organizations monitor reputation  
+Teams track customer experience  
 Early signals prevent damage
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -712,8 +712,8 @@ Early signals prevent damage
 
 ## Sentiment as a Classification Task
 
-Inputs consist of text.  
-Outputs represent sentiment labels.  
+Inputs consist of text  
+Outputs represent sentiment labels  
 Models infer tone from language
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -721,8 +721,8 @@ Models infer tone from language
 
 ## Binary Sentiment
 
-Positive versus negative.  
-Simple framing.  
+Positive versus negative  
+Simple framing  
 Useful for many tasks
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -730,8 +730,8 @@ Useful for many tasks
 
 ## Multiclass Sentiment
 
-Positive neutral and negative.  
-Greater nuance.  
+Positive neutral and negative  
+Greater nuance  
 Harder classification
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -739,8 +739,8 @@ Harder classification
 
 ## Lexicon Based Sentiment
 
-Word lists assign polarity.  
-Scores aggregate across text.  
+Word lists assign polarity  
+Scores aggregate across text  
 Rules remain transparent
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -748,8 +748,8 @@ Rules remain transparent
 
 ## How Lexicons Work
 
-Each word carries a score.  
-Scores sum across documents.  
+Each word carries a score  
+Scores sum across documents  
 Thresholds define labels
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -757,8 +757,8 @@ Thresholds define labels
 
 ## Benefits of Lexicon Methods
 
-No training data required.  
-Fast execution.  
+No training data required  
+Fast execution  
 Easy interpretation
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -766,8 +766,8 @@ Easy interpretation
 
 ## Limits of Lexicon Methods
 
-Sarcasm fools scoring.  
-Context changes meaning.  
+Sarcasm fools scoring  
+Context changes meaning  
 Domain language breaks rules
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -775,8 +775,8 @@ Domain language breaks rules
 
 ## Machine Learning Based Sentiment
 
-Models learn from labeled examples.  
-Vectors encode text.  
+Models learn from labeled examples  
+Vectors encode text  
 Patterns drive prediction
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -784,8 +784,8 @@ Patterns drive prediction
 
 ## Training a Sentiment Model
 
-Prepare labeled text.  
-Vectorize documents.  
+Prepare labeled text  
+Vectorize documents  
 Fit a classifier
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -793,8 +793,8 @@ Fit a classifier
 
 ## Comparing Lexicon and ML Methods
 
-Lexicons offer transparency.  
-ML adapts to domain language.  
+Lexicons offer transparency  
+ML adapts to domain language  
 Choice depends on context
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -802,8 +802,8 @@ Choice depends on context
 
 ## Domain Specific Sentiment
 
-Words shift meaning by domain.  
-Risk means danger or opportunity.  
+Words shift meaning by domain  
+Risk means danger or opportunity  
 Models require adaptation
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -811,8 +811,8 @@ Models require adaptation
 
 ## Evaluating Sentiment Models
 
-Accuracy alone misleads.  
-Class balance matters.  
+Accuracy alone misleads  
+Class balance matters  
 Confusion matrices reveal bias
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -820,8 +820,8 @@ Confusion matrices reveal bias
 
 ## Error Analysis
 
-Inspect misclassified examples.  
-Identify systematic errors.  
+Inspect misclassified examples  
+Identify systematic errors  
 Adjust preprocessing or labels
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -829,8 +829,8 @@ Adjust preprocessing or labels
 
 ## Sentiment and Bias
 
-Language reflects culture.  
-Models reflect training data.  
+Language reflects culture  
+Models reflect training data  
 Unequal errors appear
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -838,8 +838,8 @@ Unequal errors appear
 
 ## Ethical Use of Sentiment
 
-Avoid surveillance misuse.  
-Respect consent.  
+Avoid surveillance misuse  
+Respect consent  
 Limit automated judgment
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -847,8 +847,8 @@ Limit automated judgment
 
 ## Practical Applications
 
-Review monitoring.  
-Support ticket triage.  
+Review monitoring  
+Support ticket triage  
 Survey analysis
 
 > This hands-on exercise gives you practical experience with the concepts we've discussed. Working through examples yourself builds intuition that lectures alone can't provide.
@@ -856,8 +856,8 @@ Survey analysis
 
 ## When Sentiment Fails
 
-Mixed emotions appear.  
-Irony appears.  
+Mixed emotions appear  
+Irony appears  
 Models oversimplify
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -865,8 +865,8 @@ Models oversimplify
 
 ## Human Review Still Matters
 
-Sentiment supports judgment.  
-It does not replace it.  
+Sentiment supports judgment  
+It does not replace it  
 Context completes interpretation
 
 > This summary reinforces the key concepts from this section. Reviewing main ideas helps consolidate learning and identify areas that need further study.
@@ -874,8 +874,8 @@ Context completes interpretation
 
 ## Applied Lesson
 
-Sentiment appears simple.  
-Reality remains complex.  
+Sentiment appears simple  
+Reality remains complex  
 Care improves outcomes
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -883,8 +883,8 @@ Care improves outcomes
 
 ## Transition to Pretrained Models
 
-Training requires data.  
-Pretrained models reduce effort.  
+Training requires data  
+Pretrained models reduce effort  
 Next we examine modern NLP tools
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -892,8 +892,8 @@ Next we examine modern NLP tools
 
 ## Pretrained NLP Models
 
-Pretrained models learn from massive text corpora.  
-They capture language patterns broadly.  
+Pretrained models learn from massive text corpora  
+They capture language patterns broadly  
 They reduce training effort
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -901,8 +901,8 @@ They reduce training effort
 
 ## Why Pretraining Works
 
-Language repeats structure.  
-Large datasets reveal patterns.  
+Language repeats structure  
+Large datasets reveal patterns  
 Transfer enables reuse
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -910,8 +910,8 @@ Transfer enables reuse
 
 ## What Pretrained Models Provide
 
-Embeddings encode meaning.  
-Classifiers generalize across domains.  
+Embeddings encode meaning  
+Classifiers generalize across domains  
 APIs expose capability
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -919,8 +919,8 @@ APIs expose capability
 
 ## Embeddings Intuition
 
-Words map to vectors.  
-Similar meaning implies proximity.  
+Words map to vectors  
+Similar meaning implies proximity  
 Geometry captures semantics
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -928,8 +928,8 @@ Geometry captures semantics
 
 ## Sentence and Document Embeddings
 
-Sentences aggregate word meaning.  
-Documents aggregate sentence meaning.  
+Sentences aggregate word meaning  
+Documents aggregate sentence meaning  
 Similarity enables search and clustering
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -937,9 +937,9 @@ Similarity enables search and clustering
 
 ## Common Pretrained Tasks
 
-Text classification.  
-Named entity recognition.  
-Summarization.  
+Text classification  
+Named entity recognition  
+Summarization  
 Question answering
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -947,8 +947,8 @@ Question answering
 
 ## Using Pretrained Models via APIs
 
-Send text to a service.  
-Receive predictions or embeddings.  
+Send text to a service  
+Receive predictions or embeddings  
 Integrate results into applications
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -956,8 +956,8 @@ Integrate results into applications
 
 ## Benefits of API Based NLP
 
-No model training.  
-Rapid experimentation.  
+No model training  
+Rapid experimentation  
 Scales on demand
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -965,8 +965,8 @@ Scales on demand
 
 ## Tradeoffs of API Use
 
-Less control over internals.  
-Ongoing usage cost.  
+Less control over internals  
+Ongoing usage cost  
 Data governance concerns
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -974,8 +974,8 @@ Data governance concerns
 
 ## Latency Considerations
 
-Network calls add delay.  
-Batching reduces overhead.  
+Network calls add delay  
+Batching reduces overhead  
 UX depends on response time
 
 > Latency (response time) and throughput (volume handled) represent key performance tradeoffs. Batching improves throughput while individual requests optimize latency - choose based on your use case.
@@ -983,8 +983,8 @@ UX depends on response time
 
 ## Privacy and Data Handling
 
-Text may contain sensitive data.  
-Transmission carries risk.  
+Text may contain sensitive data  
+Transmission carries risk  
 Policies must guide use
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -992,8 +992,8 @@ Policies must guide use
 
 ## Fine Tuning Versus Prompting
 
-Fine tuning adapts models with data.  
-Prompting adapts behavior with instructions.  
+Fine tuning adapts models with data  
+Prompting adapts behavior with instructions  
 Choice depends on needs
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1001,8 +1001,8 @@ Choice depends on needs
 
 ## When Simple Models Suffice
 
-Small datasets exist.  
-Interpretation matters.  
+Small datasets exist  
+Interpretation matters  
 Latency must remain low
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1010,8 +1010,8 @@ Latency must remain low
 
 ## When Pretrained Models Shine
 
-Language complexity rises.  
-Coverage matters.  
+Language complexity rises  
+Coverage matters  
 Development time shrinks
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1019,8 +1019,8 @@ Development time shrinks
 
 ## Evaluating Pretrained Outputs
 
-Benchmarks do not match context.  
-Local evaluation remains necessary.  
+Benchmarks do not match context  
+Local evaluation remains necessary  
 Human review adds safety
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1028,8 +1028,8 @@ Human review adds safety
 
 ## Bias in Pretrained Models
 
-Training data reflects society.  
-Bias persists.  
+Training data reflects society  
+Bias persists  
 Monitoring remains required
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1037,8 +1037,8 @@ Monitoring remains required
 
 ## Responsible Integration
 
-Limit automated decisions.  
-Log and audit use.  
+Limit automated decisions  
+Log and audit use  
 Explain limitations
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1046,8 +1046,8 @@ Explain limitations
 
 ## Practical Workflow
 
-Start with simple baselines.  
-Test pretrained alternatives.  
+Start with simple baselines  
+Test pretrained alternatives  
 Choose by evidence
 
 > This hands-on exercise gives you practical experience with the concepts we've discussed. Working through examples yourself builds intuition that lectures alone can't provide.
@@ -1055,8 +1055,8 @@ Choose by evidence
 
 ## Applied Lesson
 
-Pretrained models accelerate work.  
-Judgment remains essential.  
+Pretrained models accelerate work  
+Judgment remains essential  
 Integration defines success
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1064,8 +1064,8 @@ Integration defines success
 
 ## Transition to Wrap
 
-We have turned language into data.  
-We have applied models to text.  
+We have turned language into data  
+We have applied models to text  
 Now we summarize and close
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1073,8 +1073,8 @@ Now we summarize and close
 
 ## Demo, Integration, and Wrap
 
-Text models matter when they run.  
-We connect concepts to practice.  
+Text models matter when they run  
+We connect concepts to practice  
 Integration reveals limitations
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1082,8 +1082,8 @@ Integration reveals limitations
 
 ## Demo Goal
 
-Take raw text.  
-Transform it into features.  
+Take raw text  
+Transform it into features  
 Produce a usable prediction
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1091,8 +1091,8 @@ Produce a usable prediction
 
 ## Demo Dataset
 
-Short text documents.  
-Clear labels.  
+Short text documents  
+Clear labels  
 Known limitations
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1100,8 +1100,8 @@ Known limitations
 
 ## Preprocessing in Practice
 
-Lowercase text.  
-Tokenize words.  
+Lowercase text  
+Tokenize words  
 Remove noise carefully
 
 > ROC curves and AUC summarize classifier performance across all possible thresholds. AUC represents the probability that your model ranks a random positive example higher than a random negative example.
@@ -1109,8 +1109,8 @@ Remove noise carefully
 
 ## Vectorization Choice
 
-Start with TF IDF.  
-Limit vocabulary size.  
+Start with TF IDF  
+Limit vocabulary size  
 Inspect feature space
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1118,8 +1118,8 @@ Inspect feature space
 
 ## Model Selection
 
-Choose a simple classifier.  
-Avoid unnecessary complexity.  
+Choose a simple classifier  
+Avoid unnecessary complexity  
 Favor interpretability
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1127,8 +1127,8 @@ Favor interpretability
 
 ## Training the Model
 
-Fit on training data.  
-Observe convergence.  
+Fit on training data  
+Observe convergence  
 Watch for warnings
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1136,8 +1136,8 @@ Watch for warnings
 
 ## Generating Predictions
 
-Apply model to test data.  
-Capture probabilities.  
+Apply model to test data  
+Capture probabilities  
 Avoid hard labels too early
 
 > Named Entity Recognition identifies and classifies mentions of people, organizations, locations, and other entities in text. This structured information extraction enables downstream applications like knowledge graphs.
@@ -1145,8 +1145,8 @@ Avoid hard labels too early
 
 ## Evaluating Performance
 
-Inspect confusion matrix.  
-Review misclassified examples.  
+Inspect confusion matrix  
+Review misclassified examples  
 Identify systematic patterns
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1154,8 +1154,8 @@ Identify systematic patterns
 
 ## Error Analysis Matters
 
-Errors reveal data issues.  
-Errors reveal label ambiguity.  
+Errors reveal data issues  
+Errors reveal label ambiguity  
 Errors guide improvement
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1163,8 +1163,8 @@ Errors guide improvement
 
 ## Iteration Strategy
 
-Adjust preprocessing.  
-Revisit labels.  
+Adjust preprocessing  
+Revisit labels  
 Reevaluate consistently
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1172,8 +1172,8 @@ Reevaluate consistently
 
 ## When Pretrained Models Help
 
-Compare results qualitatively.  
-Note speed differences.  
+Compare results qualitatively  
+Note speed differences  
 Assess interpretability tradeoffs
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1181,8 +1181,8 @@ Assess interpretability tradeoffs
 
 ## Integration Into Applications
 
-Predictions require context.  
-Users need explanation.  
+Predictions require context  
+Users need explanation  
 UI shapes trust
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1190,8 +1190,8 @@ UI shapes trust
 
 ## Common Text Modeling Mistakes
 
-Overcleaning language.  
-Ignoring negation.  
+Overcleaning language  
+Ignoring negation  
 Trusting scores blindly
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1199,8 +1199,8 @@ Trusting scores blindly
 
 ## Ethics Revisited
 
-Language reflects identity.  
-Automation risks misinterpretation.  
+Language reflects identity  
+Automation risks misinterpretation  
 Human oversight remains necessary
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1208,8 +1208,8 @@ Human oversight remains necessary
 
 ## Lecture 3 Summary
 
-Text dominates real data.  
-Preprocessing shapes meaning.  
+Text dominates real data  
+Preprocessing shapes meaning  
 Simple models remain powerful
 
 > This summary reinforces the key concepts from this section. Reviewing main ideas helps consolidate learning and identify areas that need further study.
@@ -1217,8 +1217,8 @@ Simple models remain powerful
 
 ## Skills You Now Have
 
-Convert text to data.  
-Train interpretable models.  
+Convert text to data  
+Train interpretable models  
 Evaluate responsibly
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1226,8 +1226,8 @@ Evaluate responsibly
 
 ## Looking Ahead
 
-Next we work with images.  
-Vision introduces new structure.  
+Next we work with images  
+Vision introduces new structure  
 Different risks emerge
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.
@@ -1235,8 +1235,8 @@ Different risks emerge
 
 ## End of Lecture 3
 
-Pause.  
-Reflect.  
+Pause  
+Reflect  
 Prepare for vision
 
 > This slide covers an important concept in applied AI. Understanding this material will help you evaluate opportunities and challenges when considering AI applications in your field.

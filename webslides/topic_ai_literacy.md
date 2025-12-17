@@ -8,10 +8,10 @@
 Here is a complete 90-minute class outline for adult learners on AI Literacy. It balances high-level math ideas with practical systems and ethical issues
 
 Title  
-“Becoming Literate in AI: From Vectors to Values”
+"Becoming Literate in AI: From Vectors to Values"
 
 Part 1 – Framing AI (10 min)  
-Goal: Establish what “AI literacy” means  
+Goal: Establish what "AI literacy"means  
 Explain that AI is about representing, predicting, and aligning  
 Contrast symbolic vs. statistical reasoning  
 Show examples learners recognize (ChatGPT, Netflix recommendations, self-driving)
@@ -52,7 +52,7 @@ Part 4 – Ethics, Bias, and Societal Impact (15 min)
 Discuss how embeddings can encode bias  
 Explain alignment as matching model behavior to human intent  
 Introduce transparency (open weights, documentation)  
-Prompt reflection: “What values do we want models to learn?”
+Prompt reflection: "What values do we want models to learn?”
 
 Part 5 – Hands-On Mini Lab (10 min)  
 Use a small web notebook or demo:
@@ -68,7 +68,7 @@ Show how a retrieval system uses that number to rank results
 Part 6 – Wrap-Up and Reflection (5 min)  
 Recap three takeaways:  
 AI represents information as vectors, predicts with probabilities, and must stay aligned with people  
-Assign optional reading: “The Alignment Problem” (Christian) and “Deep Learning Illustrated” (Pearson)  
+Assign optional reading: "The Alignment Problem"(Christian) and "Deep Learning Illustrated"(Pearson)  
 Invite questions on where learners see AI affecting their own field
 
 Instructor Notes  

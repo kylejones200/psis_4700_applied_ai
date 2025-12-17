@@ -11,7 +11,7 @@ Generative models create text, images, or sound from patterns
 
 ## Transformer Architecture
 
-Self-attention lets each token view the entire sequence.  
+Self-attention lets each token view the entire sequence  
 Scales efficiently across GPUs
 
 ---
@@ -38,14 +38,14 @@ Diffusion models like Stable Diffusion and DALL-E synthesize images
 
 ## Prompt Design
 
-Specific instructions yield consistent results.  
+Specific instructions yield consistent results  
 Temperature controls randomness
 
 ---
 
 ## Fine-Tuning vs Grounding
 
-Fine-tuning adjusts model weights.  
+Fine-tuning adjusts model weights  
 Grounding injects new context without retraining
 
 ---
@@ -58,6 +58,6 @@ Take user input → call model API → output new product ideas
 
 ## Summary
 
-Generative AI learns probability of the next token.  
+Generative AI learns probability of the next token  
 Prompt quality determines output quality
 

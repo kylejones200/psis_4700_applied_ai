@@ -13,8 +13,8 @@
 
 ## Why Frameworks Matter
 
-AI adoption is not random.  
-Organizations mature in patterns.  
+AI adoption is not random  
+Organizations mature in patterns  
 Frameworks describe those patterns — so leaders can assess progress and plan investment
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -22,8 +22,8 @@ Frameworks describe those patterns — so leaders can assess progress and plan i
 
 ## The Three Frameworks We'll Cover
 
-MIT CISR AI Maturity Model — academic, strategic, culture-focused.  
-Gartner AI Maturity Model — management-oriented, process-driven.  
+MIT CISR AI Maturity Model — academic, strategic, culture-focused  
+Gartner AI Maturity Model — management-oriented, process-driven  
 AWS Generative AI Maturity Model — cloud-native, focused on GenAI adoption
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -32,8 +32,8 @@ AWS Generative AI Maturity Model — cloud-native, focused on GenAI adoption
 ## The Purpose of Frameworks
 
 Frameworks do three things:  
-Provide a shared language.  
-Set expectations for what "maturity" means.  
+Provide a shared language  
+Set expectations for what "maturity" means  
 Guide decisions about where to invest next
 
 ![](images/framework_maturity.png)
@@ -43,7 +43,7 @@ Guide decisions about where to invest next
 
 ## Framework 1: MIT CISR
 
-Developed by the MIT Center for Information Systems Research.  
+Developed by the MIT Center for Information Systems Research  
 Focus: Enterprise transformation through AI
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -63,7 +63,7 @@ Focus: Enterprise transformation through AI
 
 ## MIT CISR Key Insight
 
-AI maturity is not about technology first — it's about organizational learning.  
+AI maturity is not about technology first — it's about organizational learning  
 The more people who understand AI's purpose and limits, the faster the company evolves
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -71,7 +71,7 @@ The more people who understand AI's purpose and limits, the faster the company e
 
 ## Framework 2: Gartner AI Maturity Model
 
-Used widely by executives and consultants.  
+Used widely by executives and consultants  
 Focus: Operational adoption and measurable value
 
 > AI maturity roadmaps provide step-by-step progression from initial experiments to systematic deployment. Understanding your current stage helps prioritize the right next steps.
@@ -92,7 +92,7 @@ Focus: Operational adoption and measurable value
 
 ## Gartner Key Insight
 
-Each level multiplies both technical capability and organizational trust.  
+Each level multiplies both technical capability and organizational trust  
 AI maturity means scaling trust as much as tools
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -100,7 +100,7 @@ AI maturity means scaling trust as much as tools
 
 ## Framework 3: AWS Generative AI Maturity
 
-Created for cloud-based generative AI projects.  
+Created for cloud-based generative AI projects  
 Focus: Adopting, governing, and scaling GenAI systems
 
 > AI maturity roadmaps provide step-by-step progression from initial experiments to systematic deployment. Understanding your current stage helps prioritize the right next steps.
@@ -140,9 +140,9 @@ Generative AI maturity depends on data governance and responsible deployment mor
 ## Common Structure
 
 All frameworks share a rhythm:  
-Experiment — try and learn.  
-Operationalize — prove and scale.  
-Transform — align and innovate.  
+Experiment — try and learn  
+Operationalize — prove and scale  
+Transform — align and innovate  
 Different names, same journey
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -150,9 +150,9 @@ Different names, same journey
 
 ## How to Use These at Work
 
-Pick the framework that matches your company's focus.  
-Identify your current level honestly.  
-Define milestones for the next level.  
+Pick the framework that matches your company's focus  
+Identify your current level honestly  
+Define milestones for the next level  
 Align AI projects with business value, not hype
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -160,8 +160,8 @@ Align AI projects with business value, not hype
 
 ## Example: A Regional Bank
 
-Now: Level 2 (Active). Running pilot chatbots.  
-Goal: Level 3 (Operational). Integrate AI into customer service workflow.  
+Now: Level 2 (Active). Running pilot chatbots  
+Goal: Level 3 (Operational). Integrate AI into customer service workflow  
 Next Step: Train staff, set metrics, improve data quality
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -169,8 +169,8 @@ Next Step: Train staff, set metrics, improve data quality
 
 ## Example: A Manufacturing Firm
 
-Now: Level 3 (Operational). Predictive maintenance in place.  
-Goal: Level 4 (Systemic). Expand AI to quality control and logistics.  
+Now: Level 3 (Operational). Predictive maintenance in place  
+Goal: Level 4 (Systemic). Expand AI to quality control and logistics  
 Next Step: Build shared data lake, unify analytics teams
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -187,7 +187,7 @@ What would it take to move up one level?
 
 ## Summary
 
-Frameworks turn buzzwords into structure.  
+Frameworks turn buzzwords into structure  
 They help you measure progress, set realistic goals, and design transformation deliberately
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -195,7 +195,7 @@ They help you measure progress, set realistic goals, and design transformation d
 
 ## Key Takeaway
 
-AI maturity isn't about having the newest tool.  
+AI maturity isn't about having the newest tool  
 It's about knowing where you are, where you're going, and what to do next
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.

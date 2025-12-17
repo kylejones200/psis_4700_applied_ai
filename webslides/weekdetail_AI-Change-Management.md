@@ -11,7 +11,7 @@
 
 ## The Core Idea
 
-AI succeeds when people use it.  
+AI succeeds when people use it  
 Change management ensures adoption, not resistance
 
 ![](images/built-in-obsolescence.png)
@@ -21,7 +21,7 @@ Change management ensures adoption, not resistance
 
 ## The Human Side
 
-AI alters workflows, not just tools.  
+AI alters workflows, not just tools  
 People need clarity, purpose, and trust before they accept change
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -43,9 +43,9 @@ Without context, AI feels imposed — not helpful
 ## Roles and Impact
 
 Show where AI fits:  
-Repetitive tasks → automation.  
-Analytical work → augmentation.  
-Decision making → collaboration.  
+Repetitive tasks → automation  
+Analytical work → augmentation  
+Decision making → collaboration  
 AI should make people stronger, not smaller
 
 ![](images/20251103_1309_AI vs. Manual Work_simple_compose_01k95hx0j0eefsq37d4d62xv0d.png)
@@ -55,10 +55,10 @@ AI should make people stronger, not smaller
 
 ## Training and Confidence
 
-Practical exposure builds trust.  
-Hands-on sessions.  
-Shadow workflows.  
-Clear escalation when AI fails.  
+Practical exposure builds trust  
+Hands-on sessions  
+Shadow workflows  
+Clear escalation when AI fails  
 Confidence grows through experience, not memos
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -66,7 +66,7 @@ Confidence grows through experience, not memos
 
 ## Governance and Feedback
 
-Change doesn't stop at launch.  
+Change doesn't stop at launch  
 Users must be able to raise issues, flag errors, and influence retraining
 
 > AI governance establishes policies, processes, oversight mechanisms, and accountability for responsible deployment. This includes defining acceptable use, review procedures, incident response, and continuous monitoring.
@@ -74,7 +74,7 @@ Users must be able to raise issues, flag errors, and influence retraining
 
 ## Leadership Role
 
-Leaders must model curiosity, not fear.  
+Leaders must model curiosity, not fear  
 They frame AI as a partner, not a threat
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -82,10 +82,10 @@ They frame AI as a partner, not a threat
 
 ## Metrics for Adoption
 
-Usage rate.  
-Error overrides.  
-Employee satisfaction.  
-Business outcomes.  
+Usage rate  
+Error overrides  
+Employee satisfaction  
+Business outcomes  
 Adoption is a data problem, too
 
 > Evaluation requires metrics aligned with actual goals beyond just technical accuracy. Consider business outcomes, user satisfaction, fairness across groups, and long-term impacts when assessing success.
@@ -93,9 +93,9 @@ Adoption is a data problem, too
 
 ## Summary
 
-AI transformation is human transformation.  
-Communicate clearly.  
-Train thoughtfully.  
+AI transformation is human transformation  
+Communicate clearly  
+Train thoughtfully  
 Adapt continuously
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.

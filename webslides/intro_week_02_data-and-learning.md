@@ -15,6 +15,8 @@ Build intuition by training a tiny classifier
 Features (X) and labels (y)  
 Tabular focus
 
+![](images/frog-mean-plot-output-1.png)
+
 > In machine learning, data is organized into features (the characteristics we measure, called X) and labels (the outcomes we're trying to predict, called y). Think of features as the inputs and labels as the correct answers we're trying to learn.
 ---
 
@@ -161,6 +163,8 @@ Encoding choices
 
 ## Quick EDA
 Distributions, missingness, correlations, leakage signals
+
+![](images/frog-outliers-plot-output-1.png)
 
 > Exploratory Data Analysis (EDA) means looking at your data before modeling: check distributions for outliers, find missing values, examine correlations between features, and look for signs of data leakage. This often reveals issues that would ruin your model.
 ---

@@ -12,7 +12,7 @@
 ## The Core Idea
 
 You can customize a model in two main ways:  
-Retrieval-Augmented Generation (RAG): Keep the model fixed, feed it extra context.  
+Retrieval-Augmented Generation (RAG): Keep the model fixed, feed it extra context  
 Fine-Tuning: Retrain the model with new examples to change its behavior
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -20,8 +20,8 @@ Fine-Tuning: Retrain the model with new examples to change its behavior
 
 ## What RAG Does
 
-RAG retrieves documents at query time.  
-It adds external knowledge on demand.  
+RAG retrieves documents at query time  
+It adds external knowledge on demand  
 The model doesn't learn permanently — it reads and reasons from current data
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -29,8 +29,8 @@ The model doesn't learn permanently — it reads and reasons from current data
 
 ## What Fine-Tuning Does
 
-Fine-tuning changes the model itself.  
-It teaches new vocabulary, formats, or reasoning styles.  
+Fine-tuning changes the model itself  
+It teaches new vocabulary, formats, or reasoning styles  
 The knowledge becomes "baked in."
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -38,11 +38,11 @@ The knowledge becomes "baked in."
 
 ## When to Use RAG
 
-You have changing data.  
-You want transparency and traceability.  
-You can't modify the base model.  
+You have changing data  
+You want transparency and traceability  
+You can't modify the base model  
 Examples:  
-Company policy Q&A.  
+Company policy Q&A  
 Product support bots
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -50,10 +50,10 @@ Product support bots
 
 ## When to Use Fine-Tuning
 
-You have stable, structured examples.  
-You need specialized tone or behavior.  
+You have stable, structured examples  
+You need specialized tone or behavior  
 Examples:  
-Legal or medical summarization style.  
+Legal or medical summarization style  
 Customer-service tone training
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -61,8 +61,8 @@ Customer-service tone training
 
 ## Cost and Maintenance
 
-RAG is cheaper to update — just refresh documents.  
-Fine-tuning is costlier but more cohesive.  
+RAG is cheaper to update — just refresh documents  
+Fine-tuning is costlier but more cohesive  
 Most production systems combine both
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -70,7 +70,7 @@ Most production systems combine both
 
 ## Security and Control
 
-RAG can filter sensitive data before retrieval.  
+RAG can filter sensitive data before retrieval  
 Fine-tuning must ensure no confidential data enters training
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -79,8 +79,8 @@ Fine-tuning must ensure no confidential data enters training
 ## Combined Approach
 
 Many enterprises use:  
-Fine-tuning for structure and tone.  
-RAG for knowledge and freshness.  
+Fine-tuning for structure and tone  
+RAG for knowledge and freshness  
 It's not "either/or" — it's layered design
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -88,8 +88,8 @@ It's not "either/or" — it's layered design
 
 ## Summary
 
-RAG = flexible, dynamic context.  
-Fine-tuning = deep, lasting knowledge.  
+RAG = flexible, dynamic context  
+Fine-tuning = deep, lasting knowledge  
 Together they make AI practical and adaptive
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.

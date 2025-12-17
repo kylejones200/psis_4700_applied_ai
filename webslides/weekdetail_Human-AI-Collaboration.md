@@ -13,7 +13,7 @@
 
 ## The Core Idea
 
-AI extends what people can do — faster decisions, broader insight.  
+AI extends what people can do — faster decisions, broader insight  
 The best systems combine machine precision and human sense-making
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -21,8 +21,8 @@ The best systems combine machine precision and human sense-making
 
 ## Complementary Strengths
 
-Humans: context, ethics, creativity.  
-AI: scale, speed, pattern detection.  
+Humans: context, ethics, creativity  
+AI: scale, speed, pattern detection  
 Collaboration = human goals + machine capability
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -30,8 +30,8 @@ Collaboration = human goals + machine capability
 
 ## Common Patterns
 
-Assistive: AI suggests, human decides.  
-Supervised: human trains, AI executes.  
+Assistive: AI suggests, human decides  
+Supervised: human trains, AI executes  
 Collaborative: both adapt in real time
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -39,7 +39,7 @@ Collaborative: both adapt in real time
 
 ## Example
 
-Doctor uses AI scan analysis for diagnosis.  
+Doctor uses AI scan analysis for diagnosis  
 AI detects early patterns  
 Doctor applies context and experience
 Together, accuracy improves
@@ -49,10 +49,10 @@ Together, accuracy improves
 
 ## Design for Partnership
 
-Interfaces must make AI visible and explainable.  
+Interfaces must make AI visible and explainable  
 Good collaboration design includes:  
-Confidence scores.  
-"Why" explanations.  
+Confidence scores  
+"Why" explanations  
 Human override
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -60,7 +60,7 @@ Human override
 
 ## Risks of Over-Reliance
 
-Automation bias: trusting outputs blindly.  
+Automation bias: trusting outputs blindly  
 Always keep the final judgment human
 
 > Risk assessment identifies what could go wrong, how likely it is, and how serious the consequences would be. Prioritize mitigations for your highest-impact risks.
@@ -68,9 +68,9 @@ Always keep the final judgment human
 
 ## Success Measures
 
-Productivity increase.  
-Decision quality.  
-User satisfaction.  
+Productivity increase  
+Decision quality  
+User satisfaction  
 Reduction in repetitive tasks
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -78,7 +78,7 @@ Reduction in repetitive tasks
 
 ## Summary
 
-Human + AI = hybrid intelligence.  
+Human + AI = hybrid intelligence  
 Machines scale thought  
 People give meaning
 

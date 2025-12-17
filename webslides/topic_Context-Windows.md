@@ -13,8 +13,8 @@
 
 ## Why This Matters
 
-Every model has limits on what it can read at once.  
-Those limits affect quality, speed, and cost.  
+Every model has limits on what it can read at once  
+Those limits affect quality, speed, and cost  
 Knowing how context windows work helps you design better prompts and systems
 
 ![](images/anatomy-of-context-window.png)
@@ -24,9 +24,9 @@ Knowing how context windows work helps you design better prompts and systems
 
 ## The Core Idea
 
-A context window is the amount of text a model can "see" in one interaction.  
-Models don't have memory.  
-They only see what fits inside their context window — a sliding space of tokens.  
+A context window is the amount of text a model can "see" in one interaction  
+Models don't have memory  
+They only see what fits inside their context window — a sliding space of tokens  
 When it fills up, the oldest text drops out
 
 ![](images/context-windows-limit-size-max-performance.png)
@@ -36,8 +36,8 @@ When it fills up, the oldest text drops out
 
 ## The Sliding Window Metaphor
 
-Think of a model as reading through a moving window over text.  
-It processes only the visible section.  
+Think of a model as reading through a moving window over text  
+It processes only the visible section  
 New text enters  
 Old text leaves
 No history beyond what's inside the frame
@@ -47,8 +47,8 @@ No history beyond what's inside the frame
 
 ## Example: Window Size
 
-If a model has a 128k context window, it can handle about 128,000 tokens — roughly 90,000 words.  
-That's a short book, not a library.  
+If a model has a 128k context window, it can handle about 128,000 tokens — roughly 90,000 words  
+That's a short book, not a library  
 Everything beyond that is invisible to the model
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -56,8 +56,8 @@ Everything beyond that is invisible to the model
 
 ## Tokens, Not Words
 
-Models process tokens, not words.  
-Tokens are chunks of text, sometimes whole words, sometimes fragments.  
+Models process tokens, not words  
+Tokens are chunks of text, sometimes whole words, sometimes fragments  
 "Understanding" = converting tokens into embeddings, reasoning over them, and predicting the next token
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -65,9 +65,9 @@ Tokens are chunks of text, sometimes whole words, sometimes fragments.
 
 ## What Happens Inside
 
-The model encodes all input tokens into vectors.  
-It compares patterns and relationships between them.  
-Attention layers compute which tokens matter most.  
+The model encodes all input tokens into vectors  
+It compares patterns and relationships between them  
+Attention layers compute which tokens matter most  
 That is why the window size matters: more tokens mean more comparisons
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -75,8 +75,8 @@ That is why the window size matters: more tokens mean more comparisons
 
 ## Why Context Windows Exist
 
-Each extra token adds cost and compute time.  
-Larger windows slow response and increase price.  
+Each extra token adds cost and compute time  
+Larger windows slow response and increase price  
 Models trade off size, speed, and accuracy
 
 > Context windows define how much text a language model can consider at once. This fundamental limitation shapes architecture decisions around document processing, conversation management, and retrieval systems.
@@ -105,8 +105,8 @@ More tokens = more memory but higher cost
 
 ## The "Forgetfulness" Problem
 
-When a model runs out of window space, older text is dropped or truncated.  
-You think it remembers, but it doesn't.  
+When a model runs out of window space, older text is dropped or truncated  
+You think it remembers, but it doesn't  
 Context loss creates inconsistency or hallucination
 
 > Understanding challenges and limitations is as important as knowing capabilities. Realistic assessment of obstacles helps you plan appropriately and avoid nasty surprises.
@@ -116,7 +116,7 @@ Context loss creates inconsistency or hallucination
 
 Prompt: "The meeting is at 3 PM in Dallas."  
 Later message: "What time is the meeting?"  
-If "Dallas" and "3 PM" are still inside the context window, it answers correctly.  
+If "Dallas" and "3 PM" are still inside the context window, it answers correctly  
 If not, it guesses
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -125,9 +125,9 @@ If not, it guesses
 ## The Performance Sweet Spot
 
 Performance declines when:  
-Prompts exceed optimal window size.  
-Context contains irrelevant text.  
-Redundant information floods attention layers.  
+Prompts exceed optimal window size  
+Context contains irrelevant text  
+Redundant information floods attention layers  
 Shorter, focused context improves coherence and reduces latency
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -135,8 +135,8 @@ Shorter, focused context improves coherence and reduces latency
 
 ## How to Think About It
 
-Treat context as working memory, not long-term memory.  
-Feed only what the model needs right now.  
+Treat context as working memory, not long-term memory  
+Feed only what the model needs right now  
 Use retrieval systems to fetch relevant context when required
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -144,7 +144,7 @@ Use retrieval systems to fetch relevant context when required
 
 ## Example: Chat Session
 
-If you paste ten pages of notes, the model spends energy reading everything.  
+If you paste ten pages of notes, the model spends energy reading everything  
 If you provide a short summary or relevant excerpt, it performs better and costs less
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -152,9 +152,9 @@ If you provide a short summary or relevant excerpt, it performs better and costs
 
 ## How to Maximize Performance
 
-Summarize past messages.  
-Chunk documents into smaller segments.  
-Retrieve only relevant sections per query.  
+Summarize past messages  
+Chunk documents into smaller segments  
+Retrieve only relevant sections per query  
 Refresh context instead of growing it endlessly
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -162,10 +162,10 @@ Refresh context instead of growing it endlessly
 
 ## Context Management Strategies
 
-**Summarization:** Systems summarize earlier content.  
+**Summarization:** Systems summarize earlier content  
 Summaries replace full text, preserving meaning but saving space
 
-**Chunking:** Long documents are split into chunks that fit into context windows.  
+**Chunking:** Long documents are split into chunks that fit into context windows  
 Each chunk is separately processed and reassembled during retrieval
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -173,7 +173,7 @@ Each chunk is separately processed and reassembled during retrieval
 
 ## Context Management in Practice
 
-Old approach: dump everything into the prompt.  
+Old approach: dump everything into the prompt  
 Modern approach: retrieve only what matters using search, indexing, or protocols like MCP
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -181,7 +181,7 @@ Modern approach: retrieve only what matters using search, indexing, or protocols
 
 ## Vector Recall and RAG
 
-When older context scrolls out, embeddings help recall similar information.  
+When older context scrolls out, embeddings help recall similar information  
 That's how retrieval-augmented generation (RAG) restores memory
 
 > Retrieval-Augmented Generation grounds language models in real documents by retrieving relevant information before generating responses. This architecture has become standard for building reliable knowledge systems.
@@ -189,8 +189,8 @@ That's how retrieval-augmented generation (RAG) restores memory
 
 ## Relation to MCP
 
-MCP helps models fetch context dynamically.  
-Instead of giving the model all your data, it requests only the parts needed for each task.  
+MCP helps models fetch context dynamically  
+Instead of giving the model all your data, it requests only the parts needed for each task  
 This keeps the active window small and efficient
 
 > The Model Context Protocol standardizes how AI applications access external data and tools. This abstraction layer enables building AI systems that can work with multiple different data sources and capabilities.
@@ -198,8 +198,8 @@ This keeps the active window small and efficient
 
 ## Analogy: The Desk
 
-The context window is like the desk in front of you.  
-You can only spread out a few papers at a time.  
+The context window is like the desk in front of you  
+You can only spread out a few papers at a time  
 The rest stays in the filing cabinet until needed
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -218,9 +218,9 @@ Those answers determine which model fits your workload
 
 ## What Happens When You Exceed It
 
-Extra tokens are ignored or truncated.  
-Sometimes the model fails silently.  
-You lose precision, and cost still increases.  
+Extra tokens are ignored or truncated  
+Sometimes the model fails silently  
+You lose precision, and cost still increases  
 Always know your ceiling
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -229,7 +229,7 @@ Always know your ceiling
 ## Example of Efficiency
 
 Two identical questions:  
-One with a focused prompt, one with a full transcript.  
+One with a focused prompt, one with a full transcript  
 The focused prompt runs faster, costs less, and answers more accurately
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -237,7 +237,7 @@ The focused prompt runs faster, costs less, and answers more accurately
 
 ## The Tradeoff
 
-Bigger context improves reasoning but increases latency, cost, and error risk.  
+Bigger context improves reasoning but increases latency, cost, and error risk  
 Smarter context management beats brute force expansion
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -245,7 +245,7 @@ Smarter context management beats brute force expansion
 
 ## Discussion Prompt
 
-Think about your own work.  
+Think about your own work  
 Where do you overload context — too much background, too many documents, too long a thread?  
 How could you narrow it?
 
@@ -254,9 +254,9 @@ How could you narrow it?
 
 ## Summary
 
-Context defines what a model "knows" at any moment.  
-The context window is the model's attention span.  
-Tokens in → understanding out.  
+Context defines what a model "knows" at any moment  
+The context window is the model's attention span  
+Tokens in → understanding out  
 Memory beyond that must be engineered
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -264,8 +264,8 @@ Memory beyond that must be engineered
 
 ## Key Takeaway
 
-You don't need to make the window bigger.  
-You need to use it better.  
+You don't need to make the window bigger  
+You need to use it better  
 Good prompt design and smart retrieval always outperform brute force
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.

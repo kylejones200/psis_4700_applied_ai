@@ -11,8 +11,8 @@
 
 ## Why We're Here
 
-AI is everywhere, but most people don't know how to use it meaningfully.  
-You don't need to be a data scientist.  
+AI is everywhere, but most people don't know how to use it meaningfully  
+You don't need to be a data scientist  
 You need to understand where AI fits — and where it doesn't
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -29,9 +29,9 @@ But "Where does AI create measurable value for my team or company?"
 ## What AI Actually Does
 
 AI does three things well:  
-Finds patterns in data.  
-Automates repetitive reasoning.  
-Generates content from examples.  
+Finds patterns in data  
+Automates repetitive reasoning  
+Generates content from examples  
 Everything else builds on those
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -51,7 +51,7 @@ Enables new products or services
 
 ## Value ≠ Novelty
 
-AI value comes from impact, not innovation theater.  
+AI value comes from impact, not innovation theater  
 If no one saves time, makes better choices, or earns more revenue, the project fails
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -70,8 +70,8 @@ If no one saves time, makes better choices, or earns more revenue, the project f
 
 ## Efficiency: Automate and Accelerate
 
-Look for repetitive tasks with clear inputs and outputs.  
-Examples: document summarization, email triage, meeting notes, scheduling.  
+Look for repetitive tasks with clear inputs and outputs  
+Examples: document summarization, email triage, meeting notes, scheduling  
 AI reduces friction and frees people for higher-value work
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -79,8 +79,8 @@ AI reduces friction and frees people for higher-value work
 
 ## Effectiveness: Improve Decisions
 
-AI helps people reason across data they can't process manually.  
-Examples: risk scoring, forecasting, trend detection.  
+AI helps people reason across data they can't process manually  
+Examples: risk scoring, forecasting, trend detection  
 The goal is not to replace judgment, but to enhance it
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -88,8 +88,8 @@ The goal is not to replace judgment, but to enhance it
 
 ## Expansion: Create New Offerings
 
-Once internal operations run smoothly, use AI to build new services.  
-Examples: personalized learning, predictive maintenance, smart recommendations.  
+Once internal operations run smoothly, use AI to build new services  
+Examples: personalized learning, predictive maintenance, smart recommendations  
 AI becomes a growth engine, not just a cost saver
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -108,9 +108,9 @@ If yes, explore AI. If no, keep it manual
 
 ## The AI Value Chain
 
-Data — the raw material.  
-Models — the reasoning engine.  
-Applications — the delivery mechanism.  
+Data — the raw material  
+Models — the reasoning engine  
+Applications — the delivery mechanism  
 Adoption — the human factor that determines success
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -118,10 +118,10 @@ Adoption — the human factor that determines success
 
 ## Where Projects Fail
 
-Poor data quality.  
-No clear business metric.  
-Shiny tool syndrome.  
-No plan for user adoption.  
+Poor data quality  
+No clear business metric  
+Shiny tool syndrome  
+No plan for user adoption  
 Technology rarely fails. Execution does
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -129,8 +129,8 @@ Technology rarely fails. Execution does
 
 ## The Role of People
 
-AI augments human work.  
-It thrives where people and machines complement each other.  
+AI augments human work  
+It thrives where people and machines complement each other  
 The most successful organizations train people to use AI, not fear it
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -139,9 +139,9 @@ The most successful organizations train people to use AI, not fear it
 ## Framing the Conversation at Work
 
 When introducing AI:  
-Speak in outcomes, not algorithms.  
-Tie use cases to pain points.  
-Quantify benefits (time, dollars, risk reduction).  
+Speak in outcomes, not algorithms  
+Tie use cases to pain points  
+Quantify benefits (time, dollars, risk reduction)  
 Start small and measurable
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -149,8 +149,8 @@ Start small and measurable
 
 ## Example: HR Department
 
-Problem: Too much time screening résumés.  
-AI Value: Automate first-pass filtering while keeping human review.  
+Problem: Too much time screening résumés  
+AI Value: Automate first-pass filtering while keeping human review  
 Outcome: Faster hiring cycle, consistent evaluation
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -158,7 +158,7 @@ Outcome: Faster hiring cycle, consistent evaluation
 
 ## Example: Customer Service
 
-Problem: Long wait times and repetitive questions.  
+Problem: Long wait times and repetitive questions  
 AI Value: Deploy a chatbot for common issues  
 Escalate complex ones
 Outcome: Lower cost per ticket, higher satisfaction
@@ -168,8 +168,8 @@ Outcome: Lower cost per ticket, higher satisfaction
 
 ## Example: Maintenance
 
-Problem: Equipment failures cause downtime.  
-AI Value: Predict failures using sensor data.  
+Problem: Equipment failures cause downtime  
+AI Value: Predict failures using sensor data  
 Outcome: Reduce outages, save on repairs
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -177,10 +177,10 @@ Outcome: Reduce outages, save on repairs
 
 ## The Change Journey
 
-Awareness — teach teams what AI is.  
-Exploration — test ideas safely.  
-Integration — embed AI in workflows.  
-Scaling — align AI with business goals.  
+Awareness — teach teams what AI is  
+Exploration — test ideas safely  
+Integration — embed AI in workflows  
+Scaling — align AI with business goals  
 Each step requires leadership and trust
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -188,7 +188,7 @@ Each step requires leadership and trust
 
 ## Measuring Value
 
-Define metrics before you start.  
+Define metrics before you start  
 Time saved  
 Cost avoided  
 Revenue gained  
@@ -201,8 +201,8 @@ Measure before and after to prove ROI
 
 ## Ethical and Responsible Use
 
-Responsible AI protects privacy, avoids bias, and explains results.  
-Value and trust rise together.  
+Responsible AI protects privacy, avoids bias, and explains results  
+Value and trust rise together  
 If people don't trust the AI, adoption stops
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -210,7 +210,7 @@ If people don't trust the AI, adoption stops
 
 ## Discussion Prompt
 
-Think about your organization.  
+Think about your organization  
 Where do people waste time or make repeatable decisions?  
 How could AI make that process faster, better, or smarter?  
 List one idea you could propose next week
@@ -220,8 +220,8 @@ List one idea you could propose next week
 
 ## Summary
 
-AI adds value by amplifying human ability.  
-It saves time, improves quality, and opens new possibilities.  
+AI adds value by amplifying human ability  
+It saves time, improves quality, and opens new possibilities  
 The goal isn't AI for its own sake — it's better business
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -229,8 +229,8 @@ The goal isn't AI for its own sake — it's better business
 
 ## Key Takeaway
 
-AI creates value when it's tied to outcomes, not hype.  
-Start small. Prove impact.  
+AI creates value when it's tied to outcomes, not hype  
+Start small. Prove impact  
 Then scale what works
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.

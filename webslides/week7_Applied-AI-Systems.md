@@ -11,7 +11,7 @@ Models must integrate with data pipelines and applications
 
 ## APIs and Microservices
 
-Expose models as endpoints.  
+Expose models as endpoints  
 Version and log each call
 
 ---
@@ -24,21 +24,21 @@ Unified platform for storage, training, and governance
 
 ## Vector Databases
 
-Use Pinecone or Chroma for semantic retrieval.  
+Use Pinecone or Chroma for semantic retrieval  
 Connect embeddings to applications
 
 ---
 
 ## Edge and IoT
 
-Compress models for sensors and gateways.  
+Compress models for sensors and gateways  
 MQTT and OPC-UA stream data to the cloud
 
 ---
 
 ## MLOps and Monitoring
 
-Track metrics, drift, and re-training schedules.  
+Track metrics, drift, and re-training schedules  
 Tools: MLflow, Airflow, and Weights & Biases
 
 ---
@@ -51,6 +51,6 @@ Predictive maintenance in manufacturing using sensor streams
 
 ## Summary
 
-Applied AI means operational AI.  
+Applied AI means operational AI  
 Success depends on data quality and feedback loops
 

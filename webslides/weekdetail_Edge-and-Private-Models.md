@@ -13,7 +13,7 @@
 
 ## The Core Idea
 
-Instead of sending data to the cloud, send the model to the data.  
+Instead of sending data to the cloud, send the model to the data  
 Edge AI and private models protect privacy and reduce latency
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -21,11 +21,11 @@ Edge AI and private models protect privacy and reduce latency
 
 ## Edge AI
 
-Runs on devices or gateways near data sources.  
+Runs on devices or gateways near data sources  
 Examples:  
-Turbine sensor anomaly detection.  
-Drone image classification.  
-Retail camera analytics.  
+Turbine sensor anomaly detection  
+Drone image classification  
+Retail camera analytics  
 Benefits: speed and autonomy when connectivity is limited
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -33,8 +33,8 @@ Benefits: speed and autonomy when connectivity is limited
 
 ## Private Models
 
-Deployed inside a company's environment or VPC.  
-No data leaves the organization.  
+Deployed inside a company's environment or VPC  
+No data leaves the organization  
 Used for sensitive domains like finance, health, or defense
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -42,8 +42,8 @@ Used for sensitive domains like finance, health, or defense
 
 ## Why They Matter
 
-Lower data transfer costs.  
-Meet regulatory requirements.  
+Lower data transfer costs  
+Meet regulatory requirements  
 Enable real-time decisions in remote locations
 
 > Understanding why concepts matter helps you apply them appropriately. This context prevents cargo-cult adoption of practices that don't fit your situation.
@@ -51,8 +51,8 @@ Enable real-time decisions in remote locations
 
 ## Trade-Offs
 
-Edge devices have limited compute.  
-Private models require maintenance and security patches.  
+Edge devices have limited compute  
+Private models require maintenance and security patches  
 Balancing performance and protection is key
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -67,7 +67,7 @@ Sensor → Edge Model → Secure Gateway → Private LLM → Analytics Dashboard
 
 ## Summary
 
-Edge and private models keep AI close to the action and under your control.  
+Edge and private models keep AI close to the action and under your control  
 They turn AI into infrastructure, not a service you borrow
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.

@@ -96,6 +96,8 @@ Logistic Regression, kNN, Decision Trees, Random Forests
 Underfit vs overfit  
 Complexity control
 
+![](images/frog-stddev-plot-output-1.png)
+
 > The bias-variance tradeoff balances underfitting (model too simple to capture patterns) against overfitting (model memorizes training data including noise). Managing model complexity through regularization and validation is central to good machine learning.
 ---
 
@@ -248,6 +250,8 @@ Optimize for business objective, not default 0.5
 
 ## Calibration
 Platt/Isotonic to align probabilities with reality
+
+![](images/frog-ci-plot-output-1.png)
 
 > Calibration ensures predicted probabilities reflect true likelihood of outcomes. Platt scaling and isotonic regression adjust model outputs so that among cases predicted at 70% confidence, roughly 70% are actually positive.
 ---

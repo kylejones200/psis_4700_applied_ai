@@ -11,8 +11,8 @@
 
 ## Why We're Talking About This
 
-You hear "fine-tuning" everywhere.  
-It sounds like personalization.  
+You hear "fine-tuning" everywhere  
+It sounds like personalization  
 But it means something very specific in AI: changing a model's weights with new data
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -20,8 +20,8 @@ But it means something very specific in AI: changing a model's weights with new 
 
 ## The Problem Fine-Tuning Solves
 
-Pre-trained models know general patterns.  
-They don't know your company, your data, or your style.  
+Pre-trained models know general patterns  
+They don't know your company, your data, or your style  
 Fine-tuning adjusts the model to behave as if it were trained on your examples
 
 > Fine-tuning adapts pretrained models to specific tasks by continuing training on your data. This transfer learning approach requires far less data and computation than training from scratch while achieving better results.
@@ -29,8 +29,8 @@ Fine-tuning adjusts the model to behave as if it were trained on your examples
 
 ## A Simple Example
 
-Base model: writes general product descriptions.  
-Fine-tuned model: writes in your brand voice and follows your format.  
+Base model: writes general product descriptions  
+Fine-tuned model: writes in your brand voice and follows your format  
 You give it examples  
 It learns your way
 
@@ -39,8 +39,8 @@ It learns your way
 
 ## The Core Idea
 
-The model already understands language.  
-You don't teach it from scratch.  
+The model already understands language  
+You don't teach it from scratch  
 You shift its behavior by adjusting weights slightly with new labeled data
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -49,9 +49,9 @@ You shift its behavior by adjusting weights slightly with new labeled data
 ## When It Made Sense
 
 Fine-tuning was essential when:  
-Context windows were short.  
-Few-shot prompting was weak.  
-Models couldn't store specialized knowledge easily.  
+Context windows were short  
+Few-shot prompting was weak  
+Models couldn't store specialized knowledge easily  
 It let companies specialize the base model for one task
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -59,10 +59,10 @@ It let companies specialize the base model for one task
 
 ## The Process
 
-Gather quality examples (input → ideal output).  
-Clean and label them carefully.  
-Train the model on that data.  
-Evaluate, test, and deploy.  
+Gather quality examples (input → ideal output)  
+Clean and label them carefully  
+Train the model on that data  
+Evaluate, test, and deploy  
 This used to take days and GPUs
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -70,9 +70,9 @@ This used to take days and GPUs
 
 ## The Trade-offs
 
-Fine-tuning is expensive and slow.  
-It can degrade general ability.  
-It locks your model to one behavior.  
+Fine-tuning is expensive and slow  
+It can degrade general ability  
+It locks your model to one behavior  
 It requires retraining when data changes
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -80,10 +80,10 @@ It requires retraining when data changes
 
 ## The Rise of Alternatives
 
-Larger context windows and smarter models made fine-tuning less critical.  
+Larger context windows and smarter models made fine-tuning less critical  
 Now we use:  
-Prompt engineering for quick adaptation.  
-Retrieval-Augmented Generation (RAG) for external data.  
+Prompt engineering for quick adaptation  
+Retrieval-Augmented Generation (RAG) for external data  
 Adapters and LoRA for light, modular updates
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -91,8 +91,8 @@ Adapters and LoRA for light, modular updates
 
 ## LoRA (Low-Rank Adaptation)
 
-LoRA adds small layers that adjust behavior without retraining the full model.  
-It's like putting a filter on a camera instead of changing the lens.  
+LoRA adds small layers that adjust behavior without retraining the full model  
+It's like putting a filter on a camera instead of changing the lens  
 Fast, cheap, reversible
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -101,7 +101,7 @@ Fast, cheap, reversible
 ## Modern Example
 
 Instead of fine-tuning a model on every new policy,  
-You store those policies in a database and retrieve them on demand.  
+You store those policies in a database and retrieve them on demand  
 Context, not customization, gives accuracy
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -109,9 +109,9 @@ Context, not customization, gives accuracy
 
 ## When Fine-Tuning Still Matters
 
-You need a consistent tone across millions of outputs.  
-You operate offline or without retrieval tools.  
-You have proprietary data that defines the task.  
+You need a consistent tone across millions of outputs  
+You operate offline or without retrieval tools  
+You have proprietary data that defines the task  
 You must reduce latency and can't afford retrieval overhead
 
 > Fine-tuning adapts pretrained models to specific tasks by continuing training on your data. This transfer learning approach requires far less data and computation than training from scratch while achieving better results.
@@ -119,9 +119,9 @@ You must reduce latency and can't afford retrieval overhead
 
 ## When You Should Avoid It
 
-You have small or noisy data.  
-The task can be solved by better prompts or examples.  
-You need flexibility for changing information.  
+You have small or noisy data  
+The task can be solved by better prompts or examples  
+You need flexibility for changing information  
 The model already performs well enough
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -129,8 +129,8 @@ The model already performs well enough
 
 ## Analogy
 
-Fine-tuning is like retraining an employee from scratch.  
-Context and prompts are like giving better instructions.  
+Fine-tuning is like retraining an employee from scratch  
+Context and prompts are like giving better instructions  
 Only retrain when the task itself has changed
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -150,9 +150,9 @@ If 1 or 2 is yes, skip fine-tuning
 ## The Cost Perspective
 
 Fine-tuning costs include:  
-Data preparation and labeling.  
-GPU time.  
-Model hosting and updates.  
+Data preparation and labeling  
+GPU time  
+Model hosting and updates  
 Retrieval and context costs are usually lower and more flexible
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -160,7 +160,7 @@ Retrieval and context costs are usually lower and more flexible
 
 ## How Fine-Tuning Fits Today
 
-Fine-tuning moved from being the only path to one of many options.  
+Fine-tuning moved from being the only path to one of many options  
 It now complements context-based systems rather than replacing them
 
 > Fine-tuning adapts pretrained models to specific tasks by continuing training on your data. This transfer learning approach requires far less data and computation than training from scratch while achieving better results.
@@ -168,8 +168,8 @@ It now complements context-based systems rather than replacing them
 
 ## In Business Terms
 
-Fine-tuning is capital expenditure: large up front, stable afterward.  
-Prompting and retrieval are operational expenditure: cheap, adaptive, continuous.  
+Fine-tuning is capital expenditure: large up front, stable afterward  
+Prompting and retrieval are operational expenditure: cheap, adaptive, continuous  
 Choose based on your goals
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -177,7 +177,7 @@ Choose based on your goals
 
 ## Discussion Prompt
 
-Think about your domain.  
+Think about your domain  
 Would you rather fine-tune a model or control it through context and prompts?  
 Why?  
 Discuss how risk, cost, and flexibility affect your choice
@@ -187,8 +187,8 @@ Discuss how risk, cost, and flexibility affect your choice
 
 ## Summary
 
-Fine-tuning adapts models through data, not instructions.  
-It's powerful but expensive and rigid.  
+Fine-tuning adapts models through data, not instructions  
+It's powerful but expensive and rigid  
 Modern AI favors context and protocols like MCP that deliver relevance on demand
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -196,8 +196,8 @@ Modern AI favors context and protocols like MCP that deliver relevance on demand
 
 ## Key Takeaway
 
-Fine-tuning built the past.  
-Context built the present.  
+Fine-tuning built the past  
+Context built the present  
 Governed, adaptive context will build the future
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.

@@ -4,7 +4,7 @@ Comprehensive course materials for teaching Applied AI across multiple formats a
 
 ## 🌐 Interactive Course Viewer
 
-**[View the interactive slide presentations →](https://[your-github-username].github.io/psis_4700_applied_ai/)**
+**[View the interactive slide presentations →](https://kylejones200.github.io/psis_4700_applied_ai/)**
 
 Explore course materials through an intuitive web interface featuring:
 - **70+ interactive presentations** covering intro through advanced topics

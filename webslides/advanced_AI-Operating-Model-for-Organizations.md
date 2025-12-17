@@ -11,7 +11,7 @@
 
 ## The Core Idea
 
-The AI Operating Model connects people, data, and process.  
+The AI Operating Model connects people, data, and process  
 It defines how AI is built, governed, and scaled
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -19,9 +19,9 @@ It defines how AI is built, governed, and scaled
 
 ## Key Pillars
 
-Strategy: where AI fits in the business.  
-Data: what foundation supports it.  
-People: who owns, builds, and uses it.  
+Strategy: where AI fits in the business  
+Data: what foundation supports it  
+People: who owns, builds, and uses it  
 Process: how work flows end to end
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -29,9 +29,9 @@ Process: how work flows end to end
 
 ## Maturity Curve
 
-Experiment: isolated teams.  
-Adopt: repeatable practices.  
-Scale: shared platforms.  
+Experiment: isolated teams  
+Adopt: repeatable practices  
+Scale: shared platforms  
 Optimize: continuous learning
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -39,7 +39,7 @@ Optimize: continuous learning
 
 ## Governance Link
 
-Clear ownership prevents shadow AI.  
+Clear ownership prevents shadow AI  
 Tracking models, data, and impact ensures accountability
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -48,8 +48,8 @@ Tracking models, data, and impact ensures accountability
 ## Example
 
 A utility creates an AI operating model:  
-Data council oversees standards.  
-Central AI hub manages platforms.  
+Data council oversees standards  
+Central AI hub manages platforms  
 Business units deploy domain models
 
 > Concrete examples illustrate how abstract concepts work in practice. Pay attention to context - what made this particular case succeed or fail may not transfer directly to your situation.
@@ -57,7 +57,7 @@ Business units deploy domain models
 
 ## Summary
 
-The AI Operating Model is the blueprint for sustainable intelligence.  
+The AI Operating Model is the blueprint for sustainable intelligence  
 It keeps innovation aligned with mission
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.

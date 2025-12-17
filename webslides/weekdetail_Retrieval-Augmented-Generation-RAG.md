@@ -11,8 +11,8 @@
 
 ## The Problem
 
-Large models know a lot but not everything.  
-Their knowledge ends at training time.  
+Large models know a lot but not everything  
+Their knowledge ends at training time  
 They can't see your files or recent data
 
 ![](images/vector-store-intro.png)
@@ -22,7 +22,7 @@ They can't see your files or recent data
 
 ## The Idea
 
-RAG adds a lookup step before generation.  
+RAG adds a lookup step before generation  
 When you ask a question, the system searches for relevant documents first, then feeds them to the model
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -30,9 +30,9 @@ When you ask a question, the system searches for relevant documents first, then 
 
 ## How It Works
 
-Embed the question.  
-Search a vector store for similar chunks.  
-Insert those chunks into the prompt.  
+Embed the question  
+Search a vector store for similar chunks  
+Insert those chunks into the prompt  
 Generate the answer
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -41,7 +41,7 @@ Generate the answer
 ## Example
 
 User asks: "What is our refund policy?"  
-RAG finds the policy PDF, extracts the text, and adds it to the prompt.  
+RAG finds the policy PDF, extracts the text, and adds it to the prompt  
 The model answers with accurate, current information
 
 > Concrete examples illustrate how abstract concepts apply in practice. Studying both successes and failures reveals patterns worth emulating or avoiding.
@@ -49,8 +49,8 @@ The model answers with accurate, current information
 
 ## Why It Matters
 
-No need to fine-tune for every update.  
-Answers stay current as data changes.  
+No need to fine-tune for every update  
+Answers stay current as data changes  
 Cheaper and faster than model training
 
 > Understanding why concepts matter helps you apply them appropriately. This context prevents cargo-cult adoption of practices that don't fit your situation.
@@ -65,9 +65,9 @@ User Query → Embedding → Vector Search → Retrieved Context → Model → A
 
 ## Key Components
 
-Vector Store: stores document embeddings.  
-Retriever: finds matches.  
-Generator: creates the response.  
+Vector Store: stores document embeddings  
+Retriever: finds matches  
+Generator: creates the response  
 Pipeline: connects them into one system
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -75,9 +75,9 @@ Pipeline: connects them into one system
 
 ## Applications
 
-Enterprise Q&A.  
-Knowledge assistants.  
-Legal and policy reference bots.  
+Enterprise Q&A  
+Knowledge assistants  
+Legal and policy reference bots  
 Internal support chatbots
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.
@@ -85,8 +85,8 @@ Internal support chatbots
 
 ## Limitations
 
-If retrieval fails, output is wrong.  
-Bad chunks confuse the model.  
+If retrieval fails, output is wrong  
+Bad chunks confuse the model  
 Prompt length and token cost still matter
 
 > Understanding challenges and limitations is as important as knowing capabilities. Realistic assessment helps you plan appropriately and avoid nasty surprises.
@@ -94,8 +94,8 @@ Prompt length and token cost still matter
 
 ## Summary
 
-RAG connects AI to real data.  
-It retrieves first, then reasons.  
+RAG connects AI to real data  
+It retrieves first, then reasons  
 That's how AI stays relevant after training
 
 > This slide explores an important concept in applied AI. Understanding this material will help you make better decisions when evaluating opportunities and challenges in your field.

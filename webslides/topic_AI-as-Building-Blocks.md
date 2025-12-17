@@ -13,8 +13,8 @@
 
 ## Why This Matters
 
-AI solutions used to be built from scratch.  
-Now, we assemble them from ready-made parts.  
+AI solutions used to be built from scratch  
+Now, we assemble them from ready-made parts  
 Understanding these parts helps you design faster and think more strategically
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -22,9 +22,9 @@ Understanding these parts helps you design faster and think more strategically
 
 ## The Core Idea
 
-Modern AI is modular.  
-You don't build everything — you compose.  
-Each component handles one clear job.  
+Modern AI is modular  
+You don't build everything — you compose  
+Each component handles one clear job  
 Together, they form an intelligent system
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -32,8 +32,8 @@ Together, they form an intelligent system
 
 ## Analogy
 
-Think of AI like LEGO.  
-Each brick does something specific.  
+Think of AI like LEGO  
+Each brick does something specific  
 You can build a small toy or a whole city — same bricks, different arrangement
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -41,9 +41,9 @@ You can build a small toy or a whole city — same bricks, different arrangement
 
 ## Why Modularity Matters
 
-Reuse reduces time and cost.  
-Proven components lower risk.  
-You can upgrade parts without rebuilding the system.  
+Reuse reduces time and cost  
+Proven components lower risk  
+You can upgrade parts without rebuilding the system  
 Teams can innovate faster and focus on value
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -51,11 +51,11 @@ Teams can innovate faster and focus on value
 
 ## The Building Blocks of AI Systems
 
-Model — the reasoning engine (LLM or classifier).  
-Data — context, embeddings, documents.  
-Interface — how users interact (chat, API, app).  
-Retrieval — how information is fetched (RAG, search).  
-Memory — how the system keeps state or history.  
+Model — the reasoning engine (LLM or classifier)  
+Data — context, embeddings, documents  
+Interface — how users interact (chat, API, app)  
+Retrieval — how information is fetched (RAG, search)  
+Memory — how the system keeps state or history  
 Orchestration — how all pieces talk to each other (protocols, APIs)
 
 > Thinking of AI as composable building blocks rather than monolithic systems enables faster iteration and clearer thinking. Modern AI applications assemble pre-built components rather than training everything from scratch.
@@ -63,8 +63,8 @@ Orchestration — how all pieces talk to each other (protocols, APIs)
 
 ## Example: Chatbot as a Building Block
 
-A chatbot is not a full product — it's a user interface.  
-It can answer questions, route tasks, or collect input.  
+A chatbot is not a full product — it's a user interface  
+It can answer questions, route tasks, or collect input  
 When combined with retrieval or workflow automation, it becomes a business tool
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -72,8 +72,8 @@ When combined with retrieval or workflow automation, it becomes a business tool
 
 ## Example: RAG as a Building Block
 
-Retrieval-Augmented Generation (RAG) connects a model to external knowledge.  
-The model generates text, but RAG ensures accuracy by grounding answers in real data.  
+Retrieval-Augmented Generation (RAG) connects a model to external knowledge  
+The model generates text, but RAG ensures accuracy by grounding answers in real data  
 RAG is a "memory brick" — reusable in any domain
 
 > Retrieval-Augmented Generation grounds language models in real documents by retrieving relevant information before generating responses. This architecture has become standard for building reliable knowledge systems.
@@ -81,10 +81,10 @@ RAG is a "memory brick" — reusable in any domain
 
 ## How RAG Works Conceptually
 
-A user asks a question.  
-The system retrieves relevant documents.  
-The model reads them.  
-The model produces an informed answer.  
+A user asks a question  
+The system retrieves relevant documents  
+The model reads them  
+The model produces an informed answer  
 That same pipeline can support search, reports, or assistants
 
 > Retrieval-Augmented Generation grounds language models in real documents by retrieving relevant information before generating responses. This architecture has become standard for building reliable knowledge systems.
@@ -92,8 +92,8 @@ That same pipeline can support search, reports, or assistants
 
 ## Example: Embedding Layer
 
-Embeddings convert text into numbers.  
-They power similarity search, recommendations, and knowledge matching.  
+Embeddings convert text into numbers  
+They power similarity search, recommendations, and knowledge matching  
 Once created, they can be reused across products
 
 > Embeddings are mathematical representations of meaning that enable semantic search and similarity comparison. They've become foundational to modern AI systems, powering everything from search to recommendations.
@@ -101,8 +101,8 @@ Once created, they can be reused across products
 
 ## Example: Context Protocols
 
-The Model Context Protocol (MCP) lets systems share data safely.  
-It defines how the model retrieves just what it needs — no scraping or manual connection.  
+The Model Context Protocol (MCP) lets systems share data safely  
+It defines how the model retrieves just what it needs — no scraping or manual connection  
 It is the "plumbing" layer for modular AI
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -123,11 +123,11 @@ It is the "plumbing" layer for modular AI
 
 ## Real Example: AI Customer Service Platform
 
-Chatbot handles questions.  
-RAG retrieves product documents.  
-Summarizer condenses logs.  
-Sentiment analyzer detects tone.  
-Dashboard displays analytics.  
+Chatbot handles questions  
+RAG retrieves product documents  
+Summarizer condenses logs  
+Sentiment analyzer detects tone  
+Dashboard displays analytics  
 Each piece can evolve separately
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -135,9 +135,9 @@ Each piece can evolve separately
 
 ## Why Businesses Use This Approach
 
-Easier to maintain.  
-Easier to audit and improve.  
-Fits within existing architecture.  
+Easier to maintain  
+Easier to audit and improve  
+Fits within existing architecture  
 Supports faster experimentation and scaling
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -145,8 +145,8 @@ Supports faster experimentation and scaling
 
 ## The Shift in Thinking
 
-Old way: one big model that does everything.  
-New way: small, specialized models that collaborate.  
+Old way: one big model that does everything  
+New way: small, specialized models that collaborate  
 Composition outperforms complexity
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -154,10 +154,10 @@ Composition outperforms complexity
 
 ## The AI Stack Today
 
-Foundation Model — reasoning engine.  
-Adaptation Layer — fine-tuning, prompts, adapters.  
-Retrieval Layer — context via embeddings or RAG.  
-Application Layer — chat, dashboard, workflow.  
+Foundation Model — reasoning engine  
+Adaptation Layer — fine-tuning, prompts, adapters  
+Retrieval Layer — context via embeddings or RAG  
+Application Layer — chat, dashboard, workflow  
 Each layer can change without breaking the rest
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
@@ -165,10 +165,10 @@ Each layer can change without breaking the rest
 
 ## Example: Energy Analytics Assistant
 
-Uses a chatbot to answer operator questions.  
-RAG retrieves compliance and maintenance records.  
-Summarizer condenses inspection reports.  
-Visualizer plots equipment trends.  
+Uses a chatbot to answer operator questions  
+RAG retrieves compliance and maintenance records  
+Summarizer condenses inspection reports  
+Visualizer plots equipment trends  
 All blocks reusable across plants
 
 > Concrete examples illustrate abstract concepts and show how ideas apply in practice. Pay attention to what made these particular cases succeed or fail.
@@ -198,8 +198,8 @@ Sketch one idea — no code, just components
 
 ## Summary
 
-AI solutions are built, not born.  
-Chatbots, RAG, embeddings, and context protocols are modules you can assemble.  
+AI solutions are built, not born  
+Chatbots, RAG, embeddings, and context protocols are modules you can assemble  
 Understanding them turns you from consumer to designer
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.

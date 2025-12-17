@@ -11,7 +11,7 @@
 
 ## The Core Idea
 
-Prompt engineering guides models through structure.  
+Prompt engineering guides models through structure  
 Alignment ensures model values match human goals
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -19,8 +19,8 @@ Alignment ensures model values match human goals
 
 ## Prompt Techniques
 
-Clear instruction ("Summarize this email").  
-Role prompting ("You are a policy analyst").  
+Clear instruction ("Summarize this email")  
+Role prompting ("You are a policy analyst")  
 Chain-of-thought prompting ("Let's reason step by step")
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
@@ -28,7 +28,7 @@ Chain-of-thought prompting ("Let's reason step by step")
 
 ## Why Alignment Matters
 
-Models mimic patterns.  
+Models mimic patterns  
 Without alignment, they can produce biased, unsafe, or nonsensical results
 
 > Understanding motivation helps you apply concepts appropriately rather than blindly following patterns. Context for why things matter prevents cargo-cult adoption of practices that don't fit your needs.
@@ -36,7 +36,7 @@ Without alignment, they can produce biased, unsafe, or nonsensical results
 
 ## RLHF
 
-Reinforcement Learning from Human Feedback trains models to prefer good behavior.  
+Reinforcement Learning from Human Feedback trains models to prefer good behavior  
 Humans grade responses  
 Models learn from rewards
 
@@ -46,7 +46,7 @@ Models learn from rewards
 ## Example
 
 Prompt: "Write a hiring ad."  
-Unaligned model: biased language.  
+Unaligned model: biased language  
 Aligned model: inclusive tone and compliance
 
 > Concrete examples illustrate how abstract concepts work in practice. Pay attention to context - what made this particular case succeed or fail may not transfer directly to your situation.
@@ -54,8 +54,8 @@ Aligned model: inclusive tone and compliance
 
 ## Summary
 
-Prompts steer behavior.  
-Alignment keeps it ethical.  
+Prompts steer behavior  
+Alignment keeps it ethical  
 Together they define voice and intent
 
 > This slide explores advanced concepts in AI systems and organizations. Understanding this material prepares you for sophisticated applications and leadership in AI initiatives.
