@@ -1,5 +1,4 @@
----
-Outline a class lecture to adult learners on becoming literate in AI in 90 mins. It needs to include high level math concepts like Markov chain and cosine similarity but also p catical things and issues like vector store and alignment
+# AI Literacy for Adult Learners
 
 > This slide explores an important aspect of working with AI systems. Understanding this concept will help you make better decisions when evaluating and deploying AI in your work.
 ---
