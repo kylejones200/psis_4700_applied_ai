@@ -25,6 +25,9 @@ fi
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$SCRIPT_DIR"
 
+# Create pdfs directory if it doesn't exist
+mkdir -p pdfs
+
 # Count worksheets
 TOTAL=$(ls -1 *.tex 2>/dev/null | wc -l)
 SUCCESS=0
@@ -45,7 +48,9 @@ for texfile in *.tex; do
         # Check if PDF was created
         pdffile="${texfile%.tex}.pdf"
         if [ -f "$pdffile" ]; then
-            echo -e "${GREEN}✓ Success:${NC} $pdffile created"
+            # Move PDF to pdfs folder
+            mv "$pdffile" pdfs/
+            echo -e "${GREEN}✓ Success:${NC} pdfs/$pdffile created"
             SUCCESS=$((SUCCESS + 1))
             
             # Clean up auxiliary files
@@ -73,6 +78,7 @@ echo -e "${GREEN}========================================${NC}"
 
 if [ $SUCCESS -eq $TOTAL ]; then
     echo -e "${GREEN}All worksheets compiled successfully!${NC}"
+    echo -e "PDFs saved to: ${YELLOW}pdfs/${NC}"
     exit 0
 else
     echo -e "${YELLOW}Some worksheets failed to compile. Check log files for details.${NC}"

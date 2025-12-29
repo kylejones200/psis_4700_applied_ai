@@ -26,6 +26,7 @@ This directory contains professionally formatted LaTeX worksheets for students.
 
 This script will:
 - Compile all .tex files to PDF
+- Save all PDFs to the `pdfs/` folder
 - Show progress and results
 - Clean up auxiliary files
 - Create a summary of success/failures
@@ -103,17 +104,20 @@ To modify the appearance, edit these settings at the top of any .tex file:
 
 ```
 worksheets/
-├── *.tex                           # LaTeX source files
-├── *.pdf                          # Compiled PDFs (after running script)
+├── pdfs/                          # Compiled PDF files (created by script)
+│   ├── ai_workflow_quick_guide.pdf
+│   ├── applied_ai_planning_pack.pdf
+│   └── ... (all 11 worksheet PDFs)
+├── *.tex                          # LaTeX source files
+├── *.md                           # Original markdown versions
 ├── compile_all_worksheets.sh      # Batch compilation script
-├── README_LATEX.md               # This file
-└── *.md                          # Original markdown versions
+└── README_LATEX.md                # This file
 ```
 
 ## Distribution
 
 ### For Students
-- Distribute only the PDF files
+- Distribute only the PDF files from the `pdfs/` folder
 - Students can print and fill out by hand
 - Or students can fill out digitally using PDF editors
 
