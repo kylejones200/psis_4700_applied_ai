@@ -1,0 +1,345 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Define colors
+\definecolor{maincolor}{RGB}{33,150,243}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{patterncolor}{RGB}{255,152,0}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Workbook}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+% Custom section formatting
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}[\titlerule]
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{patterncolor}}{\thesubsubsection}{1em}{}
+
+% Custom boxes
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=8pt,
+  right=8pt,
+  top=8pt,
+  bottom=8pt,
+  #1
+}
+
+\newtcolorbox{patternbox}[1][]{
+  colback=white,
+  colframe=patterncolor,
+  boxrule=2pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Prompt Patterns Workbook}
+    
+    \vspace{5pt}
+    {\large Practice Strong AI Workflows}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{10pt}
+
+\textbf{Purpose:} Use this workbook to practice strong AI workflows. Write clear prompts. Improve outputs through revision. Record what worked and why.
+
+\vspace{10pt}
+
+\section{Task Setup}
+
+\subsection{Problem Statement}
+Describe the task in one sentence.
+
+\begin{fillbox}
+\textbf{Task:}\\[30pt]
+\end{fillbox}
+
+\subsection{Desired Outcome}
+Describe what a good result looks like.
+
+\begin{fillbox}
+\textbf{Outcome:}\\[30pt]
+\end{fillbox}
+
+\subsection{Constraints}
+State limits such as time, tone, or format.
+
+\begin{fillbox}
+\textbf{Constraints:}\\[30pt]
+\end{fillbox}
+
+\section{Pattern 1 — Role and Goal}
+State a role. State a goal. Keep it simple.
+
+\begin{patternbox}
+\textbf{Pattern:}\\
+You are a \_\_\_\_\_\_. Your goal is \_\_\_\_\_\_. Produce \_\_\_\_\_\_.
+\end{patternbox}
+
+\subsubsection{Attempt 1}
+
+\begin{fillbox}
+\textbf{Prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Notes:}\\[25pt]
+\end{fillbox}
+
+\subsubsection{Revision 1}
+
+\begin{fillbox}
+\textbf{Improvement made:}\\[20pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Revised prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Result compared to prior attempt:}\\[25pt]
+\end{fillbox}
+
+\section{Pattern 2 — Step-By-Step Method}
+Ask for steps. Ask for clear structure. Ask for reasoning.
+
+\begin{patternbox}
+\textbf{Pattern:}\\
+Follow clear steps. Explain the approach. Produce the final result at the end.
+\end{patternbox}
+
+\subsubsection{Attempt 1}
+
+\begin{fillbox}
+\textbf{Prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Notes:}\\[25pt]
+\end{fillbox}
+
+\subsubsection{Revision 1}
+
+\begin{fillbox}
+\textbf{Improvement made:}\\[20pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Revised prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Result compared to prior attempt:}\\[25pt]
+\end{fillbox}
+
+\section{Pattern 3 — Example → Imitation}
+Show an example. Ask the model to match the structure and style.
+
+\begin{patternbox}
+\textbf{Pattern:}\\
+Here is an example. Match the style and structure. Do not copy content.
+\end{patternbox}
+
+\begin{fillbox}
+\textbf{Example:}\\
+[Insert example here]\\[30pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Now produce:}\\[20pt]
+\end{fillbox}
+
+\subsubsection{Attempt 1}
+
+\begin{fillbox}
+\textbf{Prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Notes:}\\[25pt]
+\end{fillbox}
+
+\subsubsection{Revision 1}
+
+\begin{fillbox}
+\textbf{Improvement made:}\\[20pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Revised prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Result compared to prior attempt:}\\[25pt]
+\end{fillbox}
+
+\section{Pattern 4 — Critique and Improve}
+Ask the model to score its own work. Then ask it to improve the weak parts.
+
+\begin{patternbox}
+\textbf{Pattern:}\\
+Critique the result. Identify weaknesses. Improve the result based on the critique.
+\end{patternbox}
+
+\subsubsection{Attempt 1}
+
+\begin{fillbox}
+\textbf{Prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Weaknesses identified:}\\[30pt]
+\end{fillbox}
+
+\subsubsection{Improved Version}
+
+\begin{fillbox}
+\textbf{Revised prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Improvement observed:}\\[30pt]
+\end{fillbox}
+
+\section{Pattern 5 — Constraints and Format}
+Give structure. Require format. Remove ambiguity.
+
+\begin{patternbox}
+\textbf{Pattern:}\\
+Follow this format. Use these sections: Purpose, Method, Result, Next Action. Keep the answer concise.
+\end{patternbox}
+
+\subsubsection{Attempt 1}
+
+\begin{fillbox}
+\textbf{Prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Notes:}\\[25pt]
+\end{fillbox}
+
+\subsubsection{Revision 1}
+
+\begin{fillbox}
+\textbf{Improvement made:}\\[20pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Revised prompt:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Output:}\\[35pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Result compared to prior attempt:}\\[25pt]
+\end{fillbox}
+
+\section{Reflection}
+Answer these questions after practice.
+
+\begin{fillbox}
+\textbf{What pattern worked best and why:}\\[30pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Where outputs improved the most:}\\[30pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{What still causes weak results:}\\[30pt]
+\end{fillbox}
+
+\begin{fillbox}
+\textbf{Next skill to practice:}\\[30pt]
+\end{fillbox}
+
+\section{Personal Pattern Library}
+Record prompt patterns that worked well for you.
+
+\vspace{10pt}
+
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3.5cm}|p{3cm}|}
+\hline
+\rowcolor{lightgray}
+\textbf{Pattern Name} & \textbf{When To Use} & \textbf{Core Structure} & \textbf{Notes} \\
+\hline
+& & & \\[25pt]
+\hline
+& & & \\[25pt]
+\hline
+& & & \\[25pt]
+\hline
+\end{tabular}
+
+\end{document}

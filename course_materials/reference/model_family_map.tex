@@ -1,0 +1,103 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{titlesec}
+
+% Define colors
+\definecolor{maincolor}{RGB}{33,150,243}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Reference Sheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+% Custom section formatting
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Model Family Map}
+    
+    \vspace{5pt}
+    {\large Link Problems to Model Families}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{15pt}
+
+This page links problems to model families in simple terms.
+
+\vspace{10pt}
+
+\renewcommand{\arraystretch}{1.8}
+\begin{tabularx}{\textwidth}{|l|X|X|}
+\hline
+\rowcolor{lightgray}
+\textbf{Model Family} & \textbf{Plain Description} & \textbf{Typical Use} \\
+\hline
+Regression & Predicts a number & Sales, scores, prices \\
+\hline
+Classification & Assigns a label & Spam, topic, risk level \\
+\hline
+Clustering & Groups similar cases & Customer groups, behavior patterns \\
+\hline
+Sequence Model & Handles ordered data & Time series, language, events \\
+\hline
+Recommendation Model & Suggests items & Products, content, resources \\
+\hline
+Anomaly Model & Flags unusual cases & Fraud, faults, outliers \\
+\hline
+\end{tabularx}
+
+\vspace{25pt}
+
+\section*{Reflection}
+
+\begin{fillbox}[title=\textbf{My Use Case:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Best Model Family:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Reason:}]
+\vspace{60pt}
+\end{fillbox}
+
+\end{document}

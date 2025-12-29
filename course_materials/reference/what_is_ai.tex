@@ -1,0 +1,73 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Define colors
+\definecolor{maincolor}{RGB}{33,150,243}
+\definecolor{accentcolor}{RGB}{46,125,50}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Reference Sheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+% Custom section formatting
+\titleformat{\section}{\large\bfseries\color{maincolor}}{\thesection}{1em}{}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries What AI Is}
+    
+    \vspace{5pt}
+    {\large Foundational Understanding}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{15pt}
+
+Artificial intelligence means systems that perform tasks that normally require human judgment. AI takes input, applies a model, and produces an output such as a prediction, a classification, a summary, or a plan. The goal is useful results that support real work.
+
+AI does not think. AI does not understand. AI finds patterns in data and produces statistically likely responses. A model learns its behavior from examples in training data. Better data produces stronger results. Weak data produces weak results.
+
+Machine learning is a core part of AI. A machine learning model maps inputs to outputs based on patterns in past examples. Regression predicts a value. Classification assigns a label. Clustering groups similar cases. Sequence models handle ordered data over time.
+
+Generative AI produces new text, images, audio, and code. Large language models predict the next token in a sequence based on context. The model does not reason about truth. The model produces fluent language based on probability and patterns.
+
+AI works best when people stay in the loop. A person defines the goal, sets constraints, checks outputs, and corrects errors. Strong practice treats AI as a tool, not an authority. The human provides direction. The model provides drafts, ideas, or first-pass analysis.
+
+Ethics and responsibility matter. AI can amplify bias. AI can hallucinate false results. AI can expose private information. Good practice includes accountability, transparency, and respect for people affected by the system.
+
+\vspace{10pt}
+
+\begin{center}
+\textcolor{accentcolor}{\large\textbf{Successful AI projects start with a clear problem,}}
+
+\textcolor{accentcolor}{\large\textbf{a clear outcome, and clear evaluation criteria.}}
+
+\vspace{8pt}
+
+\textcolor{accentcolor}{\normalsize The purpose guides the model. Data quality shapes performance.}
+
+\textcolor{accentcolor}{\normalsize Feedback improves results. AI supports work when design}
+
+\textcolor{accentcolor}{\normalsize remains deliberate and disciplined.}
+\end{center}
+
+\end{document}

@@ -1,0 +1,70 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Define colors
+\definecolor{maincolor}{RGB}{33,150,243}
+\definecolor{accentcolor}{RGB}{46,125,50}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Reference Sheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+% Custom section formatting
+\titleformat{\section}{\large\bfseries\color{maincolor}}{\thesection}{1em}{}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Tidy Data in Plain English}
+    
+    \vspace{5pt}
+    {\large Principles for Clean Data Structure}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{15pt}
+
+Tidy data means each value has one clear place. Each column means one thing. Each row represents one case. Each table describes one kind of object.
+
+A tidy dataset has one column for each variable. A variable means one attribute such as price, date, or score. A tidy dataset has one row for each observation. An observation means one record such as one student, one customer, or one event.
+
+Tidy data separates different concepts into different tables. A table for people stays separate from a table for transactions. A table for classes stays separate from a table for grades. Links between tables use clear keys such as an ID field.
+
+Tidy data avoids mixed meanings inside one cell. One cell holds one value. Not two values in one place. Not lists inside a cell. Not stacked meanings inside text.
+
+Tidy data avoids spreading one variable across many columns. A single ``measure'' column works better than many repeated metric columns when the value represents the same concept. Long form supports analysis and reshaping with less friction.
+
+Tidy data makes analysis easier. Cleaning becomes simpler. Visualization becomes clearer. Models train with fewer surprises. Collaboration becomes smoother because structure remains consistent.
+
+A dataset becomes tidy through deliberate design, not through convenience. You name columns with purpose. You separate variables with care. You treat structure as part of the analysis, not an afterthought.
+
+\vspace{10pt}
+
+\begin{center}
+\textcolor{accentcolor}{\large\textbf{Strong projects begin with tidy data.}}
+
+\textcolor{accentcolor}{\large\textbf{Weak structure creates confusion.}}
+
+\textcolor{accentcolor}{\large\textbf{Clear structure creates insight.}}
+\end{center}
+
+\end{document}

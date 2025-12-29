@@ -1,0 +1,114 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{listings}
+\usepackage{courier}
+
+% Define colors
+\definecolor{maincolor}{RGB}{33,150,243}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{codecolor}{RGB}{46,125,50}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Reference Sheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+% Custom section formatting
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+% Listings style for code
+\lstset{
+  basicstyle=\ttfamily\small,
+  frame=single,
+  backgroundcolor=\color{lightgray},
+  rulecolor=\color{codecolor},
+  framerule=1pt,
+  xleftmargin=10pt,
+  xrightmargin=10pt,
+  framexleftmargin=5pt,
+  framexrightmargin=5pt
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Sample Dataset (CSV)}
+    
+    \vspace{5pt}
+    {\large Practice Dataset for Analysis}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{15pt}
+
+Use this dataset for practice. The table shows students, courses, and scores.
+
+\vspace{10pt}
+
+\begin{lstlisting}
+student_id,student_name,course,score,date
+101,Ana Lopez,History,88,2024-09-12
+102,Mark Chen,History,72,2024-09-12
+103,Sara Patel,History,95,2024-09-12
+101,Ana Lopez,Math,91,2024-09-13
+102,Mark Chen,Math,64,2024-09-13
+103,Sara Patel,Math,86,2024-09-13
+101,Ana Lopez,Science,84,2024-09-14
+102,Mark Chen,Science,70,2024-09-14
+103,Sara Patel,Science,93,2024-09-14
+\end{lstlisting}
+
+\vspace{20pt}
+
+\section*{Practice Notes}
+Describe what this dataset shows. Describe what questions you can ask.
+
+\begin{fillbox}[title=\textbf{Observation:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Possible Question:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Data Risk:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Next Step:}]
+\vspace{50pt}
+\end{fillbox}
+
+\end{document}

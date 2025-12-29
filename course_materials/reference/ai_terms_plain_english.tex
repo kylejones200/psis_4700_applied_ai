@@ -1,0 +1,110 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{multicol}
+
+% Define colors
+\definecolor{maincolor}{RGB}{33,150,243}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Reference Sheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+% Custom section formatting
+\titleformat{\section}{\large\bfseries\color{maincolor}}{\thesection}{1em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+\setlist{nosep}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{8pt}
+    
+    {\huge\bfseries AI Terms in Plain English}
+    
+    \vspace{5pt}
+    {\normalsize Quick Reference Guide}
+    
+    \vspace{8pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{10pt}
+
+\begin{multicols}{2}
+
+\subsection*{Artificial Intelligence}
+Artificial intelligence means software that performs tasks that normally require human judgment. The system takes input, applies a model, and produces an output such as text, a decision, or a prediction.
+
+\subsection*{Model}
+A model is a set of mathematical rules that connect inputs to outputs. The model follows patterns it learned from data and uses those patterns to answer new questions.
+
+\subsection*{Training Data}
+Training data is the set of examples the model studies before it produces results. Strong training data leads to better outputs. Weak training data leads to weak outputs.
+
+\subsection*{Machine Learning}
+Machine learning is a way to build models that learn patterns from data instead of using fixed rules written by a programmer.
+
+\subsection*{Prediction}
+A prediction is the model's best guess about a future value or an unknown value. The guess comes from patterns in past data.
+
+\subsection*{Classification}
+Classification means assigning a label to something. The model decides which category a case belongs to based on past examples.
+
+\subsection*{Clustering}
+Clustering means grouping similar things together. The model finds patterns that show which cases belong near each other.
+
+\subsection*{Bias}
+Bias means results that unfairly favor one group over another. Bias often comes from biased data or poor design choices.
+
+\subsection*{Hallucination}
+Hallucination means the model produces an answer that sounds correct but is not true. The model fills gaps instead of saying it does not know.
+
+\subsection*{Large Language Model}
+A large language model is a type of AI system that predicts the next word or token in a sequence based on patterns in text. The model does not understand meaning. It works through probability.
+
+\subsection*{Generative AI}
+Generative AI produces new text, images, audio, or code. The output looks original, but the model creates it from patterns in the data it studied.
+
+\subsection*{Prompt}
+A prompt is the instruction you give to the model. A clear prompt produces clearer results.
+
+\subsection*{Prompt Refinement}
+Prompt refinement means adjusting a prompt to improve the output. You change wording, add context, or set constraints to guide the model.
+
+\subsection*{Evaluation}
+Evaluation means checking whether the model produced a useful and correct result. People review outputs to confirm quality.
+
+\subsection*{Human in the Loop}
+Human in the loop means a person stays involved. The person sets the goal, checks the results, and decides what to accept or change.
+
+\subsection*{Privacy}
+Privacy means protecting personal or sensitive information. Good practice avoids exposing private data to AI systems.
+
+\subsection*{Drift}
+Drift means the world changes over time while the model stays the same. The model becomes less accurate because reality moved away from its training data.
+
+\subsection*{Transparency}
+Transparency means explaining how an AI system works at a level people can understand. The system should not feel like a hidden black box.
+
+\subsection*{Accountability}
+Accountability means people remain responsible for outcomes produced with AI. A tool does not replace human responsibility.
+
+\end{multicols}
+
+\end{document}
