@@ -1,0 +1,112 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Responsible AI Checklist}
+    
+    \vspace{5pt}
+    {\large Use Before Deploying Any AI System}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{20pt}
+
+Use this checklist before you use an AI system. Mark each item and note actions required.
+
+\vspace{15pt}
+
+\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{|l|>{\centering\arraybackslash}p{1.5cm}|X|X|}
+\hline
+\rowcolor{lightgray}
+\textbf{Area} & \textbf{Yes/No} & \textbf{Notes} & \textbf{Action} \\
+\hline
+Purpose is clear & $\square$ & & \\
+\hline
+Stakeholders are identified & $\square$ & & \\
+\hline
+Data source is documented & $\square$ & & \\
+\hline
+Sensitive data is removed & $\square$ & & \\
+\hline
+Bias risks are reviewed & $\square$ & & \\
+\hline
+Outputs have human review & $\square$ & & \\
+\hline
+Error handling is defined & $\square$ & & \\
+\hline
+Accountability is assigned & $\square$ & & \\
+\hline
+Communication is honest & $\square$ & & \\
+\hline
+Impact on people is considered & $\square$ & & \\
+\hline
+\end{tabularx}
+
+\vspace{30pt}
+
+\section*{Summary}
+
+\begin{fillbox}[title=\textbf{Key Strengths:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Key Risks:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Decision (Proceed / Revise / Stop):}]
+\vspace{40pt}
+\end{fillbox}
+
+\end{document}

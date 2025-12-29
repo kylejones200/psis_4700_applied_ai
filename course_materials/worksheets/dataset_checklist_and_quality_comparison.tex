@@ -1,0 +1,182 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{8pt}
+    
+    {\LARGE\bfseries Dataset Readiness Checklist \&  Quality Comparison}
+    
+    \vspace{4pt}
+    {\large Ensuring Data Quality Before Modeling}
+    
+    \vspace{8pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{15pt}
+
+\section*{Dataset Readiness Checklist}
+
+Use this checklist before you start work. Confirm each item. Record gaps and actions.
+
+\vspace{10pt}
+
+\small
+\renewcommand{\arraystretch}{1.8}
+\begin{tabularx}{\textwidth}{|l|>{\centering\arraybackslash}p{1.2cm}|X|X|}
+\hline
+\rowcolor{lightgray}
+\textbf{Check Item} & \textbf{Yes/No} & \textbf{Notes} & \textbf{Action Needed} \\
+\hline
+Data has a clear source & $\square$ & & \\
+\hline
+Data has a clear purpose & $\square$ & & \\
+\hline
+Columns have clear meanings & $\square$ & & \\
+\hline
+Units of measure are consistent & $\square$ & & \\
+\hline
+Dates use one format & $\square$ & & \\
+\hline
+No duplicate rows & $\square$ & & \\
+\hline
+Missing values are identified & $\square$ & & \\
+\hline
+Outliers are reviewed & $\square$ & & \\
+\hline
+Labels match the task & $\square$ & & \\
+\hline
+Sensitive data is removed & $\square$ & & \\
+\hline
+Data reflects the real world & $\square$ & & \\
+\hline
+Data covers the right time range & $\square$ & & \\
+\hline
+Class balance is understood & $\square$ & & \\
+\hline
+Sampling method is documented & $\square$ & & \\
+\hline
+Data ownership is clear & $\square$ & & \\
+\hline
+\end{tabularx}
+\normalsize
+
+\vspace{15pt}
+
+\subsection*{Readiness Summary}
+
+Describe the current state in one short paragraph.
+
+\begin{fillbox}[title=\textbf{Strengths:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Weaknesses:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Next Actions:}]
+\vspace{40pt}
+\end{fillbox}
+
+\newpage
+
+\section*{Good vs Weak Data Comparison}
+
+Use this sheet to judge quality. Compare examples. Write what each case implies.
+
+\vspace{10pt}
+
+\small
+\renewcommand{\arraystretch}{2.2}
+\begin{tabularx}{\textwidth}{|l|X|X|X|}
+\hline
+\rowcolor{lightgray}
+\textbf{Dimension} & \textbf{Good Data} & \textbf{Weak Data} & \textbf{Impact on Results} \\
+\hline
+Clarity & Columns have clear names & Columns have vague names & \\
+\hline
+Consistency & Values follow one format & Values mix formats & \\
+\hline
+Coverage & Data spans relevant time & Data misses key periods & \\
+\hline
+Accuracy & Values match reality & Values contain errors & \\
+\hline
+Completeness & Few missing values & Many missing values & \\
+\hline
+Balance & Classes are well represented & One class dominates & \\
+\hline
+Freshness & Data reflects current conditions & Data is outdated & \\
+\hline
+Relevance & Features support the task & Extra noise in features & \\
+\hline
+Documentation & Source and method are known & No context provided & \\
+\hline
+Ethics & Sensitive fields removed & Private data included & \\
+\hline
+\end{tabularx}
+\normalsize
+
+\vspace{15pt}
+
+\subsection*{Reflection}
+
+\begin{fillbox}[title=\textbf{Main strengths in this dataset:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Main risks in this dataset:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Changes required before modeling:}]
+\vspace{40pt}
+\end{fillbox}
+
+\end{document}

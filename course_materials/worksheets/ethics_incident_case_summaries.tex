@@ -1,0 +1,146 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{casecolor}{RGB}{255,152,0}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{casecolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+% Case description box
+\newtcolorbox{casebox}[1][]{
+  colback=white,
+  colframe=casecolor,
+  boxrule=1.5pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Ethics Incident Case Summaries}
+    
+    \vspace{5pt}
+    {\large Learning from Real AI Failures}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{20pt}
+
+\subsection*{Case 1. Hiring System Bias}
+
+\begin{casebox}
+An AI screening tool favors one group over others. The bias comes from past hiring data that reflected unequal practices. Impact falls on qualified applicants who lose fair access to roles.
+\end{casebox}
+
+\begin{fillbox}[title=\textbf{What went wrong:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Who was affected:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Better choice:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Lesson:}]
+\vspace{40pt}
+\end{fillbox}
+
+\newpage
+
+\subsection*{Case 2. Medical Chat Tool Overconfidence}
+
+\begin{casebox}
+A chatbot provides confident medical advice without warning about uncertainty. A user follows the advice and faces harm.
+\end{casebox}
+
+\begin{fillbox}[title=\textbf{What went wrong:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Who was affected:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Better choice:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Lesson:}]
+\vspace{40pt}
+\end{fillbox}
+
+\newpage
+
+\subsection*{Case 3. Student Data Exposure}
+
+\begin{casebox}
+A model trains on student essays and reveals private details in later outputs.
+\end{casebox}
+
+\begin{fillbox}[title=\textbf{What went wrong:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Who was affected:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Better choice:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Lesson:}]
+\vspace{40pt}
+\end{fillbox}
+
+\end{document}

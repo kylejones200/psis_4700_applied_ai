@@ -1,0 +1,162 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{warningcolor}{RGB}{255,193,7}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+% Problem box
+\newtcolorbox{problembox}[1][]{
+  colback=white,
+  colframe=warningcolor,
+  boxrule=2pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Prompt Troubleshooting Guide}
+    
+    \vspace{5pt}
+    {\large Fixing Weak Prompts for Better Results}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{20pt}
+
+\section*{Purpose}
+
+This guide helps you fix weak prompts and improve results.
+
+\vspace{15pt}
+
+\section*{Problem 1. Output Is Vague}
+
+\begin{problembox}
+\textbf{Cause:} Prompt lacks detail or context.
+
+\textbf{Fix:} Add a clear goal. Add audience and format.
+\end{problembox}
+
+\begin{fillbox}[title=\textbf{Revised Prompt:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Result:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Problem 2. Output Misses the Point}
+
+\begin{problembox}
+\textbf{Cause:} Prompt does not state what matters.
+
+\textbf{Fix:} Name the key focus. State constraints.
+\end{problembox}
+
+\begin{fillbox}[title=\textbf{Revised Prompt:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Result:}]
+\vspace{40pt}
+\end{fillbox}
+
+\newpage
+
+\section*{Problem 3. Output Changes Tone}
+
+\begin{problembox}
+\textbf{Cause:} Prompt does not define style.
+
+\textbf{Fix:} Describe tone. Provide a sample line.
+\end{problembox}
+
+\begin{fillbox}[title=\textbf{Revised Prompt:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Result:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Problem 4. Output Includes Wrong Facts}
+
+\begin{problembox}
+\textbf{Cause:} Prompt encourages confident guessing.
+
+\textbf{Fix:} Ask for uncertainty notes. Ask for citations or limits.
+\end{problembox}
+
+\begin{fillbox}[title=\textbf{Revised Prompt:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Result:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Reflection}
+
+\begin{fillbox}[title=\textbf{What fix worked best:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What pattern repeats:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What you will try next:}]
+\vspace{40pt}
+\end{fillbox}
+
+\end{document}

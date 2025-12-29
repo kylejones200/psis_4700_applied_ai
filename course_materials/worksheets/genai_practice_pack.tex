@@ -1,0 +1,245 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{8pt}
+    
+    {\Huge\bfseries GenAI Practice Pack}
+    
+    \vspace{4pt}
+    {\large Planning, Testing, and Refining Generative AI Tasks}
+    
+    \vspace{8pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{15pt}
+
+\section*{GenAI Task Planner}
+
+Use this planner before you begin a task. Define the goal. Define the format. Plan the review.
+
+\subsection*{Task}
+Describe the task in one sentence.
+
+\begin{fillbox}[title=\textbf{Task:}]
+\vspace{25pt}
+\end{fillbox}
+
+\subsection*{Purpose}
+Describe why the task matters.
+
+\begin{fillbox}[title=\textbf{Purpose:}]
+\vspace{25pt}
+\end{fillbox}
+
+\subsection*{Desired Outcome}
+Describe what a good result looks like.
+
+\begin{fillbox}[title=\textbf{Outcome:}]
+\vspace{25pt}
+\end{fillbox}
+
+\subsection*{Audience}
+Describe who will read or use the result.
+
+\begin{fillbox}[title=\textbf{Audience:}]
+\vspace{25pt}
+\end{fillbox}
+
+\subsection*{Input}
+Describe what information the model will receive.
+
+\begin{fillbox}[title=\textbf{Input:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Output Format}
+
+\begin{fillbox}[title=\textbf{Format:}]
+\vspace{20pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Length:}]
+\vspace{20pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Tone:}]
+\vspace{20pt}
+\end{fillbox}
+
+\subsection*{Constraints}
+Describe rules such as scope, time, or sensitivity.
+
+\begin{fillbox}[title=\textbf{Constraints:}]
+\vspace{30pt}
+\end{fillbox}
+
+\newpage
+
+\subsection*{Risks}
+Describe what could go wrong and how you will check it.
+
+\begin{fillbox}[title=\textbf{Risks:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Review Steps:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Success Check}
+Describe how you will decide the result is acceptable.
+
+\begin{fillbox}[title=\textbf{Acceptance Criteria:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Next Action if not acceptable:}]
+\vspace{25pt}
+\end{fillbox}
+
+\vspace{20pt}
+
+\section*{Prompt Refinement Guide}
+
+Use this guide to improve weak outputs. Start with a draft. Add clarity. Add structure. Add context.
+
+\subsection*{Step 1. First Attempt}
+
+\begin{fillbox}[title=\textbf{Initial Prompt:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Model Output:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Strengths:}]
+\vspace{25pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Weaknesses:}]
+\vspace{25pt}
+\end{fillbox}
+
+\newpage
+
+\subsection*{Step 2. Add Clarity}
+State the goal again. Remove vague wording.
+
+\begin{fillbox}[title=\textbf{Change made:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Revised Prompt:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Output:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Improvement observed:}]
+\vspace{25pt}
+\end{fillbox}
+
+\subsection*{Step 3. Add Structure}
+Name the format. Use examples.
+
+\begin{fillbox}[title=\textbf{Change made:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Revised Prompt:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Output:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Improvement observed:}]
+\vspace{25pt}
+\end{fillbox}
+
+\newpage
+
+\subsection*{Step 4. Add Context}
+Provide background or constraints.
+
+\begin{fillbox}[title=\textbf{Change made:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Revised Prompt:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Output:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Improvement observed:}]
+\vspace{25pt}
+\end{fillbox}
+
+\subsection*{Final Reflection}
+
+\begin{fillbox}[title=\textbf{What helped most:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What patterns you will reuse:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What you would try next time:}]
+\vspace{30pt}
+\end{fillbox}
+
+\end{document}

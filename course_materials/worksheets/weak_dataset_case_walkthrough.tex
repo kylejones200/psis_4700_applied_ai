@@ -1,0 +1,124 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Case Walkthrough}
+    
+    \vspace{5pt}
+    {\large Fixing a Weak Dataset}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{20pt}
+
+\section*{Scenario}
+
+You receive a dataset with missing values, vague column names, and mixed date formats. The goal is a clean version that supports basic analysis.
+
+\vspace{15pt}
+
+\section*{Step 1. Describe the Problems}
+
+\begin{fillbox}[title=\textbf{Column Problems:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Missing Data Issues:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Format Problems:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Other Risks:}]
+\vspace{50pt}
+\end{fillbox}
+
+\newpage
+
+\section*{Step 2. Define the Fixes}
+
+\begin{fillbox}[title=\textbf{Rename Columns To:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Fill or Remove:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Date Format Standard:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Scope Decision:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Step 3. Produce a Clean Version}
+
+\begin{fillbox}[title=\textbf{New Structure:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Validation Notes:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Remaining Gaps:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Next Action:}]
+\vspace{40pt}
+\end{fillbox}
+
+\end{document}

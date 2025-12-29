@@ -1,0 +1,267 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{8pt}
+    
+    {\Huge\bfseries Applied AI Planning Pack}
+    
+    \vspace{4pt}
+    {\large Project Ideas, Scoping, and Learning Path}
+    
+    \vspace{8pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{15pt}
+
+\section*{Mini-Project Idea Bank}
+
+Use these ideas as starting points. Pick one idea. Define the goal. Keep the scope small.
+
+\vspace{10pt}
+
+\small
+\renewcommand{\arraystretch}{1.8}
+\begin{longtable}{|p{3cm}|p{3.2cm}|p{2.3cm}|p{2.5cm}|p{2cm}|}
+\hline
+\rowcolor{lightgray}
+\textbf{Idea Name} & \textbf{Short Description} & \textbf{Data Source} & \textbf{Expected Output} & \textbf{Time Required} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{lightgray}
+\textbf{Idea Name} & \textbf{Short Description} & \textbf{Data Source} & \textbf{Expected Output} & \textbf{Time Required} \\
+\hline
+\endhead
+Writing Assistant & Improve a draft and reduce errors & User text & Revised draft with edits & One hour \\
+\hline
+Email Classifier & Sort emails by topic & Sample email set & Labeled categories & One hour \\
+\hline
+Study Helper & Produce summaries from notes & Student notes & Short summaries & One hour \\
+\hline
+Task Prioritizer & Rank tasks by importance & Task list & Ordered task list & One hour \\
+\hline
+Meeting Notes Cleaner & Rewrite long notes for clarity & Raw transcript & Clean summary & One hour \\
+\hline
+Idea Generator & Produce options for a problem & Prompt text & Set of ideas & Thirty minutes \\
+\hline
+Policy Checker & Review a document for risks & Sample document & Risk checklist & One hour \\
+\hline
+Customer Question Helper & Suggest replies to questions & Question dataset & Draft responses & One hour \\
+\hline
+Lesson Outline Builder & Create teaching outlines & Topic prompt & Structured outline & One hour \\
+\hline
+Research Companion & Extract key points from articles & Article text & Key insights & One hour \\
+\hline
+\end{longtable}
+\normalsize
+
+\newpage
+
+\section*{Project Scoping Template}
+
+Use this template before you begin. Define the goal. Define success. Keep the work focused.
+
+\subsection*{Project Title}
+
+\begin{fillbox}[title=\textbf{Title:}]
+\vspace{25pt}
+\end{fillbox}
+
+\subsection*{Problem Statement}
+Describe the problem in one sentence.
+
+\begin{fillbox}[title=\textbf{Problem:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Outcome}
+Describe what success looks like.
+
+\begin{fillbox}[title=\textbf{Outcome:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Input and Output}
+
+\begin{fillbox}[title=\textbf{Input:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Output:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Data}
+
+\begin{fillbox}[title=\textbf{Data Source:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Data Limits:}]
+\vspace{30pt}
+\end{fillbox}
+
+\newpage
+
+\subsection*{Constraints}
+
+\begin{fillbox}[title=\textbf{Constraints:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Evaluation}
+
+\begin{fillbox}[title=\textbf{Success Criteria:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Review Method:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Risks}
+
+\begin{fillbox}[title=\textbf{Risks:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Mitigation:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Next Actions}
+
+\begin{fillbox}[title=\textbf{First Action:}]
+\vspace{25pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Second Action:}]
+\vspace{25pt}
+\end{fillbox}
+
+\newpage
+
+\section*{Learning Path Planner}
+
+Use this planner to track progress. Focus on steady improvement. Keep goals realistic.
+
+\subsection*{Current Skill Level}
+
+\begin{fillbox}[title=\textbf{Strengths:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Gaps:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Learning Goal}
+
+\begin{fillbox}[title=\textbf{Goal:}]
+\vspace{25pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Reason:}]
+\vspace{25pt}
+\end{fillbox}
+
+\subsection*{Practice Plan}
+
+Describe what you will practice and why it matters.
+
+\vspace{10pt}
+
+\renewcommand{\arraystretch}{2.5}
+\begin{tabularx}{\textwidth}{|c|X|X|c|X|}
+\hline
+\rowcolor{lightgray}
+\textbf{Week} & \textbf{Focus Area} & \textbf{Practice Task} & \textbf{Time Planned} & \textbf{Result} \\
+\hline
+ & & & & \\
+\hline
+ & & & & \\
+\hline
+ & & & & \\
+\hline
+ & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{15pt}
+
+\subsection*{Reflection}
+
+Record lessons learned after each cycle.
+
+\begin{fillbox}[title=\textbf{What improved:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What stayed weak:}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What to change next time:}]
+\vspace{30pt}
+\end{fillbox}
+
+\subsection*{Next Step}
+
+\begin{fillbox}[title=\textbf{Next Step:}]
+\vspace{25pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Target Date:}]
+\vspace{20pt}
+\end{fillbox}
+
+\end{document}

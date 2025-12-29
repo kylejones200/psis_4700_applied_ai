@@ -1,0 +1,156 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{yescolor}{RGB}{76,175,80}
+\definecolor{nocolor}{RGB}{244,67,54}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+% Yes box (green)
+\newtcolorbox{yesbox}[1][]{
+  colback=white,
+  colframe=yescolor,
+  boxrule=2pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  #1
+}
+
+% No box (red)
+\newtcolorbox{nobox}[1][]{
+  colback=white,
+  colframe=nocolor,
+  boxrule=2pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries When to Use AI vs Not Use AI}
+    
+    \vspace{5pt}
+    {\large Decision Framework for AI Adoption}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{20pt}
+
+\section*{Purpose}
+
+This guide helps you decide when AI adds value and when human work matters more.
+
+\vspace{15pt}
+
+\section*{\textcolor{yescolor}{Use AI When}}
+
+\begin{yesbox}
+\begin{itemize}[leftmargin=20pt]
+    \item The task needs drafts or options
+    \item The task needs structure or summaries
+    \item The task supports exploration or early thinking
+    \item The task has low risk and clear review
+\end{itemize}
+\end{yesbox}
+
+\begin{fillbox}[title=\textbf{Example Task:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Reason AI Helps:}]
+\vspace{40pt}
+\end{fillbox}
+
+\vspace{20pt}
+
+\section*{\textcolor{nocolor}{Do Not Use AI When}}
+
+\begin{nobox}
+\begin{itemize}[leftmargin=20pt]
+    \item The task requires expert judgment
+    \item The task affects safety or legal outcomes
+    \item The task involves sensitive or private data
+    \item The task demands verified facts without error
+\end{itemize}
+\end{nobox}
+
+\begin{fillbox}[title=\textbf{Example Task:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Reason Human Work Matters:}]
+\vspace{40pt}
+\end{fillbox}
+
+\newpage
+
+\section*{Decision Check}
+
+\begin{fillbox}[title=\textbf{Goal:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Risk Level (Low / Medium / High):}]
+\vspace{30pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Review Plan:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Final Choice (Use AI / Use Human / Hybrid):}]
+\vspace{30pt}
+\end{fillbox}
+
+\end{document}

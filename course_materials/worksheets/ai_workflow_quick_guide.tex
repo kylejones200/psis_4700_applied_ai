@@ -1,0 +1,148 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries AI Workflow Quick Guide}
+    
+    \vspace{5pt}
+    {\large Consistent Practice for Reliable Results}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{20pt}
+
+\section*{Purpose}
+
+This guide shows the full AI workflow in plain steps. The goal is consistent practice and reliable results.
+
+\vspace{15pt}
+
+\section*{Step 1. Define the Goal}
+
+State the problem in one sentence. State what a good result looks like.
+
+\begin{fillbox}[title=\textbf{Goal:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Outcome:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Step 2. Prepare the Input}
+
+Describe the information the model will use. Confirm clarity and relevance.
+
+\begin{fillbox}[title=\textbf{Input:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Context:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Step 3. Write the First Prompt}
+
+Give clear instructions. State structure, tone, and format.
+
+\begin{fillbox}[title=\textbf{Prompt:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Output:}]
+\vspace{60pt}
+\end{fillbox}
+
+\newpage
+
+\section*{Step 4. Review the Result}
+
+Check accuracy, usefulness, and risk. Record strengths and weaknesses.
+
+\begin{fillbox}[title=\textbf{Strengths:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Weaknesses:}]
+\vspace{50pt}
+\end{fillbox}
+
+\section*{Step 5. Improve the Prompt}
+
+Add clarity. Add structure. Add context.
+
+\begin{fillbox}[title=\textbf{Revised Prompt:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{New Output:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Difference Noticed:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Step 6. Reflect and Record}
+
+\begin{fillbox}[title=\textbf{What worked:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What changed:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What you would try next:}]
+\vspace{40pt}
+\end{fillbox}
+
+\end{document}

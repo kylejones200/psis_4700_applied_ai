@@ -1,0 +1,120 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Applied Ethics Case Review}
+    
+    \vspace{5pt}
+    {\large Analyzing Real-World AI Incidents}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{20pt}
+
+\section*{Scenario Description}
+
+\begin{fillbox}[title=\textbf{What happened:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Who made the decision:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Who was affected:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Harm and Impact}
+
+\begin{fillbox}[title=\textbf{Direct Harm:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Indirect Harm:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Groups Impacted:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Responsibility}
+
+\begin{fillbox}[title=\textbf{Who holds responsibility:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Where oversight failed:}]
+\vspace{50pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{What should have happened:}]
+\vspace{50pt}
+\end{fillbox}
+
+\newpage
+
+\section*{Better Path}
+
+\begin{fillbox}[title=\textbf{Safer approach:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Safeguard to add:}]
+\vspace{60pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Policy change:}]
+\vspace{60pt}
+\end{fillbox}
+
+\end{document}

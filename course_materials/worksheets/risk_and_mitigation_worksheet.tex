@@ -1,0 +1,158 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+
+% Define colors
+\definecolor{maincolor}{RGB}{102,187,106}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{riskcolor}{RGB}{244,67,54}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{maincolor}{\textbf{PSIS 4700: Applied AI}}}
+\fancyhead[R]{\textcolor{gray}{Worksheet}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{maincolor}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{maincolor}}{\thesubsection}{1em}{}
+
+% Custom box for fill-in sections
+\newtcolorbox{fillbox}[1][]{
+  colback=lightgray,
+  colframe=maincolor,
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=15pt,
+  bottom=15pt,
+  #1
+}
+
+% Risk box
+\newtcolorbox{riskbox}[1][]{
+  colback=white,
+  colframe=riskcolor,
+  boxrule=2pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  #1
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+    \vspace{10pt}
+    
+    {\Huge\bfseries Risk and Mitigation Worksheet}
+    
+    \vspace{5pt}
+    {\large Identifying and Managing AI System Risks}
+    
+    \vspace{10pt}
+    \textcolor{maincolor}{\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{20pt}
+
+\section*{Context}
+
+Describe the system and the people who may feel its impact.
+
+\begin{fillbox}[title=\textbf{System:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Users:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Affected Parties:}]
+\vspace{40pt}
+\end{fillbox}
+
+\section*{Risks}
+
+\subsection*{Risk 1:}
+
+\begin{riskbox}
+\textbf{Impact:}
+
+\vspace{30pt}
+
+\textbf{Likelihood:} \hspace{10pt} $\square$ Low \hspace{10pt} $\square$ Medium \hspace{10pt} $\square$ High
+
+\vspace{10pt}
+
+\textbf{Mitigation:}
+
+\vspace{40pt}
+\end{riskbox}
+
+\subsection*{Risk 2:}
+
+\begin{riskbox}
+\textbf{Impact:}
+
+\vspace{30pt}
+
+\textbf{Likelihood:} \hspace{10pt} $\square$ Low \hspace{10pt} $\square$ Medium \hspace{10pt} $\square$ High
+
+\vspace{10pt}
+
+\textbf{Mitigation:}
+
+\vspace{40pt}
+\end{riskbox}
+
+\newpage
+
+\subsection*{Risk 3:}
+
+\begin{riskbox}
+\textbf{Impact:}
+
+\vspace{30pt}
+
+\textbf{Likelihood:} \hspace{10pt} $\square$ Low \hspace{10pt} $\square$ Medium \hspace{10pt} $\square$ High
+
+\vspace{10pt}
+
+\textbf{Mitigation:}
+
+\vspace{40pt}
+\end{riskbox}
+
+\section*{Review}
+
+\begin{fillbox}[title=\textbf{Residual Risk:}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Approval Decision (Approve / Revise / Reject):}]
+\vspace{40pt}
+\end{fillbox}
+
+\begin{fillbox}[title=\textbf{Next Action:}]
+\vspace{40pt}
+\end{fillbox}
+
+\end{document}
