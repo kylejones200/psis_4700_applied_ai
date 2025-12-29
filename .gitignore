@@ -7,6 +7,9 @@ ai_intro_book/
 # ===========================
 # Python
 # ===========================
+# WIP (work in progress) folder
+wip/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
