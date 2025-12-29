@@ -134,7 +134,7 @@ def make_drift_over_time_gif(filename="drift_over_time.gif"):
         
         # Show warning when below threshold
         if accuracy[idx] < 0.8:
-            warning.set_text("⚠ DRIFT DETECTED")
+            warning.set_text("DRIFT DETECTED")
             warning.set_alpha(0.8)
         else:
             warning.set_alpha(0)

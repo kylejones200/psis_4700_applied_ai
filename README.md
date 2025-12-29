@@ -2,7 +2,7 @@
 
 Comprehensive course materials for teaching Applied AI across multiple formats and skill levels. This repository includes interactive presentations, detailed lesson plans, and hands-on project frameworks designed to make AI accessible and practical for diverse learners.
 
-## 🌐 Interactive Course Viewer
+## Interactive Course Viewer
 
 **[View the interactive slide presentations →](https://kylejones200.github.io/psis_4700_applied_ai/)**
 
@@ -12,7 +12,7 @@ Explore course materials through an intuitive web interface featuring:
 - **Visual learning** with integrated diagrams, examples, and graphics
 - **Print/PDF export** for offline study or distribution
 
-## 📚 What's Inside
+## What's Inside
 
 ### Introduction to Applied AI (8-Week Course)
 A gateway course designed for students with no prior AI experience. Covers fundamental concepts, real-world applications, ethics, and hands-on experience building simple AI systems.
@@ -45,14 +45,14 @@ Focused presentations on emerging concepts:
 - AI Operating Models for Organizations
 - The Future of AI Workflows
 
-## 🎯 Who This Is For
+## Who This Is For
 
 - **Students**: Self-paced learning materials with clear explanations and examples
 - **Educators**: Complete course frameworks ready to adapt for your classroom
 - **Practitioners**: Quick reference materials for AI concepts and best practices
 - **Organizations**: Training resources for upskilling teams in AI literacy
 
-## 📖 Course Materials
+## Course Materials
 
 ### Interactive Presentations
 Browse and present from the web viewer, or download individual slide decks in markdown format.
@@ -76,7 +76,7 @@ Guidelines for hands-on capstone projects including:
 - **Key Terms Glossary**: 100+ AI concepts explained in plain language
 - **Readings & Resources**: Curated links to papers, tools, and tutorials
 
-## 🌟 Course Philosophy
+## Course Philosophy
 
 These materials are built on three core principles:
 
@@ -84,7 +84,7 @@ These materials are built on three core principles:
 2. **Applied Learning**: Every theory connects to real-world use cases and hands-on practice
 3. **Ethics-Integrated**: Responsible AI isn't a separate unit—it's woven throughout
 
-## 🤝 Contributing & Usage
+## Contributing & Usage
 
 These materials are designed for educational use. Whether you're teaching a course, running a workshop, or learning independently:
 

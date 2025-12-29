@@ -30,12 +30,12 @@ python -m SimpleHTTPServer 8000
 - **Sidebar**: Click any file to load that slide deck
 
 ## Features
-- ✅ Lightweight (single HTML file + CDN markdown parser)
-- ✅ Dark mode for comfortable viewing
-- ✅ Keyboard navigation
-- ✅ Organized sidebar with all slide decks
-- ✅ Slide counter
-- ✅ Clean, professional presentation view
+- Lightweight (single HTML file + CDN markdown parser)
+- Dark mode for comfortable viewing
+- Keyboard navigation
+- Organized sidebar with all slide decks
+- Slide counter
+- Clean, professional presentation view
 
 ## Slide Organization
 - **Intro Course**: 8 weeks of introductory material
