@@ -1,3 +1,8 @@
+---
+migrated: yes
+migration_date: 2026-01-24
+---
+
 # AI as Building Blocks
 # Reusable Components for Smarter Solutions
 

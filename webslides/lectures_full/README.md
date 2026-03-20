@@ -29,3 +29,5 @@ Use these for:
 ## Relation to Other Materials
 
 These lectures cover similar content to the 8-week intro course but in a more traditional academic lecture format with deeper coverage per session.
+
+

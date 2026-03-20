@@ -1,57 +1,160 @@
-# Week 8 — Capstone Presentations (STEW-style Lesson Plan)
+# Week 8 — Capstone Presentations
 
-- Audience: Adult undergraduates (hybrid/online)
-- Duration: 3 hours contact + final submission
+## Course Learning Outcomes (CLO) Alignment
+- **CLO-A**: Define core AI concepts and distinguish between different AI approaches
+- **CLO-B**: Identify opportunities and risks of AI in real-world contexts
+- **CLO-C**: Evaluate AI systems critically using appropriate frameworks
+- **CLO-D**: Apply AI concepts to analyze real-world problems and evaluate solutions
+- **CLO-E**: Demonstrate understanding of data requirements and evaluation methods for AI systems
 
-## Overview
-Students present a 5-minute demo and brief on method, data, ethics, and next steps. Emphasis on clarity, responsibility, and practical impact.
+---
 
-## Learning Objectives
-- Communicate problem, approach, and results clearly to a broad audience.
-- Articulate risks, mitigations, and limitations responsibly.
-- Respond to questions effectively and identify next steps.
+## Module 8.1: Final Project Submission
 
-## Materials & Tools
-- Slides: `slides_intro/week-08-capstone.md`
-- Rubric; timer; screen-share tools; feedback form
+### Module Learning Outcomes
+- **LO 8.1**: Submit complete capstone project with all required artifacts [CLO-D, CLO-E]
+- **LO 8.2**: Document project methodology, results, and limitations clearly [CLO-D, CLO-E]
+- **LO 8.3**: Articulate risks, mitigations, and ethical considerations responsibly [CLO-B, CLO-C]
 
-## Key Vocabulary
-- Narrative, ablation, failure modes, roadmap, handoff artifacts
+### Required Materials & Resources
+- **Readings**:
+  - Course slides: `webslides/week08_capstone/`
+  - Final submission checklist (provided)
+  - Model card template (if applicable)
+  - Datasheet template (if applicable)
+- **Videos** (if available):
+  - Submission walkthrough
+  - Examples of good project documentation
+- **Interactive Activities**:
+  - Final submission checklist
+  - Peer review assignment
 
-## Prerequisites
-- Weeks 1–7 completed; project materials prepared
+### Key Vocabulary
+- Handoff artifacts, Model card, Datasheet, Documentation, README, Reproducibility, Limitations, Next steps
 
-## Schedule (3:00)
-- 0:00–0:10 Setup and rubric overview
-- 0:10–1:40 Presentations (8–10 teams @ ~7–8 min incl. Q&A)
-- 1:40–1:50 Break
-- 1:50–2:40 Presentations continue
-- 2:40–2:55 Instructor synthesis and themes
-- 2:55–3:00 Closing and next steps
+### Learning Activities (Formative - Not Graded)
+1. **Self-Study**: Review final submission requirements and checklist
+2. **Documentation**: Complete all required project artifacts
+3. **Peer Review**: Review and provide feedback on peer projects (if assigned)
 
-## Warm-Up (10 min)
-- Prompt: “What is your single most important claim to show today?”
+### Estimated Time to Complete
+- Review requirements: 30-45 minutes
+- Documentation and artifact preparation: 3-5 hours
+- Peer review (if assigned): 60-90 minutes
+- **Total: 4.5-7.25 hours**
 
-## Core Activities
-- Student presentations with timeboxing and Q&A.
-- Peer review using rubric; capture action items.
+---
 
-## Differentiation
-- Allow live or recorded demos; accessibility accommodations.
+## Module 8.2: Capstone Presentation
 
-## Assessment
-- Summative: Rubric-based evaluation (functionality, rigor, clarity, ethics, professionalism).
-- Peer feedback form submission.
+### Module Learning Outcomes
+- **LO 8.4**: Communicate problem, approach, and results clearly to a broad audience [CLO-D]
+- **LO 8.5**: Present a 5-minute demo with emphasis on clarity, responsibility, and practical impact [CLO-D, CLO-E]
+- **LO 8.6**: Identify next steps and future improvements for the project [CLO-D, CLO-E]
 
-## Homework/Prep (final)
-- Submit all handoff artifacts: code, README, video, slides, model card, dataset notes.
+### Required Materials & Resources
+- **Readings**:
+  - Course slides: `webslides/week08_capstone/`
+  - Presentation rubric (provided)
+  - Effective presentation guide
+- **Videos** (if available):
+  - Examples of effective technical presentations
+  - Demo best practices
+- **Interactive Activities**:
+  - Presentation submission (video or live, as determined by instructor)
+  - Peer feedback form
+
+### Key Vocabulary
+- Demo narrative, Presentation, Q&A, Roadmap, Future work, Handoff, Next steps
+
+### Learning Activities (Formative - Not Graded)
+1. **Self-Study**: Review presentation requirements and rubric
+2. **Practice**: Rehearse 5-minute presentation
+3. **Submission**: Submit presentation (video recording or schedule live presentation)
+
+### Estimated Time to Complete
+- Review requirements: 30 minutes
+- Presentation preparation and rehearsal: 2-3 hours
+- Presentation submission: 30-60 minutes
+- **Total: 3-4.5 hours**
+
+---
+
+## Gradable Activities
+
+### Final Project Submission (150 points)
+- **Task**: Submit complete capstone project with all required artifacts
+- **Required Components**:
+  1. **Working Project**: Functional AI application, analysis, or system
+  2. **README** (2-3 pages): Complete documentation including:
+     - Project overview: What problem does it solve?
+     - Methodology: How did you approach it?
+     - Results: What did you achieve?
+     - Limitations: What are the constraints and issues?
+     - How to use: Instructions for running/replicating
+  3. **Code/Artifacts**: All code, notebooks, data files (or links), configuration files
+  4. **Model Card/Datasheet** (if applicable): Documentation of model/data characteristics, limitations, ethical considerations
+  5. **Presentation Materials**: Slides or presentation outline used for demo
+  6. **Video Demo** (5 minutes): Recorded demonstration of your project OR link to live demo
+  7. **Reflection** (1-2 pages): 
+     - What did you learn?
+     - What would you do differently?
+     - What are the next steps for this project?
+- **Format**: 
+  - GitHub repository (preferred) OR zip file with all artifacts
+  - README and reflection as PDF or Word documents
+  - Video demo as link or file upload
+- **Due**: End of Week 8 (Sunday 11:59 PM)
+- **Evaluation Criteria**:
+  - Functional project demonstrating AI concepts (30%)
+  - Complete documentation and README (25%)
+  - Clear articulation of methodology and results (20%)
+  - Thoughtful discussion of limitations and ethics (15%)
+  - Professional presentation and organization (10%)
+
+### Capstone Presentation (100 points)
+- **Task**: Present a 5-minute demo of your capstone project
+- **Required Elements**:
+  - **Problem Statement** (30 seconds): What problem are you solving?
+  - **Approach** (1 minute): How did you approach it? What AI methods/tools?
+  - **Results** (2 minutes): What did you achieve? Show your demo.
+  - **Limitations & Ethics** (1 minute): What are the constraints? What ethical considerations?
+  - **Next Steps** (30 seconds): What would you do next?
+- **Format**: 
+  - Video recording (5 minutes) OR scheduled live presentation (as determined by instructor)
+  - Include slides or visual aids
+- **Due**: End of Week 8 (Sunday 11:59 PM) OR scheduled presentation time
+- **Evaluation Criteria**:
+  - Clear communication of problem and approach (25%)
+  - Effective demonstration of results (30%)
+  - Thoughtful discussion of limitations and ethics (25%)
+  - Professional presentation style and timing (20%)
+
+### Peer Feedback (25 points - participation)
+- **Task**: Provide constructive feedback on peer presentations
+- **Required**: Review at least 2 peer presentations and submit feedback form
+- **Due**: 48 hours after presentation deadline
+- **Evaluation Criteria**: Completion and quality of peer feedback
+
+---
 
 ## Instructor Notes
-- Enforce time strictly; queue presenters and keep flow.
-- Encourage constructive questions; model ethical reflection.
+- **Module 8.1**: Emphasize the importance of complete documentation. Help students understand what makes a project "complete" and professional.
+- **Module 8.2**: Encourage students to focus on clarity and impact. Help them tell a compelling story. Emphasize that acknowledging limitations is a strength, not a weakness.
+- **Differentiation**: Allow various presentation formats (video, live, written with demo). Provide examples of different project types and quality levels.
+- **Asynchronous Considerations**: For video submissions, provide clear recording guidelines. For live presentations, schedule multiple time slots to accommodate different time zones. Create discussion forums for Q&A after presentations. Provide rubric well in advance. Offer optional practice presentation review.
 
 ## Accessibility & Inclusion
-- Provide captioning options; accept alt formats; ensure readable visuals.
+- Allow alternative presentation formats (written, video, interactive, etc.)
+- Provide captioning options for all videos
+- Accept alternative formats for all submissions
+- Ensure readable visuals and materials
+- Provide clear guidelines for accessible presentations
+- Ensure all rubrics and materials are accessible
 
 ## References
-- Effective technical presentations; model cards/datasheets exemplars.
+- Course slides: `webslides/week08_capstone/`
+- Effective technical presentation guides
+- Model cards and datasheets exemplars
+- Presentation rubric: Provided in course materials
+- Submission checklist: Provided in course materials

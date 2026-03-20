@@ -1,63 +1,134 @@
-# Week 6 — Deployment and Integration (STEW-style Lesson Plan)
+# Week 6 — Deployment and Integration
 
-- Audience: Adult undergraduates (hybrid/online)
-- Duration: 3 hours contact + 1–2 hours prep
+## Course Learning Outcomes (CLO) Alignment
+- **CLO-D**: Apply AI concepts to analyze real-world problems and evaluate solutions
+- **CLO-E**: Demonstrate understanding of data requirements and evaluation methods for AI systems
 
-## Overview
-Move from prototypes to simple deployed services. Practice API design, packaging, and lightweight monitoring with attention to cost and security.
+---
 
-## Learning Objectives
-- Design a simple API contract and validate inputs.
-- Package and deploy a minimal model-backed endpoint.
-- Define basic monitoring KPIs and rollback steps.
+## Module 6.1: API Design and Validation
 
-## Materials & Tools
-- Slides: `slides_intro/week-06-deployment-integration.md`
-- Minimal API template (FastAPI or equivalent) or notebook-to-web starter
-- Example monitoring checklist
+### Module Learning Outcomes
+- **LO 6.1**: Design a simple API contract and validate inputs [CLO-D, CLO-E]
+- **LO 6.2**: Understand packaging options and environment management [CLO-E]
+- **LO 6.3**: Identify inputs that should be rejected and why [CLO-D, CLO-E]
 
-## Key Vocabulary
-- Endpoint, schema, validation, CI/CD, canary, rollback, observability, SBOM
+### Required Materials & Resources
+- **Readings**:
+  - Course slides: `webslides/week06_deployment/`
+  - API design best practices guide (provided)
+  - Schema validation examples
+- **Videos** (if available):
+  - API basics and contract-first design walkthrough
+  - Packaging and environment management overview
+- **Interactive Activities**:
+  - Minimal API template (FastAPI or equivalent) or notebook-to-web starter
+  - API contract design worksheet
 
-## Prerequisites
-- Weeks 1–5; comfort with simple APIs or notebooks
+### Key Vocabulary
+- Endpoint, API contract, Schema, Validation, Input validation, Environment management, Packaging, Dependency management
 
-## Schedule (3:00)
-- 0:00–0:10 Recap & goals
-- 0:10–0:30 API basics and contract-first design
-- 0:30–0:55 Packaging options and env management
-- 0:55–1:05 Break
-- 1:05–1:35 Live walkthrough: minimal endpoint + validation
-- 1:35–2:05 Monitoring & cost: golden signals, budgets
-- 2:05–2:35 Group activity: draft API contract + KPIs
-- 2:35–2:55 Share-outs; instructor synthesis
-- 2:55–3:00 Exit ticket
+### Learning Activities (Formative - Not Graded)
+1. **Self-Study**: Review course slides on API design and validation
+2. **Practice Exercise**: Design an API contract for a simple use-case
+3. **Hands-On Practice**: Follow along with provided template to create a minimal endpoint with validation
 
-## Warm-Up (10 min)
-- Prompt: “What input would you reject in your app and why?”
+### Estimated Time to Complete
+- Reading and review: 60-75 minutes
+- Practice exercises: 45-60 minutes
+- Hands-on practice: 60-90 minutes
+- **Total: 2.75-3.75 hours**
 
-## Core Activities
-- Contract-first API design; schema validation examples.
-- Mini-deploy walkthrough; discuss canary and rollback.
-- Group work drafting KPIs and a simple runbook.
+---
 
-## Differentiation
-- Provide both a no-code deployment (notebook share) and code template.
-- Advanced learners: add a canary step and log sampling.
+## Module 6.2: Deployment and Monitoring
 
-## Assessment
-- Formative: Exit ticket with one KPI and why it matters.
-- Summative: Submit a minimal endpoint and a one-page runbook.
+### Module Learning Outcomes
+- **LO 6.4**: Package and deploy a minimal model-backed endpoint [CLO-D]
+- **LO 6.5**: Define basic monitoring KPIs and rollback steps [CLO-E]
+- **LO 6.6**: Understand cost considerations and security best practices [CLO-E]
 
-## Homework/Prep (60–90 min)
-- Polish endpoint; implement one additional validation rule.
+### Required Materials & Resources
+- **Readings**:
+  - Course slides: `webslides/week06_deployment/`
+  - Example monitoring checklist (provided)
+  - Deployment best practices guide
+- **Videos** (if available):
+  - Deployment walkthrough (no-code and code options)
+  - Monitoring and observability overview
+- **Interactive Activities**:
+  - Deployment templates (notebook share option and code option)
+  - Monitoring dashboard examples
+  - Cost calculator or examples
+
+### Key Vocabulary
+- Deployment, CI/CD, Canary deployment, Rollback, Observability, Monitoring, KPIs, Golden signals, Cost management, SBOM (Software Bill of Materials), Least-privilege
+
+### Learning Activities (Formative - Not Graded)
+1. **Self-Study**: Review materials on deployment and monitoring
+2. **Hands-On Practice**: Deploy a minimal endpoint using provided template
+3. **Practice Exercise**: Draft monitoring KPIs and rollback plan for a scenario
+
+### Estimated Time to Complete
+- Reading and review: 60-75 minutes
+- Hands-on practice: 90-120 minutes
+- Practice exercises: 45-60 minutes
+- **Total: 3.25-4.25 hours**
+
+---
+
+## Gradable Activities
+
+### Discussion: Deployment Considerations (25 points)
+- **Initial Post** (200 words minimum): What input would you reject in your app (from Week 5 chatbot/pipeline) and why? Describe one monitoring KPI you would track and explain why it matters. What would trigger a rollback in your system?
+- **Reply** (75 words minimum): Respond to one peer's post, either suggesting an additional KPI, discussing their rollback trigger, or sharing a similar consideration.
+- **Due Dates**:
+  - Initial post: End of Week 6 (Sunday 11:59 PM)
+  - Reply to peer: 48 hours after initial post deadline
+- **Evaluation Criteria**:
+  - Clear input validation rationale (30%)
+  - Appropriate KPI selection with explanation (40%)
+  - Thoughtful engagement with peers in reply (30%)
+
+### Activity: Deployment and Runbook (75 points)
+- **Task**: Deploy a minimal endpoint and create a one-page runbook
+- **Required Components**:
+  1. **Deployed Endpoint**: Working endpoint (can be notebook share, simple web app, or API)
+  2. **Runbook** (1 page): Document your deployment including:
+     - **API Contract**: What inputs/outputs? What validation rules?
+     - **Monitoring KPIs**: What 3-5 metrics will you track? Why?
+     - **Rollback Plan**: What triggers a rollback? What are the steps?
+     - **Cost Considerations**: What are the main cost drivers? How would you monitor costs?
+     - **Security Notes**: What security considerations are important?
+- **Format**: 
+  - Link to deployed endpoint OR code/notebook files
+  - Runbook as PDF or Word document, 1 page
+- **Due**: End of Week 6 (Sunday 11:59 PM)
+- **Evaluation Criteria**:
+  - Functional deployed endpoint (30%)
+  - Complete API contract and validation (20%)
+  - Appropriate monitoring KPIs (20%)
+  - Clear rollback plan (15%)
+  - Thoughtful cost and security considerations (15%)
+
+---
 
 ## Instructor Notes
-- Reinforce privacy and least-privilege in demos.
-- Timebox: deployments can run long; pre-stage artifacts.
+- **Module 6.1**: Emphasize contract-first design. Provide clear examples of validation rules. Reinforce privacy and least-privilege principles.
+- **Module 6.2**: Provide both no-code deployment (notebook share) and code template options. Keep scope small and achievable. Emphasize that monitoring is critical from day one.
+- **Differentiation**: Provide both no-code and code deployment options. Advanced learners can add canary deployment and log sampling.
+- **Asynchronous Considerations**: Provide step-by-step deployment instructions. Create video walkthroughs for both deployment options. Offer starter templates to reduce setup time. Set up Q&A forum for deployment questions. Provide clear guidance on free/low-cost deployment options.
 
 ## Accessibility & Inclusion
-- Provide code snippets in accessible text; ensure demo captions.
+- Provide code snippets in accessible text format
+- Ensure demo videos have captions/transcripts
+- Offer alternative formats for all activities
+- Provide clear instructions for all tools and platforms
+- Ensure all deployment options are accessible
 
 ## References
-- FastAPI docs or equivalent; observability primers; CI/CD basics.
+- Course slides: `webslides/week06_deployment/`
+- FastAPI docs or equivalent framework documentation
+- Observability primers
+- CI/CD basics
+- Deployment templates: Provided in course materials
