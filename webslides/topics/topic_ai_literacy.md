@@ -52,7 +52,7 @@ Part 4 – Ethics, Bias, and Societal Impact (15 min)
 Discuss how embeddings can encode bias  
 Explain alignment as matching model behavior to human intent  
 Introduce transparency (open weights, documentation)  
-Prompt reflection: "What values do we want models to learn?”
+Prompt reflection: "What values do we want models to learn?"
 
 Part 5 – Hands-On Mini Lab (10 min)  
 Use a small web notebook or demo:

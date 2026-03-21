@@ -1,0 +1,21 @@
+---
+Title: AI Alignment
+Draft: False
+Date: 2026-03-21
+Week: 0
+Weight: 00
+---
+
+This is the final layer—not how systems work, but why they must work a certain way. Because once systems become capable, alignment becomes the question: do the outcomes match human intent? Alignment begins with a simple idea: the goals of the system must match the goals of the people who use it. That sounds obvious, but in practice it is not. Because systems optimize; they pursue objectives, and if those objectives are incomplete or unclear, the system will still optimize—just not in the way you expect.
+
+Capability increases over time. Systems become faster, more accurate, and more autonomous. As that happens, their influence grows: they shape decisions, they affect outcomes, and they interact with institutions. So the cost of misalignment increases. A small mistake at scale becomes a large problem. The connection between goals and outcomes sits at the center: humans define goals, the system optimizes those goals, and alignment ensures that what is optimized reflects what is intended. Values guide that process, and context shapes those values—the same action may be acceptable in one setting and harmful in another. So alignment requires awareness of context.
+
+The alignment problem appears when that connection breaks. A system may achieve a goal in an unintended way, it may ignore constraints that were assumed but never defined, or it may misinterpret intent. These gaps often appear small, but they become large when systems act at scale. A concept from the literature helps explain this: instrumental convergence. Different systems with different goals may adopt similar strategies. They may seek resources, attempt to maintain control, or resist interruption—not because they were told to do so, but because those strategies support many objectives. This creates risk, so alignment must anticipate these tendencies rather than react to them after the fact.
+
+Value specification becomes critical. Humans describe desired outcomes, and the system interprets those descriptions. If the description is vague, the system fills in the gaps—sometimes correctly, sometimes not. Precision reduces that risk, and clarity supports safety. Human oversight provides a counterbalance: systems are reviewed, outputs are checked, errors are corrected, and direction is adjusted. Oversight keeps authority with people, not with the system.
+
+In practice, alignment is not a single solution; it is a process. Designers test behavior, teams evaluate outputs, developers refine objectives, and organizations monitor effects. Each stage contributes and reduces risk. Alignment extends beyond the system itself: society defines shared values, policy sets expectations, and institutions enforce standards. Public trust depends on this alignment, and without it, adoption slows and confidence declines. Education plays a role here—future builders must understand these issues, question assumptions, and reflect on outcomes. Alignment begins with awareness, before code and before deployment.
+
+Limits remain. Perfect alignment does not exist. Systems operate in complex environments, values evolve, and uncertainty remains. This is not a problem to solve once; it is a condition to manage continuously. Alignment becomes a shared effort: researchers study safe design, developers apply standards, organizations implement governance, and users provide feedback. Each group contributes, and no single group controls the outcome.
+
+Step back and the pattern is familiar. Data shapes behavior, models learn patterns, and systems produce outcomes. Alignment ensures those outcomes reflect human intent. Without alignment, capability creates risk; with alignment, capability creates value. This closes the course. You began with models, you moved through systems, you reached organizations, and you end with alignment—because that is where everything connects. The final idea is simple: the system will do what you ask. The challenge is asking the right thing and ensuring that what you ask reflects what matters. That is alignment, and that is your responsibility going forward.
