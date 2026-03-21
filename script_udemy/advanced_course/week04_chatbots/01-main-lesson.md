@@ -6,7 +6,7 @@ Week: 4
 Weight: 01
 ---
 
-Let's begin with what is likely the most visible form of AI today: conversation. When most people think about AI, they think about chat—asking questions, getting answers, interacting in natural language. That feels simple, but behind that simplicity sits a complex system. Because conversation is not only about generating text; it is about maintaining context, understanding intent, staying relevant, and behaving safely over time. This week focuses on building those systems, not as experiments, but as something you could actually deploy.
+What is likely the most visible form of AI today: conversation. When most people think about AI, they think about chat—asking questions, getting answers, interacting in natural language. That feels simple, but behind that simplicity sits a complex system. Because conversation is not only about generating text; it is about maintaining context, understanding intent, staying relevant, and behaving safely over time. This week focuses on building those systems, not as experiments, but as something you could actually deploy.
 
 There are two themes that will run through everything: capability and control. Capability allows the system to be helpful, while control ensures it behaves correctly. The balance between those two is what defines a good conversational system.
 
@@ -54,7 +54,7 @@ Closely related to prompt injection is jailbreaking, which refers to techniques 
 
 To manage these risks, you need structured testing. This is where a safety evaluation harness comes in. You create a set of adversarial prompts—inputs designed to trigger failure—run them regularly, and check whether the system behaves correctly. You integrate this into your development process so every change is tested, not only for functionality but for safety. This turns safety into something measurable, and that is critical because what you cannot measure, you cannot improve.
 
-Let's return to memory, but from a design perspective. You have choices: you can store full conversation excerpts, which preserves detail but increases storage and privacy risk, or you can store summaries, which reduces size and risk but may lose nuance. You also define how long memory persists—does it last for one session, one day, or indefinitely? These decisions affect both user experience and compliance, because memory is not only about context but about data retention, and that must be managed carefully.
+Return to memory, but from a design perspective. You have choices: you can store full conversation excerpts, which preserves detail but increases storage and privacy risk, or you can store summaries, which reduces size and risk but may lose nuance. You also define how long memory persists—does it last for one session, one day, or indefinitely? These decisions affect both user experience and compliance, because memory is not only about context but about data retention, and that must be managed carefully.
 
 As systems scale, they often need to support multiple languages, which introduces new challenges. You must detect the language of the input, ensure the model performs well in that language, and consider cultural differences—what is acceptable in one context may not be in another. So multilingual support is not only translation; it is adaptation, and that requires testing across languages. Assumptions that hold in one language may not hold in another.
 

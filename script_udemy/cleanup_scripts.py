@@ -74,6 +74,11 @@ def clean_file(filepath: Path) -> bool:
 
         stripped = line.strip()
 
+        # Remove Module — header lines (redundant with file title)
+        if stripped.startswith("Module —"):
+            i += 1
+            continue
+
         # Remove Slide: header lines
         if stripped.startswith("Slide:"):
             i += 1
@@ -130,7 +135,7 @@ def clean_file(filepath: Path) -> bool:
 
 def main():
     md_files = list(SCRIPT_DIR.rglob("*.md"))
-    md_files = [f for f in md_files if f.name != "raw.md"]
+    md_files = [f for f in md_files if f.name not in ("raw.md", "raw2.md", "raw3.md")]
 
     changed = 0
     for f in sorted(md_files):

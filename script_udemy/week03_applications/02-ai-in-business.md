@@ -6,7 +6,7 @@ Week: 3
 Weight: 02
 ---
 
-Let's take everything we just covered across industries and compress it into a single lens: business. Because no matter the domain, value is judged the same way. Did it change a decision? Did that decision improve an outcome? If the answer is no, the system does not matter.
+Take everything we just covered across industries and compress it into a single lens: business. Because no matter the domain, value is judged the same way. Did it change a decision? Did that decision improve an outcome? If the answer is no, the system does not matter.
 
 So the first thing to understand is this. AI does not create value on its own; it creates value through decisions. That sounds simple, but it is the most common place where projects go wrong. Teams build models, they optimize metrics, they demonstrate accuracy. But they never connect the output to a real choice. And without that connection, nothing changes.
 

@@ -175,9 +175,12 @@ def join_sentences(lines: list[str]) -> str:
     return full
 
 
+SKIP_FILES = {"raw.md", "raw2.md", "raw3.md", "what-ai-is.md", "what-ai-does-well.md", "tradeoffs.md"}
+
+
 def process_file(filepath: Path) -> bool:
     """Process one file. Returns True if changed."""
-    if filepath.name == "raw.md":
+    if filepath.name in SKIP_FILES:
         return False
     original = filepath.read_text(encoding="utf-8")
 
@@ -206,7 +209,7 @@ def process_file(filepath: Path) -> bool:
 
 
 def main():
-    md_files = [f for f in SCRIPT_DIR.rglob("*.md") if f.name != "raw.md"]
+    md_files = [f for f in SCRIPT_DIR.rglob("*.md") if f.name not in SKIP_FILES]
     for f in sorted(md_files):
         if process_file(f):
             print(f"Updated: {f.relative_to(SCRIPT_DIR)}")

@@ -96,7 +96,7 @@ Weight: {weight}
 
 
 def main():
-    md_files = [f for f in SCRIPT_DIR.rglob("*.md") if f.name not in ("raw.md", "raw2.md")]
+    md_files = [f for f in SCRIPT_DIR.rglob("*.md") if f.name not in ("raw.md", "raw2.md", "raw3.md")]
     changed = 0
     for f in sorted(md_files):
         if add_frontmatter(f):

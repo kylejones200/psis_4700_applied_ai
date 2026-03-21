@@ -12,4 +12,4 @@ You do not accept the first answer. You question it, you compare versions, you i
 
 Iteration becomes the method. You start with a draft and improve it step by step, because quality emerges through revision, not in one pass. Clarity matters again: if your question is vague, the result is vague; if your question is precise, the result improves. So thinking clearly becomes part of using AI well.
 
-Let's step back. Using AI is not passive—it is active. You shape the interaction, you guide the system, you evaluate the result, and that is what separates effective use from poor use.
+Using AI is not passive—it is active. You shape the interaction, you guide the system, you evaluate the result, and that is what separates effective use from poor use.
