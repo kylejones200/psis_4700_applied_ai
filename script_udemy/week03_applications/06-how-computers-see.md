@@ -6,7 +6,7 @@ Week: 3
 Weight: 06
 ---
 
-Up to this point, most of our examples have involved text or structured data. Now we move into images, and this is where something important becomes clear. AI does not see the world the way you do. When you look at an image, you see objects. You see context. You recognize meaning almost instantly—a child, a dog, a road, a face. You do not think about pixels. A computer has no access to that experience. It starts with numbers.
+Most of our examples have involved text or structured data. Now we move into images, and this is where something important becomes clear. AI does not see the world the way you do. When you look at an image, you see objects. You see context. You recognize meaning almost instantly—a child, a dog, a road, a face. You do not think about pixels. A computer has no access to that experience. It starts with numbers.
 
 Every image is converted into a grid. Each position in that grid represents a pixel. Each pixel has values that describe brightness or color. For a black and white image, that value might be simple: zero for black, one for white. For a color image, each pixel carries three values: red, green, and blue. Together, those numbers describe the full image. So when a model receives an image, it does not see a picture. It sees a matrix. And that matrix is the starting point for everything that follows.
 

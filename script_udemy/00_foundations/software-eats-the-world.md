@@ -6,7 +6,7 @@ Week: 0
 Weight: 00
 ---
 
-Everything you have seen sits inside a larger shift. Software defines the world—not hardware, not static systems, but software. And AI accelerates that. Now products do not stay fixed; they evolve through updates, through models, through data. The experience changes over time without replacing the physical system. Now this changes how value is created—not in the initial build, but in continuous improvement. The system learns, adapts, and expands.
+Software defines the world—not hardware, not static systems, but software. And AI accelerates that. Now products do not stay fixed; they evolve through updates, through models, through data. The experience changes over time without replacing the physical system. Now this changes how value is created—not in the initial build, but in continuous improvement. The system learns, adapts, and expands.
 
 Work changes as well. Routine tasks move to automation while people focus on judgment, creativity, and decision-making. So the role shifts—not less important, but more focused. GenAI accelerates this further: faster development, more experimentation, more people able to build, and that expands what is possible. Step back. This is not about one tool; it is about a shift in how systems evolve—from static to dynamic, from fixed to improving, from isolated to connected. And AI sits at the center of that shift.
 
